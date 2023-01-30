@@ -1,6 +1,6 @@
 # DIY 0-10v PWM LED Dimming Controller
 
-This repository provides the code and instructions to build a custom LED dimming controller using 0-10v pulse-width modulation (PWM) technology. The controller allows for precise adjustment of LED light brightness and is a cost-effective and personalized solution compared to commercially available dimming options.
+This repository provides the code and instructions to build a custom LED dimming controller using 0-10v pulse-width modulation (PWM) technology including the code and setup to integrate with Home Assistant. The controller allows for precise adjustment of LED light brightness and is a cost-effective and personalized solution compared to commercially available dimming options.
 
 ## Parts Needed
 - Adafruit 24-Channel 12-bit PWM LED Driver - SPI Interface - TLC5947 or Adafruit 12-Channel 16-bit PWM LED Driver - SPI Interface - TLC59711
