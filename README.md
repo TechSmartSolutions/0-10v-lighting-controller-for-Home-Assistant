@@ -17,7 +17,7 @@ These boards are capable of cranking out some serious PWM signals all the way up
     <img src="/images/Adafruit%2024%20channel%20PWM%20LED%20driver.jpg" height="150"> <img src="/images/Adafruit%2012%20channel%20PWM%20LED%20driver.jpg" height="150">
 
 - 2x [Break-Away 0.1" 2x20-pin Strip Dual Male Headers](https://www.google.com/search?q=Break-Away+0.1%22+2x20-pin+Strip+Dual+Male+Header) or 8 3x2 pin headers  
-You will solder these terminal pin headers onto the PWM board. This is where we'll connect the + and - 0-10V PWM LED Driver signal wires from our drivers. Get ready to make some solid connections and bring life to those LED drivers.  
+You will solder these terminal pin headers onto the PWM board. This is where we'll connect the + and - 0-10V PWM LED Driver signal wires from our drivers.
     <img src="/images/Break-Away%200.1-inch%202x20-pin%20Strip%20Dual%20Male%20Header.jpg" height="150">
 
 - [LM2596 DC to DC Voltage Regulator 4-40V to 1.5-35V Buck Converter with LED Display](https://www.google.com/search?q=LM2596+DC+to+DC+Voltage+Regulator+4-40V+to+1.5-35V+Buck+Converter+with+LED+Display)  
