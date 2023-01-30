@@ -36,11 +36,18 @@ You will solder these terminal pin headers onto the PWM board. This is where the
 - [LM2596 DC to DC Voltage Regulator 4-40V to 1.5-35V Buck Converter with LED Display](https://www.google.com/search?q=LM2596+DC+to+DC+Voltage+Regulator+4-40V+to+1.5-35V+Buck+Converter+with+LED+Display)  
 So we know that we're using the 10V power source to feed the PWM baord, but wouldn't it be nice if we could use that same power supply to power the ESP controller to? Well, we can! The only catch is that the ESP runs on 5V, and 10V is just too high. That's where this regulator board comes in - it lets us connect the 10V source and then dial it down to the perfect 5V for our ESP.  
     <img src="/images/LM2596-DC-to-DC-Voltage-Regulator.png" height="150">
-
-
-
+    
 - _wagos/wirenuts_
 - _project box (need size)_
+
+## Tools Required
+- Soldering iron
+- Pliers
+- Screwdriver
+- Wire stripper
+- Multimeter (for testing connections)
+- Hot glue gun (for securing components in case)
+- 3D printer (if printing custom case)
 
 # To be added:
 ## Assembly Instructions
