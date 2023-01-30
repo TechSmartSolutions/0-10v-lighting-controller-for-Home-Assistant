@@ -4,7 +4,7 @@ This repository provides the code and instructions to build a custom LED dimming
 
 ## Parts Needed
 - [ESP32](https://www.google.com/search?q=ESP32+development+boards) or [ESP8266](https://www.google.com/search?q=ESP8266+development+boards) development board with [SPI pins](https://www.google.com/search?q=spi+pins)  
-For this project we will use a cheap [Wemos D1 Mini ESP8266](https://www.google.com/search?q=wemos+mini+d1)  
+This is the main brain for the controller. It has built in Wi-Fi and will connect to your Home Assistant server via the ESPHome plugin.  For this project we will use a cheap [Wemos D1 Mini ESP8266](https://www.google.com/search?q=wemos+mini+d1)  
     <img src="/images/esp8266%20wemos%20d1%20mini.jpg" height="150">
 
 - [10v AC/DC Wall Plug Adapter](https://www.digikey.ca/en/products/detail/globtek-inc/WR9HU1800LCP-F-R6B/10187591)  
