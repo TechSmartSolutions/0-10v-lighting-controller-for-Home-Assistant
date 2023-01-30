@@ -16,13 +16,14 @@ or [Adafruit TLC59711 **12-Channel** 16-bit PWM LED Driver](https://www.adafruit
 These boards are capable of generating PWM signals up to 30v! The PWM voltage that the board produces is based on the voltage you feed to it (hence the 10v power supply).  
     <img src="/images/Adafruit%2024%20channel%20PWM%20LED%20driver.jpg" height="150"> <img src="/images/Adafruit%2012%20channel%20PWM%20LED%20driver.jpg" height="150">
 
-- [LM2596 DC to DC Voltage Regulator 4-40V to 1.5-35V Buck Converter with LED Display](https://www.google.com/search?q=LM2596+DC+to+DC+Voltage+Regulator+4-40V+to+1.5-35V+Buck+Converter+with+LED+Display)  
-Since we already have a power supply for the PWM board, it seems to make the most sense that we use that to power the ESP, only problem is that the ESP is powered by 5v (usually the USB power cable).  By using this regulator board, we can connect a 10v line to it and down-regulate it to 5v so that we can safely power the ESP.  
-    <img src="/images/LM2596-DC-to-DC-Voltage-Regulator.png" height="150">
-
 - 2x [Break-Away 0.1" 2x20-pin Strip Dual Male Headers](https://www.google.com/search?q=Break-Away+0.1%22+2x20-pin+Strip+Dual+Male+Header) or 8 3x2 pin headers  
 We will cut these down to 3x2 segments and solder them onto the PWM board.  
     <img src="/images/Break-Away%200.1-inch%202x20-pin%20Strip%20Dual%20Male%20Header.jpg" height="150">
+
+- [LM2596 DC to DC Voltage Regulator 4-40V to 1.5-35V Buck Converter with LED Display](https://www.google.com/search?q=LM2596+DC+to+DC+Voltage+Regulator+4-40V+to+1.5-35V+Buck+Converter+with+LED+Display)  
+Yo, so we've got this PWM board that needs a 10V power source. But wouldn't it be awesome if we could use that same power supply to juice up our ESP too? The only catch is that the ESP runs on 5V, and 10V is just too high. That's where this regulator board comes in - it lets us connect the 10V source and then dial it down to the perfect 5V for our ESP. Sweet, right?   
+    <img src="/images/LM2596-DC-to-DC-Voltage-Regulator.png" height="150">
+
 
 
 - _wagos/wirenuts_
