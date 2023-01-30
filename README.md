@@ -13,11 +13,11 @@ This is the type of plug we will use to power our version of this project.  In t
 
 - [Adafruit TLC5947 **24-Channel** 12-bit PWM LED Driver](https://www.adafruit.com/product/1429)
 or [Adafruit TLC59711 **12-Channel** 16-bit PWM LED Driver](https://www.adafruit.com/product/3995)  
-These boards generate PWM signals at whatever voltage you connect to it (up to 30v). In our project we will be connecting our 10v power supply to the 24-channel board which will generate 24 separate 0-10v pwm signals!   
+These boards are capable of generating PWM signals up to 30v! The PWM voltage that the board produces is based on the voltage you feed to it (hence the 10v power supply).  
     <img src="/images/Adafruit%2024%20channel%20PWM%20LED%20driver.jpg" height="150"> <img src="/images/Adafruit%2012%20channel%20PWM%20LED%20driver.jpg" height="150">
 
 - [LM2596 DC to DC Voltage Regulator 4-40V to 1.5-35V Buck Converter with LED Display](https://www.google.com/search?q=LM2596+DC+to+DC+Voltage+Regulator+4-40V+to+1.5-35V+Buck+Converter+with+LED+Display)  
-This board can take a voltage and down regulate it to a lower voltage. The purpose for this board will allow us to take a line off the 10v power supply and lower the voltage to 5v so that we can use it to power the ESP.  The reason for this is so that the final project will have only one power connector that powers both the PWM board and the ESP.  
+Since we already have a power supply for the PWM board, it seems to make the most sense that we use that to power the ESP, only problem is that the ESP is powered by 5v (usually the USB power cable).  By using this regulator board, we can connect a 10v line to it and down-regulate it to 5v so that we can safely power the ESP.  
     <img src="/images/LM2596-DC-to-DC-Voltage-Regulator.png" height="150">
 
 - 2x [Break-Away 0.1" 2x20-pin Strip Dual Male Headers](https://www.google.com/search?q=Break-Away+0.1%22+2x20-pin+Strip+Dual+Male+Header) or 8 3x2 pin headers  
