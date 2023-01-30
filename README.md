@@ -2,11 +2,7 @@
 
 
 ```diff
-text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
+! Warning !
 ```
 
 This repository provides the code and instructions to build a custom LED dimming controller using 0-10v pulse-width modulation (PWM) technology including the code and setup to integrate with Home Assistant. The controller allows for precise adjustment of LED light brightness and is a cost-effective and personalized solution compared to commercially available dimming options.  Includes stl for 3D printed case.
