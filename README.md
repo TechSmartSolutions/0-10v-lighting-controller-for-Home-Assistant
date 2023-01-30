@@ -4,13 +4,15 @@ This repository provides the code and instructions to build a custom LED dimming
 
 ## Parts Needed
 - Adafruit 24-Channel 12-bit PWM LED Driver - SPI Interface - TLC5947 or Adafruit 12-Channel 16-bit PWM LED Driver - SPI Interface - TLC59711
+- ESP32, ESP8266, Arduino, Raspberry Pi or other device with SPI pins (this project is using a cheap Wemos D1 Mini ESP8266)
 - 10v AC/DC Wall Plug Adapter with male 5.5 mm x 2.5 mm end
-- 2x Break-Away 0.1" 2x20-pin Strip Dual Male Headers or 8 3x2 pin groups
-- 2x joinable 400 Pin breadboards with removable power rails
 - DC Power cable with female 5.5 mm x 2.5 mm end
+- LM2596 DC to DC Voltage Regulator 4-40V to 1.5-35V Buck Converter with LED Display
+- 2x joinable 400 Pin breadboards with removable power rails
+- 2x Break-Away 0.1" 2x20-pin Strip Dual Male Headers or 8 3x2 pin groups
 - 12 or 24 2.1mm x 5.5mm DC Power Pigtail connectors (one set for each channel)
 - Dupont Ratchet Crimping Tool Kit
-- LM2596 DC to DC Voltage Regulator 4-40V to 1.5-35V Buck Converter with LED Display
+- _wagos/wirenuts_
 
 ## Assembly Instructions
 to be added
