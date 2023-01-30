@@ -5,7 +5,7 @@ This repository provides the code and instructions to build a custom LED dimming
 ## Parts Needed
 - [Adafruit TLC5947 **24-Channel** 12-bit PWM LED Driver](https://www.adafruit.com/product/1429)
 or [Adafruit TLC59711 **12-Channel** 16-bit PWM LED Driver](https://www.adafruit.com/product/3995)  
-These boards generate PWM signals at whatever voltage you feed to it (up to 30V!) In our case we will connect a 10v power supply to generate a 0-10v pwm signals.
+These boards generate PWM signals at whatever voltage you feed to it (up to 30v) In our project we will be connecting a 10v power supply to a 24-channel board to generate 24 0-10v pwm signals!
 
     <img src="/images/Adafruit%2024%20channel%20PWM%20LED%20driver.jpg" height="150"> <img src="/images/Adafruit%2012%20channel%20PWM%20LED%20driver.jpg" height="150">
 
