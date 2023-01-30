@@ -11,7 +11,7 @@ or do not have the proper safety mechanisms in place to avoid
 a disaster, do not proceed!  I want to share this information
 for anyone that is properly equipped to make use of it, but if
 that's not you then search online for a off-the-shelf solution
-instead of building your own. 
+instead of proceeding down this road. 
 ```
 
 
