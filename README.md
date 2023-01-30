@@ -17,7 +17,7 @@ This is the brain of our controller setup. It has built-in Wi-Fi and can easily 
     <img src="/images/esp8266%20wemos%20d1%20mini.jpg" height="150">
 
 - [10v AC/DC Wall Plug Adapter](https://www.digikey.ca/en/products/detail/globtek-inc/WR9HU1800LCP-F-R6B/10187591)  
-For power, we'll use a AC/DC wall plug similar to this. Technically, all we need is a 10V power supply, so feel free to use a different type if you prefer.  The advantage of a power adapter with a round barrel plug like this one is that it will allow us to easily disconnect the power without having to unplug the controller entirely.  
+For power, we'll use a AC/DC wall plug similar to this. Technically, all we need is a 10V power supply, so feel free to use a different type if you prefer.  The advantage of a power adapter with a round barrel plug like this one is that it will allow us to easily disconnect the power from the controller without having to unplug the power adapter from the wall.  
     <img src="/images/10v%20AC-DC%20Wall%20Plug%20Adapter.jpg" height="150">
 
 - [5.5mm x 2.5mm Panel Mount Female DC Power Supply Barrel Connector](https://www.google.com/search?q=DC+Power+Extension+Cable+5.5+mm+x+2.5+mm+Male+to+Female+Connector%2C+DC+Power+Cord+Extension+Cable+for+Power&oq=DC+Power+Extension+Cable+5.5+mm+x+2.5+mm+Male+to+Female+Connector%2C+DC+Power+Cord+Extension+Cable+for+Power)  
