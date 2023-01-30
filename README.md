@@ -1,6 +1,6 @@
 # DIY 0-10v PWM LED Dimming Controller for Home Assistant 
 
-This repository provides the code and instructions to build a custom LED dimming controller using 0-10v pulse-width modulation (PWM) technology including the code and setup to integrate with Home Assistant. The controller allows for precise adjustment of LED light brightness and is a cost-effective and personalized solution compared to commercially available dimming options.
+This repository provides the code and instructions to build a custom LED dimming controller using 0-10v pulse-width modulation (PWM) technology including the code and setup to integrate with Home Assistant. The controller allows for precise adjustment of LED light brightness and is a cost-effective and personalized solution compared to commercially available dimming options.  Includes stl for 3D printed case.
 
 ## Parts Needed
 - [Adafruit TLC5947 **24-Channel** 12-bit PWM LED Driver](https://www.adafruit.com/product/1429)
@@ -13,6 +13,7 @@ or [Adafruit TLC59711 **12-Channel** 16-bit PWM LED Driver](https://www.adafruit
 - [2.1mm x 5.5mm DC Power Pigtail connectors](https://www.google.com/search?q=2.1mm+x+5.5mm+DC+Power+Pigtail+connectors&oq=2.1mm+x+5.5mm+DC+Power+Pigtail+connectors) (one set for each channel)
 - [Dupont Ratchet Crimping Tool Kit](https://www.google.com/search?q=Dupont+Ratchet+Crimping+Tool+Kit)
 - _wagos/wirenuts_
+- _project box (need size)_
 
 ## Assembly Instructions
 to be added
