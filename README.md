@@ -8,7 +8,7 @@ For this project we will use a cheap [Wemos D1 Mini ESP8266](https://www.google.
     <img src="/images/esp8266%20wemos%20d1%20mini.jpg" height="150">
 
 - [10v AC/DC Wall Plug Adapter](https://www.digikey.ca/en/products/detail/globtek-inc/WR9HU1800LCP-F-R6B/10187591)  
-This is the type of plug we will use to power our version of this project.  In theroy, all you need is a 10v power supply, so it could be a different style than this one.  It will power both the PWM board and the ESP device.
+This is the type of plug we will use to power our version of this project.  In theroy, all you need is a 10v power supply, so it could be a different style than this one.  It will power both the PWM board and the ESP device.  
     <img src="/images/10v%20AC-DC%20Wall%20Plug%20Adapter.jpg" height="150">
 
 - [Adafruit TLC5947 **24-Channel** 12-bit PWM LED Driver](https://www.adafruit.com/product/1429)
