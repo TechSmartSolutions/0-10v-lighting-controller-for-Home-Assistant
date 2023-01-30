@@ -4,8 +4,8 @@ This repository provides the code and instructions to build a custom LED dimming
 
 ## Pre-requisites
 - [Home Assistant](https://www.home-assistant.io/) server
-- LED Drivers (or Ballasts if you're in the UK) that support 0-10v PWM dimming.  
-In our project we are using Meanwell HLG LED Drivers.
+- LED Drivers (or Ballasts if you're in the UK) **with DIM wires that support 0-10v PWM** dimming.  
+It's super important you understand what that bold text above means.  This controller is not to be connected on the same circuit as the LEDs themselves, or the 120/240V circuit. If you dont understand this, **STOP!** In our project we are using Meanwell HLG LED Drivers.
 
 ## Parts for the build
 - [ESP32](https://www.google.com/search?q=ESP32+development+boards) or [ESP8266](https://www.google.com/search?q=ESP8266+development+boards) development board with [SPI pins](https://www.google.com/search?q=spi+pins)  
