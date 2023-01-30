@@ -41,13 +41,11 @@ So we know that we're using the 10V power source to feed the PWM baord, but woul
 - _project box (need size)_
 
 ## Tools Required
-- Soldering iron
-- Pliers
-- Screwdriver
-- Wire stripper
-- Multimeter (for testing connections)
-- Hot glue gun (for securing components in case)
-- 3D printer (if printing custom case)
+Although having top-of-the-line tools makes the job easier, I mostly rely on economical options for my toolkit. While working with budget tools may not always be optimal, they are adequate for small and occasional projects and have served me well.
+- [Soldering iron](https://www.amazon.ca/s?k=Soldering+iron) ([brass wool](https://www.amazon.ca/s?k=brass+wool+soldering) recommended instead of using a wet solder sponge).
+- [Wire stripper](https://www.amazon.ca/s?k=wire+stripper)
+- [Multimeter](https://www.amazon.ca/s?k=Multimeter&rh=n%3A3006902011%2Cp_36%3A12035760011&dc&ds=v1%3AVJ07OZbfZbPTVCeOY0%2FOTVw2%2FDdTF6NoXoZ9MvBP20c&qid=1675112740&rnid=12035759011&ref=sr_nr_p_36_1) (for testing connections)
+- [Hot glue gun](https://www.amazon.ca/s?k=Hot+glue+gun) (for securing components in case)
 
 # To be added:
 ## Assembly Instructions
