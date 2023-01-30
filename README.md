@@ -26,11 +26,7 @@ For this project we will use a cheap [Wemos D1 Mini ESP8266](https://www.google.
 - _wagos/wirenuts_
 - _project box (need size)_
 
+# To be added:
 ## Assembly Instructions
-to be added
-
 ## Software Configuration
-to be added
-
 ## Usage
-to be added
