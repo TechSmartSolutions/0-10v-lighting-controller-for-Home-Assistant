@@ -2,9 +2,8 @@
 
 
 ```diff
-<p align="center">
-! Warning !
-</p>
+! Warning !:  
+This is a test
 ```
 
 
