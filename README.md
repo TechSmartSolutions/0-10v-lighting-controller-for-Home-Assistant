@@ -20,7 +20,9 @@ For this project we will use a cheap [Wemos D1 Mini ESP8266](https://www.google.
     <img src="/images/LM2596-DC-to-DC-Voltage-Regulator.png" height="150">
 
 - 2x [Break-Away 0.1" 2x20-pin Strip Dual Male Headers](https://www.google.com/search?q=Break-Away+0.1%22+2x20-pin+Strip+Dual+Male+Header) or 8 3x2 pin headers
-- [Dupont Ratchet Crimping Tool Kit](https://www.google.com/search?q=Dupont+Ratchet+Crimping+Tool+Kit)
+- [Dupont Ratchet Crimping Tool Kit](https://www.google.com/search?q=Dupont+Ratchet+Crimping+Tool+Kit)  
+    <img src="/images/Break-Away%200.1-inch%202x20-pin%20Strip%20Dual%20Male%20Header.jpg" height="150">
+
 - _wagos/wirenuts_
 - _project box (need size)_
 
