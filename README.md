@@ -1,8 +1,7 @@
 ```diff
 - By continuing to read this repo you agree to the following disclaimer -
 ```
-**Disclaimer:** The author of this repository provides the code and instructions for building a 0-10v PWM LED dimming controller and integrating it with Home Assistant for personal educational use only. The use of the controller and information provided in this repository is done at the user's own risk. The author shall not be held liable for any injury or damage arising from the use of this information or the controller built from it. The user is solely responsible for ensuring they have a proper understanding of electrical safety and the potential dangers of working with electrical circuits and components before proceeding with the build. The user must also ensure they have a proper understanding of the components and technology used in this project, and that they are properly qualified and trained to work with electrical circuits and components. The author cannot guarantee the suitability or reliability of the controller for any specific purpose or use. The user must also ensure that they comply with all local and national electrical safety regulations and codes.
-
+**Disclaimer:** The author of this repository assumes no liability for any damage or injury caused by following these instructions or using the finished product. Building and using this controller requires technical knowledge and experience with electrical circuits and components. If you are unsure about any aspect of this project, it is strongly recommended that you seek assistance from a knowledgeable individual or consult relevant resources before proceeding. The author does not guarantee the accuracy or reliability of the information provided and assumes no responsibility for any resulting damages or injuries.
 
 # 0-10v PWM LED Dimming Controller (includes Home Assistant Integration)
 
@@ -10,8 +9,7 @@ This repository provides the code and instructions to build a custom LED dimming
 
 ## Pre-requisites
 - [Home Assistant](https://www.home-assistant.io/) server
-- LED Drivers (or Ballasts if you're in the UK) **with DIM wires that support 0-10v PWM** dimming.  
-It's super important you understand what that bold text above means.  This controller is not to be connected on the same circuit as the LEDs themselves, or the 120/240V circuit. If you dont understand this, **STOP!** In our project we are using Meanwell HLG LED Drivers.
+- LED Drivers (or Ballasts if you're in the UK) **with DIM wires that support 0-10v PWM** dimming.
 
 ## Parts for the build
 - [ESP32](https://www.google.com/search?q=ESP32+development+boards) or [ESP8266](https://www.google.com/search?q=ESP8266+development+boards) development board with [SPI pins](https://www.google.com/search?q=spi+pins)  
