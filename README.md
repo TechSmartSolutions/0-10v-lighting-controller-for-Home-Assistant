@@ -7,7 +7,7 @@ This repository provides the code and instructions to build a custom LED dimming
 or [Adafruit TLC59711 **12-Channel** 16-bit PWM LED Driver](https://www.adafruit.com/product/3995)
 - [ESP32](https://www.google.com/search?q=ESP32+development+boards), [ESP8266](https://www.google.com/search?q=ESP8266+development+boards), [Arduino](https://www.google.com/search?q=arduino+development+boards), [Raspberry Pi](https://www.google.com/search?q=raspberry-pi) or other device with [SPI pins](https://www.google.com/search?q=spi+pins) (this project is using a cheap [Wemos D1 Mini ESP8266](https://www.google.com/search?q=wemos+mini+d1))
 
-[[https://github.com/username/repository/blob/master/img/octocat.png|alt=octocat]]
+![test](https://github.com/username/repository/blob/master/img/octocat.png)
 
 
 
