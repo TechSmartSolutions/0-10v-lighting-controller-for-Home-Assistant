@@ -9,7 +9,7 @@ These boards generate PWM signals at whatever voltage you feed to it (up to 30v)
 
     <img src="/images/Adafruit%2024%20channel%20PWM%20LED%20driver.jpg" height="150"> <img src="/images/Adafruit%2012%20channel%20PWM%20LED%20driver.jpg" height="150">
 
-- [ESP32](https://www.google.com/search?q=ESP32+development+boards), [ESP8266](https://www.google.com/search?q=ESP8266+development+boards), [Arduino](https://www.google.com/search?q=arduino+development+boards), [Raspberry Pi](https://www.google.com/search?q=raspberry-pi) or other device with [SPI pins](https://www.google.com/search?q=spi+pins)  
+- [ESP32](https://www.google.com/search?q=ESP32+development+boards) or [ESP8266](https://www.google.com/search?q=ESP8266+development+boards) development board with [SPI pins](https://www.google.com/search?q=spi+pins)  
 For this project we will use a cheap [Wemos D1 Mini ESP8266](https://www.google.com/search?q=wemos+mini+d1)  
     <img src="/images/esp8266%20wemos%20d1%20mini.jpg" height="150">
 
