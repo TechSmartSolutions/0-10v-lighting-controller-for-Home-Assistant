@@ -20,9 +20,9 @@ This is the brain of our controller setup. It has built-in Wi-Fi and can easily 
 For power, we'll use a AC/DC wall plug similar to this. Technically, all we need is a 10V power supply, so feel free to use a different type if you prefer.  The advantage of a power adapter with a round barrel plug like this one is that it will allow us to easily disconnect the power without having to unplug the controller entirely.  
     <img src="/images/10v%20AC-DC%20Wall%20Plug%20Adapter.jpg" height="150">
 
-- [DC Power Extension Cable with female 5.5 mm x 2.5 mm Connector](https://www.google.com/search?q=DC+Power+Extension+Cable+5.5+mm+x+2.5+mm+Male+to+Female+Connector%2C+DC+Power+Cord+Extension+Cable+for+Power&oq=DC+Power+Extension+Cable+5.5+mm+x+2.5+mm+Male+to+Female+Connector%2C+DC+Power+Cord+Extension+Cable+for+Power)  
+- [5.5mm x 2.5mm Panel Mount Female DC Power Supply Barrel Connector](https://www.google.com/search?q=DC+Power+Extension+Cable+5.5+mm+x+2.5+mm+Male+to+Female+Connector%2C+DC+Power+Cord+Extension+Cable+for+Power&oq=DC+Power+Extension+Cable+5.5+mm+x+2.5+mm+Male+to+Female+Connector%2C+DC+Power+Cord+Extension+Cable+for+Power)  
 The purpose of this part is to give us the ability to disconnect power from the controller without unplugging the power adapter from the wall.  Since it is necessary to power off the controller (and LED drivers for that matter) when disconnecting or connecting the LED Driver dim wires from the controller, we will use this as a cheap solution to give us a power disconnect.  We could use a panel mount 5.5 mm x 2.5 mm female barrel connector, but this also suffices.
-    <img src="/images/DC Power Extension Cable with female 5.5 mm x 2.5 mm Connector.png" height="150">
+    <img src="/images/5.5mm%20x%202.5mm%20Panel%20Mount%20Female%20DC%20Power%20Supply%20Barrel%20Connector.jpg" height="150">
 
 - [Adafruit TLC5947 **24-Channel** 12-bit PWM LED Driver](https://www.adafruit.com/product/1429)
 or [Adafruit TLC59711 **12-Channel** 16-bit PWM LED Driver](https://www.adafruit.com/product/3995)  
