@@ -14,6 +14,7 @@ For this project we will use a cheap [Wemos D1 Mini ESP8266](https://www.google.
     <img src="/images/esp8266%20wemos%20d1%20mini.jpg" height="150">
 
 - [10v AC/DC Wall Plug Adapter](https://www.digikey.ca/en/products/detail/globtek-inc/WR9HU1800LCP-F-R6B/10187591)  
+This is the type of plug we will use in our project.  In theroy, all you need is a 10v power supply, so it could be a different style than this one.  
     <img src="/images/10v%20AC-DC%20Wall%20Plug%20Adapter.jpg" height="150">
 
 - [LM2596 DC to DC Voltage Regulator 4-40V to 1.5-35V Buck Converter with LED Display](https://www.google.com/search?q=LM2596+DC+to+DC+Voltage+Regulator+4-40V+to+1.5-35V+Buck+Converter+with+LED+Display)  
