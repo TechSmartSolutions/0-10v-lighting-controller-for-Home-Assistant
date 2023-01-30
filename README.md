@@ -8,8 +8,15 @@
 This repository provides the code and instructions to build a custom LED dimming controller using 0-10v pulse-width modulation (PWM) technology including the code and setup to integrate with Home Assistant. The controller allows for precise adjustment of LED light brightness and is a cost-effective and personalized solution compared to commercially available dimming options.  Includes stl for 3D printed case.
 
 ## Pre-requisites
-- [Home Assistant](https://www.home-assistant.io/) server
+- [Home Assistant](https://www.home-assistant.io/) server with [ESPHome](https://esphome.io/) installed
 - LED Drivers (or Ballasts if you're in the UK) **with DIM wires that support 0-10v PWM** dimming.
+
+## Tools Required
+Although having top-of-the-line tools makes the job easier, I mostly rely on economical options for my toolkit. While working with budget tools may not always be optimal, they are adequate for small and occasional projects and have served me well.
+- [Soldering iron](https://www.amazon.ca/s?k=Soldering+iron) ([brass wool](https://www.amazon.ca/s?k=brass+wool+soldering) recommended instead of using a wet solder sponge).
+- [Wire stripper](https://www.amazon.ca/s?k=wire+stripper)
+- [Multimeter](https://www.amazon.ca/s?k=Multimeter&rh=n%3A3006902011%2Cp_36%3A12035760011&dc&ds=v1%3AVJ07OZbfZbPTVCeOY0%2FOTVw2%2FDdTF6NoXoZ9MvBP20c&qid=1675112740&rnid=12035759011&ref=sr_nr_p_36_1) (for testing connections)
+- [Hot glue gun](https://www.amazon.ca/s?k=Hot+glue+gun) (for securing components in case)
 
 ## Parts for the build
 - [ESP32](https://www.google.com/search?q=ESP32+development+boards) or [ESP8266](https://www.google.com/search?q=ESP8266+development+boards) development board with [SPI pins](https://www.google.com/search?q=spi+pins)  
@@ -39,13 +46,6 @@ So we know that we're using the 10V power source to feed the PWM baord, but woul
     
 - _wagos/wirenuts_
 - _project box (need size)_
-
-## Tools Required
-Although having top-of-the-line tools makes the job easier, I mostly rely on economical options for my toolkit. While working with budget tools may not always be optimal, they are adequate for small and occasional projects and have served me well.
-- [Soldering iron](https://www.amazon.ca/s?k=Soldering+iron) ([brass wool](https://www.amazon.ca/s?k=brass+wool+soldering) recommended instead of using a wet solder sponge).
-- [Wire stripper](https://www.amazon.ca/s?k=wire+stripper)
-- [Multimeter](https://www.amazon.ca/s?k=Multimeter&rh=n%3A3006902011%2Cp_36%3A12035760011&dc&ds=v1%3AVJ07OZbfZbPTVCeOY0%2FOTVw2%2FDdTF6NoXoZ9MvBP20c&qid=1675112740&rnid=12035759011&ref=sr_nr_p_36_1) (for testing connections)
-- [Hot glue gun](https://www.amazon.ca/s?k=Hot+glue+gun) (for securing components in case)
 
 # To be added:
 ## Assembly Instructions
