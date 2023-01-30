@@ -1,3 +1,8 @@
+```diff
+- **DISCLAIMER:  By continuing to read this repo you agree to the following:**
+The author of this repository provides the code and instructions for building a 0-10v PWM LED dimming controller and integrating it with Home Assistant for personal educational use only. The use of the controller and information provided in this repository is done at the user's own risk. The author shall not be held liable for any injury or damage arising from the use of this information or the controller built from it. The user is solely responsible for ensuring they have a proper understanding of electrical safety and the potential dangers of working with electrical circuits and components before proceeding with the build. The user must also ensure they have a proper understanding of the components and technology used in this project, and that they are properly qualified and trained to work with electrical circuits and components. The author cannot guarantee the suitability or reliability of the controller for any specific purpose or use. The user must also ensure that they comply with all local and national electrical safety regulations and codes.
+```
+
 # 0-10v PWM LED Dimming Controller (includes Home Assistant Integration)
 
 This repository provides the code and instructions to build a custom LED dimming controller using 0-10v pulse-width modulation (PWM) technology including the code and setup to integrate with Home Assistant. The controller allows for precise adjustment of LED light brightness and is a cost-effective and personalized solution compared to commercially available dimming options.  Includes stl for 3D printed case.
