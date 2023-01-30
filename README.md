@@ -21,7 +21,7 @@ We will cut these down to 3x2 segments and solder them onto the PWM board.
     <img src="/images/Break-Away%200.1-inch%202x20-pin%20Strip%20Dual%20Male%20Header.jpg" height="150">
 
 - [LM2596 DC to DC Voltage Regulator 4-40V to 1.5-35V Buck Converter with LED Display](https://www.google.com/search?q=LM2596+DC+to+DC+Voltage+Regulator+4-40V+to+1.5-35V+Buck+Converter+with+LED+Display)  
-Yo, so we've got this PWM board that needs a 10V power source. But wouldn't it be awesome if we could use that same power supply to juice up our ESP too? The only catch is that the ESP runs on 5V, and 10V is just too high. That's where this regulator board comes in - it lets us connect the 10V source and then dial it down to the perfect 5V for our ESP. Sweet, right?   
+So we've got our PWM board that needs a 10V power source. But wouldn't it be awesome if we could use that same power supply to juice up our ESP too? The only catch is that the ESP runs on 5V, and 10V is just too high. That's where this regulator board comes in - it lets us connect the 10V source and then dial it down to the perfect 5V for our ESP. Sweet, right?   
     <img src="/images/LM2596-DC-to-DC-Voltage-Regulator.png" height="150">
 
 
