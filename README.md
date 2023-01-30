@@ -2,7 +2,11 @@
 
 This repository provides the code and instructions to build a custom LED dimming controller using 0-10v pulse-width modulation (PWM) technology including the code and setup to integrate with Home Assistant. The controller allows for precise adjustment of LED light brightness and is a cost-effective and personalized solution compared to commercially available dimming options.  Includes stl for 3D printed case.
 
-## Parts Needed
+## Pre-requisites
+- [Home Assistant](https://www.home-assistant.io/) server
+- LED Drivers (or Ballasts if you're in the UK) that support 0-10v PWM dimming.  
+
+## Parts for the build
 - [ESP32](https://www.google.com/search?q=ESP32+development+boards) or [ESP8266](https://www.google.com/search?q=ESP8266+development+boards) development board with [SPI pins](https://www.google.com/search?q=spi+pins)  
 This is the brain of our controller setup. It has built-in Wi-Fi and can easily connect to your Home Assistant server using the ESPHome plugin. And the best part? You can use a cheap option like the [Wemos D1 Mini ESP8266](https://www.google.com/search?q=wemos+mini+d1) we will be using in this project.  
     <img src="/images/esp8266%20wemos%20d1%20mini.jpg" height="150">
