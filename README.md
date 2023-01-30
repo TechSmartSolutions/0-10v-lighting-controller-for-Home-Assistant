@@ -4,11 +4,11 @@ This repository provides the code and instructions to build a custom LED dimming
 
 ## Parts Needed
 - [ESP32](https://www.google.com/search?q=ESP32+development+boards) or [ESP8266](https://www.google.com/search?q=ESP8266+development+boards) development board with [SPI pins](https://www.google.com/search?q=spi+pins)  
-This baby right here is the mastermind behind our controller setup. It's got Wi-Fi built in and can easily connect to your Home Assistant server through the ESPHome plugin. And the best part? We're using a wicked cheap [Wemos D1 Mini ESP8266](https://www.google.com/search?q=wemos+mini+d1) for this project.  
+This is the brain of our controller setup. It has built-in Wi-Fi and can easily connect to your Home Assistant server using the ESPHome plugin. And the best part? You can use a cheap option like the [Wemos D1 Mini ESP8266](https://www.google.com/search?q=wemos+mini+d1) we will be using in this project.  
     <img src="/images/esp8266%20wemos%20d1%20mini.jpg" height="150">
 
 - [10v AC/DC Wall Plug Adapter](https://www.digikey.ca/en/products/detail/globtek-inc/WR9HU1800LCP-F-R6B/10187591)  
-This here is the type of plug we're gonna use to power up our project. Keep in mind, all we really need is a 10V power supply, so feel free to switch it up if you want. We'll be using a wire terminal to connect this to both the Adafruit PWM board and the LM2596 voltage regulator board.  
+For power, we'll use a AC/DC wall plug similar to this. Technically, all we need is a 10V power supply, so feel free to use a different type if you prefer.  The advantage of a power adapter with a round barrel plug like this one is that it will allow us to easily disconnect the power without having to unplug the controller entirely.  
     <img src="/images/10v%20AC-DC%20Wall%20Plug%20Adapter.jpg" height="150">
 
 - [Adafruit TLC5947 **24-Channel** 12-bit PWM LED Driver](https://www.adafruit.com/product/1429)
