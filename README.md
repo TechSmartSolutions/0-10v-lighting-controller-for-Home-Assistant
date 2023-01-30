@@ -21,7 +21,7 @@ For power, we'll use a AC/DC wall plug similar to this. Technically, all we need
     <img src="/images/10v%20AC-DC%20Wall%20Plug%20Adapter.jpg" height="150">
 
 - [DC Power Extension Cable with female 5.5 mm x 2.5 mm Connector](https://www.google.com/search?q=DC+Power+Extension+Cable+5.5+mm+x+2.5+mm+Male+to+Female+Connector%2C+DC+Power+Cord+Extension+Cable+for+Power&oq=DC+Power+Extension+Cable+5.5+mm+x+2.5+mm+Male+to+Female+Connector%2C+DC+Power+Cord+Extension+Cable+for+Power)  
-We   
+The purpose of this part is to give us the ability to disconnect power from the controller without unplugging the power adapter from the wall.  Since it is necessary to power off the controller (and LED drivers for that matter) when disconnecting or connecting the LED Driver dim wires from the controller, we will use this as a cheap solution to give us a power disconnect.  We could use a panel mount 5.5 mm x 2.5 mm female barrel connector, but this also suffices.
     <img src="/images/DC Power Extension Cable with female 5.5 mm x 2.5 mm Connector.png" height="150">
 
 - [Adafruit TLC5947 **24-Channel** 12-bit PWM LED Driver](https://www.adafruit.com/product/1429)
