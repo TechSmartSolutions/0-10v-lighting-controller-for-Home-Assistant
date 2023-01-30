@@ -3,9 +3,9 @@
 This repository provides the code and instructions to build a custom LED dimming controller using 0-10v pulse-width modulation (PWM) technology including the code and setup to integrate with Home Assistant. The controller allows for precise adjustment of LED light brightness and is a cost-effective and personalized solution compared to commercially available dimming options.
 
 ## Parts Needed
-- [Adafruit TLC5947 **24-Channel** 12-bit PWM LED Driver](https://www.adafruit.com/product/1429)
-or [Adafruit TLC59711 **12-Channel** 16-bit PWM LED Driver](https://www.adafruit.com/product/3995)
-- [ESP32](https://www.google.com/search?q=ESP32+development+boards), [ESP8266](https://www.google.com/search?q=ESP8266+development+boards), [Arduino](https://www.google.com/search?q=arduino+development+boards), [Raspberry Pi](https://www.google.com/search?q=raspberry-pi) or other device with [SPI pins](https://www.google.com/search?q=spi+pins) (this project is using a cheap [Wemos D1 Mini ESP8266](https://www.google.com/search?q=wemos+mini+d1))
+- [Adafruit TLC5947 **24-Channel** 12-bit PWM LED Driver](https://www.adafruit.com/product/1429){:target="_blank"}
+or [Adafruit TLC59711 **12-Channel** 16-bit PWM LED Driver](https://www.adafruit.com/product/3995){:target="_blank"}
+- [ESP32](https://www.google.com/search?q=ESP32+development+boards){:target="_blank"}, [ESP8266](https://www.google.com/search?q=ESP8266+development+boards){:target="_blank"}, [Arduino](https://www.google.com/search?q=arduino+development+boards){:target="_blank"}, [Raspberry Pi](https://www.google.com/search?q=raspberry-pi){:target="_blank"} or other device with [SPI pins](https://www.google.com/search?q=spi+pins){:target="_blank"} (this project is using a cheap [Wemos D1 Mini ESP8266](https://www.google.com/search?q=wemos+mini+d1){:target="_blank"})
 - 10v AC/DC Wall Plug Adapter with male 5.5 mm x 2.5 mm end
 - DC Power cable with female 5.5 mm x 2.5 mm end
 - LM2596 DC to DC Voltage Regulator 4-40V to 1.5-35V Buck Converter with LED Display
