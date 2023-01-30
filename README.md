@@ -3,9 +3,8 @@
 This repository provides the code and instructions to build a custom LED dimming controller using 0-10v pulse-width modulation (PWM) technology including the code and setup to integrate with Home Assistant. The controller allows for precise adjustment of LED light brightness and is a cost-effective and personalized solution compared to commercially available dimming options.  Includes stl for 3D printed case.
 
 ## Parts Needed
-- <a href="https://www.adafruit.com/product/1429" target="_blank">Adafruit TLC5947 **24-Channel** 12-bit PWM LED Driver</a>
+- [Adafruit TLC5947 **24-Channel** 12-bit PWM LED Driver](https://www.adafruit.com/product/1429)
 or [Adafruit TLC59711 **12-Channel** 16-bit PWM LED Driver](https://www.adafruit.com/product/3995)
-
     <img src="/images/Adafruit%2024%20channel%20PWM%20LED%20driver.jpg" height="150"> <img src="/images/Adafruit%2012%20channel%20PWM%20LED%20driver.jpg" height="150">
 
 - [ESP32](https://www.google.com/search?q=ESP32+development+boards), [ESP8266](https://www.google.com/search?q=ESP8266+development+boards), [Arduino](https://www.google.com/search?q=arduino+development+boards), [Raspberry Pi](https://www.google.com/search?q=raspberry-pi) or other device with [SPI pins](https://www.google.com/search?q=spi+pins) (this project is using a cheap [Wemos D1 Mini ESP8266](https://www.google.com/search?q=wemos+mini+d1))
