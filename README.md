@@ -6,7 +6,8 @@ This repository provides the code and instructions to build a custom LED dimming
 - [Adafruit TLC5947 **24-Channel** 12-bit PWM LED Driver](https://www.adafruit.com/product/1429)
 or [Adafruit TLC59711 **12-Channel** 16-bit PWM LED Driver](https://www.adafruit.com/product/3995)
 - [ESP32](https://www.google.com/search?q=ESP32+development+boards), [ESP8266](https://www.google.com/search?q=ESP8266+development+boards), [Arduino](https://www.google.com/search?q=arduino+development+boards), [Raspberry Pi](https://www.google.com/search?q=raspberry-pi) or other device with [SPI pins](https://www.google.com/search?q=spi+pins) (this project is using a cheap [Wemos D1 Mini ESP8266](https://www.google.com/search?q=wemos+mini+d1))
-![This is an image](/assets/images/esp8266 wemos d1 mini.jpg)
+
+![This is an image](/images/esp8266 wemos d1 mini.jpg)
 
 
 - [10v AC/DC Wall Plug Adapter](https://www.digikey.ca/en/products/detail/globtek-inc/WR9HU1800LCP-F-R6B/10187591) and [DC Power cable](https://www.amazon.ca/s?k=DC+Power+Extension+Cable+5.5+mm+x+2.5+mm+Male+to+Female+Connector) with matching male and female ends (5.5 mm x 2.5 mm)
