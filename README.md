@@ -12,7 +12,10 @@ The popularity of high powered DIY LED grow lights, as well as the relative mark
 
 ## Pre-requisites
 - [Home Assistant](https://www.home-assistant.io/) server with [ESPHome](https://esphome.io/) installed
-- LED power supply(s) that support 0-10v PWM dimming such as MeanWell's line of high powered LED power supplies.  If you arent sure if your power supply supports 0-10v dimming, the best place(s) to check are the power supply's datasheet, or even better contact the manufacturer of your LED driver directly by phone or email.
+- LED power supply(s) that support 0-10v PWM dimming such as MeanWell's line of high powered LED power supplies.  If you arent sure if your power supply supports 0-10v dimming, the best place(s) to check are the power supply's datasheet, or even better contact the manufacturer of your LED driver directly by phone or email.  
+- Ability to solder pin headers onto a printed circuit board.  
+- Basic ability to work with wire strippers, pliers and glur guns.  
+- Basic experience working with and connecting ESP32/ESP8266 devices to breakout boards.  
 
 ## Tools Required
 Although having top-of-the-line tools makes the job easier, I mostly rely on economical options for my toolkit. While working with budget tools may not always be optimal, they are adequate for small and occasional projects and have served me well.
