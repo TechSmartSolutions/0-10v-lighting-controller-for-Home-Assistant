@@ -1,5 +1,7 @@
 **By continuing to read this repo you agree to the following disclaimer:** The author of this repository assumes no liability for any damage or injury caused by following these instructions or using the finished product. Building and using this controller requires technical knowledge and experience with electrical circuits and components. If you are unsure about any aspect of this project, it is strongly recommended that you seek assistance from a knowledgeable individual or consult relevant resources before proceeding. The author does not guarantee the accuracy or reliability of the information provided and assumes no responsibility for any resulting damages or injuries.
 
+** This project is for 0-10v PWM dimming, not 0-10v analog voltage dimming.  See the pre-requisites section for more information regarding LED Drivers compatible with this controller. **
+
 # Home Assistant 12/24 Channel 0-10v PWM LED Dimming Controller
 
 This repository covers the topic of building a lighting controller capable of allowing the user to precisely adjust the brightness of high powered LED fixtures so long as their power supplies (also known as drivers or ballasts) are compatible with 0-10v PWM dimming.  This project makes use of DIY electronic hobbyist components and the highly useful and free open-source smart home system Home Assistant, which allows for simple or complex automations as well as ability to control from a smartphone or desktop computer.  The goal of the project is to solve the challenge of enabling customizable control and automation of many lighting fixtures (1 or more per channel) for cheaper than the currently available off the shelf products available.
@@ -12,7 +14,7 @@ The most basic improvement seen by adding a completely customizable smart lighti
 
 ## Pre-requisites
 - [Home Assistant](https://www.home-assistant.io/) server with [ESPHome](https://esphome.io/) installed
-- LED power supply(s) that support 0-10v PWM dimming such as MeanWell's line of high powered LED power supplies.  If you arent sure if your power supply supports 0-10v dimming, the best place(s) to check are the power supply's datasheet, or even better contact the manufacturer of your LED driver directly by phone or email.  
+- LED power supply(s) (aka drivers or ballasts) that support 0-10v PWM dimming such as MeanWell's line of high powered LED drivets.  If you arent sure if your LED driver supports 0-10v dimming, the best place(s) to check are the driver's datasheet, or if that isn't available in the case contact the manufacturer of your LED driver directly by phone or email.
 - Ability to solder pin headers onto a printed circuit board.  
 - Basic ability to work with wire strippers, pliers and glur guns.  
 - Basic experience working with and connecting ESP32/ESP8266 devices to breakout boards.  
