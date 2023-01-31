@@ -14,7 +14,7 @@ The most basic improvement seen by adding a completely customizable smart lighti
 
 ## Pre-requisites
 - [Home Assistant](https://www.home-assistant.io/) server with [ESPHome](https://esphome.io/) installed
-- LED power supply(s) (aka drivers or ballasts) that support **0-10v PWM** dimming such as MeanWell's line of high powered LED drivers.  If you arent sure if your LED driver supports **0-10v PWM** dimming, the best place(s) to check are the driver's datasheet, or if that isn't available, contact the manufacturer of your LED driver directly by phone or email and ask them "does my grow light / LED driver support 0-10v PWM dimming?". Manufacturers are often quite helpful if you givr them a chance.
+- LED power supply(s) (aka drivers or ballasts) that support **0-10v PWM** dimming such as MeanWell's line of high powered LED drivers.  If you arent sure if your LED driver supports **0-10v PWM** dimming, the best place(s) to check are the driver's datasheet, or if that isn't available, contact the manufacturer of your LED driver directly by phone or email and ask them "does my grow light / LED driver support 0-10v PWM dimming?". Manufacturers are often quite helpful if you give them a chance. **This project is for 0-10v PWM dimming, not 0-10v analog voltage dimming.**
 - Ability to solder pin headers onto a printed circuit board.  
 - Basic ability to work with wire strippers, pliers and glur guns.  
 - Basic experience working with and connecting ESP32/ESP8266 devices to breakout boards.  
