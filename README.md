@@ -1,7 +1,4 @@
-```diff
-- By continuing to read this repo you agree to the following disclaimer -
-```
-**Disclaimer:** The author of this repository assumes no liability for any damage or injury caused by following these instructions or using the finished product. Building and using this controller requires technical knowledge and experience with electrical circuits and components. If you are unsure about any aspect of this project, it is strongly recommended that you seek assistance from a knowledgeable individual or consult relevant resources before proceeding. The author does not guarantee the accuracy or reliability of the information provided and assumes no responsibility for any resulting damages or injuries.
+**By continuing to read this repo you agree to the following disclaimer:** The author of this repository assumes no liability for any damage or injury caused by following these instructions or using the finished product. Building and using this controller requires technical knowledge and experience with electrical circuits and components. If you are unsure about any aspect of this project, it is strongly recommended that you seek assistance from a knowledgeable individual or consult relevant resources before proceeding. The author does not guarantee the accuracy or reliability of the information provided and assumes no responsibility for any resulting damages or injuries.
 
 # Home Assistant 12/24 Channel 0-10v PWM LED Dimming Controller
 
