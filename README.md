@@ -2,7 +2,7 @@
 
 # Home Assistant 12/24 Channel 0-10v PWM LED Dimming Controller
 
-**Note:** This project is for 0-10v PWM dimmming, not 0-10v analog dimming. aee the pre-requisites section for more information.
+**Note:** This project is for 0-10v PWM dimmming, not 0-10v analog dimming. see the pre-requisites section for more information.
 
 This repository covers the topic of building a lighting controller capable of allowing the user to precisely adjust the brightness of high powered LED fixtures so long as their power supplies (also known as drivers or ballasts) are compatible with 0-10v PWM dimming.  This project makes use of DIY electronic hobbyist components and the highly useful and free open-source smart home system Home Assistant, which allows for simple or complex automations as well as ability to control from a smartphone or desktop computer.  The goal of the project is to solve the challenge of enabling customizable control and automation of many lighting fixtures (1 or more per channel) for cheaper than the currently available off the shelf products available.
 
