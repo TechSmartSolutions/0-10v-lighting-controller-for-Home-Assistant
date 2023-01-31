@@ -5,7 +5,7 @@
 
 # Home Assistant 0-10v PWM LED Dimming Controller
 
-This repository provides the code and instructions to build a custom LED dimming controller using 0-10v pulse-width modulation (PWM) technology including the code and setup to integrate with Home Assistant. The controller allows for precise adjustment of LED light brightness and is a cost-effective and personalized solution compared to commercially available dimming options.  Includes stl for 3D printed case.
+This repository covers the topic of building a lighting controller capable of allowing the user to precisely adjust the brightness of one to many high powered agricultural grow lights or landscape LED lights so long as their power source are drivers/ballasts compatible with 0-10v PWM dimming.  It makes use of DIY electronic hobbyist components and the highly useful open-source and free smart home system Home Assistant, which allows for simple or complex automations as well as ability to control from a smartphone or desktop computer.  The goal of the project is to solve the challenge of controlling many lights for far cheaper than  off the shelf solutions currently available.
 
 ## Pre-requisites
 - [Home Assistant](https://www.home-assistant.io/) server with [ESPHome](https://esphome.io/) installed
