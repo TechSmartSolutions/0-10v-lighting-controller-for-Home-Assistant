@@ -13,6 +13,22 @@ Most LED grow and aquarium lights offer some form of dimming, either with dimmin
 
 Over the years I've searched for lighting controllers, only to find expensive products that are limited in their functionality. The options that are available for use with Home Assistant or other SmartHome systems usually lack the ability to control a large number channels or drivers, so the cost can quickly rise depending on how complex the lighting system is.  This controller being able to control up to 24 or more _channels_ means you can have a large number of LED drivers being controlled by a single, cheap solution.
 
+A further use case would be a LED fixture that has multiple channels or colors that can be individually controlled.  Controlling different colors of LEDs is much more common in aquarium applications, although there is good benefit from being able to control different colored LED channels with grow lighting. (Examples include Warm White, Cool White, 660nm Red, Far Red, Blue, UV).  Some specific examples:
+
+### Tuneable 3000k-5500k grow light for all growth stages: 
+Cost effective method of making a tuneable grow light based off white leds only. Using only two channels of white LEDs with different kelvin temperatures, you can adjust the overall temperature of the grow light from  by changing the output ratio of each channel for different stages of growth.
+- Channel 1: Warm White 3000K
+- Channel 2: Cool White 5500K
+
+Example tuning for early stage plant growth: Channel 1 80% / Channel 2 20%
+Example tuning for late stage plant growth: Channel 1 20% / Channel 2 80%
+
+
+Example of multi-channel off the shelf grow light
+- Channel 1: Warm white 3000k
+- Channel 2: Red
+- Channel 3: Blue
+
 ## Concept
 LED drivers (aka power supplies) with dimming wires are designed to be connected to a dimming controller. In the case of Meanwell LED drivers with 3-in-1 dimming, this could be either a <a href="https://www.google.com/search?q=0-10v+Additive+DC+voltage+dimmer">0-10v Additive DC voltage dimmer</a>, <a href="https://www.google.com/search?q=10v+PWM+dimmer">10v PWM dimmer</a> or just a basic <a href="https://www.google.com/search?q=100+ohm+potentiometer">100ohm mechanical potentiometer.</a>  This project makes use of PWM dimming.
 
@@ -26,7 +42,8 @@ This project uses an Adafruit PWM LED Driver board to control the dim signals we
 
 ## Pre-requisites
 - <a href="https://www.google.com/search?q=what+are+the+different+ways+to+install+home+assistant%3F">Home Assistant</a> running on a NAS, Raspberry Pi, Computer/Server etc with the <a href="https://www.google.com/search?q=how+to+install+esphome+on+Home+Assistant">ESPHome Add-on Installed</a>
-- LED power supply(s) (aka drivers or ballasts) that support **0-10v PWM** dimming such as MeanWell's line of high powered LED drivers.  If you arent sure if your LED driver supports **0-10v PWM** dimming, the best place(s) to check are the driver's datasheet, or if that isn't available, contact the manufacturer of your LED driver directly by phone or email and ask them "does my grow light / LED driver support 0-10v PWM dimming?".  Manufacturers are often quite helpful if you give them a chance.   **Ensure you are clear that you are looking for or asking about 0-10v PWM dimming, not 0-10v analog dimming.**  
+- One or more <a href="https://led.meanwell.com/productSeries.aspx">MeanWell LED Driver</a> (or a LED driver from another manufacturer compatible with PWM dimming) that you want to be able to control.  _Not all MeanWell drivers support PWM dimming. The best place to check if your driver supports PWM dimming is the datasheet.  If you have a driver made by a company other than MeanWell, and you can't find any information in your driver's datasheet regarding PWM dimming, contact your driver's manufacturer to clarify_.
+
 - Ability to solder pin headers onto a printed circuit board.  
 - Basic ability to work with wire strippers, pliers and glur guns.  
 - Basic experience working with and connecting ESP32/ESP8266 devices to breakout boards.  
@@ -51,7 +68,7 @@ These boards are capable of generating some serious PWM signals, all the way up 
 - 2x [Break-Away 0.1" 2x20-pin Strip Dual Male Headers](https://www.google.com/search?q=Break-Away+0.1%22+2x20-pin+Strip+Dual+Male+Header) or 8 3x2 pin headers  
 You will solder these terminal pin headers onto the PWM board. This is where the positive (+) and negative (-) DIM wire leads from your LED Driver will connect.  
     <img src="/images/Break-Away%200.1-inch%202x20-pin%20Strip%20Dual%20Male%20Header.jpg" height="150">  
-    
+
 - _terminal blocks_
 - _project box_
 
