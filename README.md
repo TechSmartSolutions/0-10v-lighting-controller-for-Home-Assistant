@@ -1,9 +1,12 @@
 # 12 or 24+ Channel Dimming Controller for Meanwell LED Power Supplies (and other LED Drivers with driver-source current PWM dimming)
 
-'''diff
-! there is currently issues with flickering and activating channels
-! assume this project is in development, continue at your own risk!
-'''
+```diff
+- I am currently seeing issues with
+- flickering and light channels not
+- responding reliably.  Assume this
+- project is still under development.
+- Proceed at your own risk!
+```
 
 <img src="/images/Home-Assistant-MeanWell-LED-Driver-Dimming-Controller-completed.png">  
 
