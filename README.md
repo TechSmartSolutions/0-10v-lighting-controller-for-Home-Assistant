@@ -111,11 +111,11 @@ _In our project we will connect all 24 output pins to the terminals.  You can us
 #### If you are unsure about any of these steps, or run into any problems please log an issue so that I can provide guidance.
 
 1. Gather the necessary components:
-  - MeanWell LED Driver(s) connected to LEDs
-  - ESP8266 microcontroller
-  - Adafruit PWM board
-  - Project Box
-  - Connector hardware  
+    - MeanWell LED Driver(s) connected to LEDs
+    - ESP8266 microcontroller
+    - Adafruit PWM board
+    - Project Box
+    - Connector hardware  
 In our case we are using breadboards and wire.
 2. Mount the  terminal blocks (with risers) and project box and to the mounting plate.
 3. <a href="https://learn.adafruit.com/tlc5947-tlc59711-pwm-led-driver-breakout/connecting-to-the-arduino">Connect the ESP8266 microcontroller to the Adafruit PWM board.</a>
