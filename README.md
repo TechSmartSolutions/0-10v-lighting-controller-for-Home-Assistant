@@ -4,24 +4,6 @@
 **By using the information you agree to the following disclaimer:** The author of this information assumes no liability for the accuracy of the info, or  damage or injury caused by using these instructions or any product created using methods or instructions herein. Building and using this controller requires technical knowledge and experience with electrical circuits and components. If you are unsure about any aspect of this project it is strongly recommended that you seek assistance from a knowledgeable or licensed individual or consult relevant resources before proceeding.  Always follow <a href="https://www.google.com/search?q=hobby+electronics+safety">electronics safety guidelines</a>.
 
 ## Table of Contents
-1. [Intro](#intro)
-2. [Background](#background)
-3. [Applications](#applications)
-   - [Example use case 1: Tuneable 3000k-5500k grow light for all growth stages](#example-use-case-1-tuneable-3000k-5500k-grow-light-for-all-growth-stages)
-   - [Example use case 2: 8-Channel aquarium light](#example-use-case-2-8-channel-aquarium-light)
-4. [Concept](#concept)
-5. [Parts List](#parts-list)
-6. [Instructions](#instructions)
-   - [Building the Circuit](#building-the-circuit)
-   - [Testing the Circuit](#testing-the-circuit)
-   - [Setting up Home Assistant](#setting-up-home-assistant)
-   - [How to Use](#how-to-use)
-7. [Conclusion](#conclusion)
-8. [Future Work](#future-work)
-9. [Support](#support)
-10. [References](#references)
-11. [Acknowledgements](#acknowledgements)
-
 
 ## Intro
 This guide provides information to build a <a href="https://www.home-assistant.io/">Home Assistant</a> compatible light dimmer that will work with most <a href="https://led.meanwell.com/productSeries.aspx">Meanwell LED drivers (aka LED power supplies or ballasts)</a> using just a few electronic parts.  This should work with other manufacturer LED drivers which use PWM dimming, so long as the driver provides source current on the dim circuit.  I think this can also be modified to work with 0-10v DC additive dimming by connecting a 10v power source to the signal board, but I haven't tried it.  Feel free to reach out to me if you have any questions about that.
@@ -78,7 +60,7 @@ This project uses an Adafruit PWM LED Driver board to control the dim signals we
 - Wi-fi network for the ESP device to connect to.
 
 #### Skills needed
-- <a href="https://www.google.com/search?q=how+to+solder+pin+headers+into+a+breakout+board" target="_blank">Soldering pin headers onto a breakout board</a>
+- <a href="https://www.google.com/search?q=how+to+solder+pin+headers+into+a+breakout+board" target="_blank">Soldering pin headers onto a breakout board</a>.
 - <a href="https://www.google.com/search?q=working+with+electronic+hobby+tools">Working with hobby electronic tools</a>.  
 - <a href="https://www.google.com/search?q=how+to+wire+microcontrollers+to+breakout+boards">Wiring ESP32/ESP8266 MCUs to breakout boards</a>.  
 
