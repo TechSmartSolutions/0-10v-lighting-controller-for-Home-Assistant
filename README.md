@@ -11,10 +11,10 @@ Most LED grow and aquarium lights offer some form of dimming, either with dimmin
 
 Over the years I've searched for lighting controllers, only to find expensive products that are limited in their functionality. The options that are available for use with Home Assistant or other SmartHome systems usually lack the ability to control a large number channels or drivers, so the cost can quickly rise depending on how complex the lighting system is.  This controller being able to control up to 24 or more _channels_ means you can have a large number of LED drivers being controlled by a single, cheap solution.
 
-A further use case would be a LED fixture that has multiple channels or colors that can be individually controlled.  Controlling different colors of LEDs is much more common in aquarium applications, although there is good benefit from being able to control different colored LED channels with grow lighting. (Examples include Warm White, Cool White, 660nm Red, Far Red, Blue, UV).  Some specific examples:
-
 ## Applications
 The most likely use for this controller are indoor gardens or aquarium (reef) tanks that use LED power supplies, although it can be used for decor lighting applications.  The advancement of LED lighting has led to many of these types of systems being put into use.  From do-it-yourself hobbyist lighting to the relative market explosion of off-the-shelf options, this controller is a nice upgrade to many of these systems already in use.
+
+A further use case would be a LED fixture that has multiple channels or colors that can be individually controlled.  Controlling different colors of LEDs is much more common in aquarium applications, although there is good benefit from being able to control different colored LED channels with grow lighting. (Examples include Warm White, Cool White, 660nm Red, Far Red, Blue, UV).  Some specific examples:
 
 ### Tuneable 3000k-5500k grow light for all growth stages: 
 Cost effective method of making a tuneable grow light based off white leds only. Using only two channels of white LEDs with different kelvin temperatures, you can adjust the overall temperature of the grow light from  by changing the output ratio of each channel for different stages of growth.
