@@ -93,6 +93,8 @@ _I used these becuase they are cheap, and not too difficult to connect the drive
 _There are a lot of options available in size and function.  I usually go for the cheapest one possible that includes a clear lid. Somehow I feel better knowing that I can see into my project boxes incase something goes wrong I'll be able to notice it.  Make sure if you need to get a water sealed one. They are all pretty cheap._  
 <BR CLEAR=”left” />  
 
+- Mounting plate for project box and terminals.  
+_In this project we used a piece of wood_  
 
 <p align="right"><a href="#readme">...back to top</a></p>
 
@@ -103,7 +105,28 @@ _There are a lot of options available in size and function.  I usually go for th
 
 <p align="right"><a href="#readme">...back to top</a></p>
 
-# To be added:
 ## Assembly Instructions
+_In our project we will connect all 24 output pins to the terminals.  You can use less if you want._  
+
+### If you are unsure about any of these steps, or run into any problems please log an issue so that I can provide guidance.
+
+1. Gather the necessary components:
+  - MeanWell LED Driver(s) connected to LEDs
+  - ESP8266 microcontroller
+  - Adafruit PWM board
+  - Project Box
+  - Connector hardware  
+In our case we are using breadboards and wire.
+2. Mount the  terminal blocks (with risers) and project box and to the mounting plate.
+3. <a href="https://learn.adafruit.com/tlc5947-tlc59711-pwm-led-driver-breakout/connecting-to-the-arduino">Connect the ESP8266 microcontroller to the Adafruit PWM board.</a>
+4. Connect 24 wires from the terminal blocks to the output pins on the Adafuit PWM board, and 12 wires from a terminal block to the ground rail on the breadboard.
+6. Connect the DIM + wire from each MeanWell driver to the terminal posts connected to the output pins on the Adafuit board.
+7. Connect the DIM - wire from each MeanWell driver to the terminal posts connected to the ground rail on the breadboard.
+8 Connect the USB power cable ESP.
+_You should get a green light on the Adafruit board._
+
+Note: It is recommended to refer to the <a href="#Schematics">schematic diagrams</a> while building the circuit and to <a href="https://www.google.com/search?q=hobby+electronics+safety">follow proper safety precautions</a> while handling electrical components.
+
+# To be added:
 ## Software Configuration
 ## Usage
