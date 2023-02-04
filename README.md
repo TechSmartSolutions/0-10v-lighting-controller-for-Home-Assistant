@@ -86,11 +86,14 @@ _This is the brain of our controller setup. It has built-in Wi-Fi and can easily
 _These boards work rapidly "sinking" the voltage on the control pins.  In our case, this board will alternate the power feed from the MeanWell LED Driver DIM wires from 10v (open) to 0v (sunk) over a thousand times per second, creating a voltage value that corresponds with the brightness level (0v full brightness - 10v completely off)._  
 <BR CLEAR=”left” />  
 
-- 2x [Break-Away 0.1" 2x20-pin Strip Dual Male Headers](https://www.google.com/search?q=Break-Away+0.1%22+2x20-pin+Strip+Dual+Male+Header) or 8 3x2 pin headers  
-You will solder these terminal pin headers onto the PWM board. This is where the positive (+) and negative (-) DIM wire leads from your LED Driver will connect.  
-    <img src="/images/Break-Away%200.1-inch%202x20-pin%20Strip%20Dual%20Male%20Header.jpg" height="150">  
+- <img src="/images/Break-Away%200.1-inch%202x20-pin%20Strip%20Dual%20Male%20Header.jpg" height="150" align="right">2x <a href="https://www.google.com/search?q=Break-Away+0.1%22+2x20-pin+Strip+Dual+Male+Header">Break-Away 0.1" 2x20-pin Strip Dual Male Headers</a> or 8 3x2 pin headers  
+_You will solder these terminal pin headers onto the PWM board. This is where the positive (+) and negative (-) DIM wire leads from your LED Driver will connect._  
+<BR CLEAR=”left” />  
 
-- _terminal blocks_
+- <img src="/images/12-position-power-screw-terminal-blocks.jpg" height="150px" align="right"><a href="https://www.amazon.ca/s?k=12+position+terminal+block">12 position screw terminal blocks</a>  
+_I used these becuase they are cheap, and not too difficult to connect the driver wires to. They aren't super easy to use if you're constantly disconnecting and moving around power supplies, but for this type of application you shouldn't need to do that._  
+
+
 - _project box_  
 
 <p align="right"><a href="#readme">...back to top</a></p>
