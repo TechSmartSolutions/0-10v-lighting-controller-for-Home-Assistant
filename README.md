@@ -1,5 +1,7 @@
 # 12 or 24+ Channel Dimming Controller for Meanwell LED Power Supplies (works with many other manufacturers aswell)
 
+<img src="/images/Home-Assistant-MeanWell-LED-Driver-Dimming-Controller-completed.png">  
+
 **By using the information you agree to the following disclaimer:** The author of this information assumes no liability for the accuracy of the info, or  damage or injury caused by using these instructions or any product created using methods or instructions herein. Building and using this controller requires technical knowledge and experience with electrical circuits and components. If you are unsure about any aspect of this project it is strongly recommended that you seek assistance from a knowledgeable or licensed individual or consult relevant resources before proceeding.  Always follow <a href="https://www.google.com/search?q=hobby+electronics+safety">electronics safety guidelines</a>.
 
 ## Intro
@@ -43,14 +45,6 @@ LED drivers (aka power supplies) with dimming wires are designed to be connected
 A MeanWell power supply that supports external dimming will have two wires (or two terminal points) where a positive (DIM +) and negative (DIM -) wire can be connected to a dimming controller.  In the case of MeanWell PWM dimming (which is the focus of this project), the LED driver creates a small current which runs through the wires. When the wires are disconected from eachother, no current flows and the light output will be 100% brightness.  When the wires are connected, the current flows through and signals the driver to dim the light output to 0% brightness.  PWM works off the principle of opening and closing this circuit very fast (over 1000 times a second), creating the effect of either more or less current to be allowed to pass through the power supply's DIM circuit.  Although you dont need to know how this works in detail to build this project, you can <a href="https://www.google.com/search?q=how+does+pwm+work">read more about how PWM works here.</a>
 
 This project uses an Adafruit PWM LED Driver board to control the dim signals we sent to a MeanWell LED driver.  The original use for the Adafruit board is to drive LEDs directly, but the LEDs we are utilizing require much higher powered drivers (the MeanWell LED Drivers), hence we can use the Adafruit board to send the DIM signals to the higher powered driver.  It is a little confusing that we are using a low-powered LED Driver board to send DIM signals to a higher powered one, it was only coincidence that the Adafruit board is also an LED driver, you can ignore that.
-
-## Project Schematics and Photo
-
-<img src="/images/Home-Assistant-MeanWell-LED-Driver-Dimming-Controller-Schematic.png">  
-<img src="/images/Home-Assistant-MeanWell-LED-Driver-Dimming-Controller-Schematic-Adafruit-PWM-Driver-Closeup.png">
-<img src="/images/Home-Assistant-MeanWell-LED-Driver-Dimming-Controller-completed.png">  
-
-<p align="right"><a href="#readme">...back to top</a></p>
 
 ## Pre-requisites
 
@@ -97,6 +91,13 @@ _I used these becuase they are cheap, and not too difficult to connect the drive
 _There are a lot of options available in size and function.  I usually go for the cheapest one possible that includes a clear lid. Somehow I feel better knowing that I can see into my project boxes incase something goes wrong I'll be able to notice it.  Make sure if you need to get a water sealed one. They are all pretty cheap._  
 <BR CLEAR=”left” />  
 
+
+<p align="right"><a href="#readme">...back to top</a></p>
+
+## Schematics
+
+<img src="/images/Home-Assistant-MeanWell-LED-Driver-Dimming-Controller-Schematic.png">  
+<img src="/images/Home-Assistant-MeanWell-LED-Driver-Dimming-Controller-Schematic-Adafruit-PWM-Driver-Closeup.png">
 
 <p align="right"><a href="#readme">...back to top</a></p>
 
