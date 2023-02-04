@@ -1,0 +1,142 @@
+tlc5947:
+  # if you used different pins than the example project, ensure these are set correctly.
+  data_pin: GPIO16 
+  clock_pin: GPIO14
+  lat_pin: GPIO12
+
+output:
+  - platform: tlc5947
+    id: pwm00
+    channel: 0
+    min_power: 0
+    zero_means_zero: True
+    inverted: true
+  - platform: tlc5947
+    id: pwm01
+    channel: 1
+    inverted: true
+    min_power: 0
+    zero_means_zero: True
+  - platform: tlc5947
+    id: pwm02
+    channel: 2
+    inverted: true
+    min_power: 0
+    zero_means_zero: True
+  - platform: tlc5947
+    id: pwm03
+    channel: 3
+    inverted: true
+    min_power: 0
+    zero_means_zero: True
+  - platform: tlc5947
+    id: pwm04
+    channel: 4
+    inverted: true
+    min_power: 0
+    zero_means_zero: True
+  - platform: tlc5947
+    id: pwm05
+    channel: 5
+    inverted: true
+    min_power: 0
+    zero_means_zero: True
+  - platform: tlc5947
+    id: pwm06
+    channel: 6
+    inverted: true
+    min_power: 0
+    zero_means_zero: True
+  - platform: tlc5947
+    id: pwm07
+    channel: 7
+    inverted: true
+    min_power: 0
+    zero_means_zero: True
+  - platform: tlc5947
+    id: pwm08
+    channel: 8
+    inverted: true
+    min_power: 0
+    zero_means_zero: True
+  - platform: tlc5947
+    id: pwm09
+    channel: 9
+    inverted: true
+    min_power: 0
+    zero_means_zero: True
+
+light:
+  - platform: monochromatic
+    name: "LED Dimming Channel 0"
+    output: pwm00
+    gamma_correct: 0
+  - platform: monochromatic
+    name: "LED Dimming Channel 1"
+    output: pwm01
+  - platform: monochromatic
+    name: "LED Dimming Channel 2"
+    output: pwm02
+  - platform: monochromatic
+    name: "LED Dimming Channel 3"
+    output: pwm03
+  - platform: monochromatic
+    name: "LED Dimming Channel 4"
+    output: pwm04
+  - platform: monochromatic
+    name: "LED Dimming Channel 5"
+    output: pwm05
+  - platform: monochromatic
+    name: "LED Dimming Channel 6"
+    output: pwm06
+  - platform: monochromatic
+    name: "LED Dimming Channel 7"
+    output: pwm07
+  - platform: monochromatic
+    name: "LED Dimming Channel 8"
+    output: pwm08
+  - platform: monochromatic
+    name: "LED Dimming Channel 9"
+    output: pwm09
+  - platform: monochromatic
+    name: "LED Dimming Channel 10"
+    output: pwm10
+  - platform: monochromatic
+    name: "LED Dimming Channel 11"
+    output: pwm11
+  - platform: monochromatic
+    name: "LED Dimming Channel 12"
+    output: pwm12
+  - platform: monochromatic
+    name: "LED Dimming Channel 13"
+    output: pwm13
+  - platform: monochromatic
+    name: "LED Dimming Channel 14"
+    output: pwm14
+  - platform: monochromatic
+    name: "LED Dimming Channel 15"
+    output: pwm15
+  - platform: monochromatic
+    name: "LED Dimming Channel 16"
+    output: pwm16
+  - platform: monochromatic
+    name: "LED Dimming Channel 17"
+    output: pwm17
+  - platform: monochromatic
+    name: "LED Dimming Channel 18"
+    output: pwm18
+  - platform: monochromatic
+    name: "LED Dimming Channel 19"
+    output: pwm19
+  - platform: monochromatic
+    name: "LED Dimming Channel 20"
+    output: pwm20
+  - platform: monochromatic
+    name: "LED Dimming Channel 21"
+    output: pwm21
+  - platform: monochromatic
+    name: "LED Dimming Channel 22"
+    output: pwm22
+  - platform: monochromatic
+    name: "LED Dimming Channel 23"
+    output: pwm23
