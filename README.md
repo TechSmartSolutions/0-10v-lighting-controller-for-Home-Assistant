@@ -125,6 +125,19 @@ In our case we are using breadboards and wire.
 8 Connect the USB power cable ESP.
 _You should get a green light on the Adafruit board._
 
-# To be added:
 ## Software Configuration
+1. Open the ESPHome dashboard from Home Assistant and add the new ESP to ESPHome (use the "Prepare Device for Adoption" option).
+2. After ESPHome has flashed the ESP, ensure you set the Wi-Fi network settings (in the ESPHome USB add-device page).
+3. After the device has been added to ESPHome, navigate to ESPHome from the left Home Assistant navigation menu.
+4. Find the newly added device and click "Adopt" and give it a name.
+6. After the device is added to ESPHome with it's new name, navigate in Home Assistant to Settings > Devices and click "Configure" **on the newly added name** of the ESP device.
+7. Go back to the ESPHome dashboard from the left Home Assistant nav menu, and click edit and add the yaml code (found in the github repository files at the top) to the ESP configuration.  Ensure that you've specified the correct pins for  
+data_pin: GPIO16  
+clock_pin: GPIO14  
+lat_pin: GPIO12  
+
+8. 
+
+# To be added:
+
 ## Usage
