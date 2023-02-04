@@ -4,6 +4,23 @@
 
 **By using the information you agree to the following disclaimer:** The author of this information assumes no liability for the accuracy of the info, or  damage or injury caused by using these instructions or any product created using methods or instructions herein. Building and using this controller requires technical knowledge and experience with electrical circuits and components. If you are unsure about any aspect of this project it is strongly recommended that you seek assistance from a knowledgeable or licensed individual or consult relevant resources before proceeding.  Always follow <a href="https://www.google.com/search?q=hobby+electronics+safety">electronics safety guidelines</a>.
 
+## [Intro](#Intro)
+## [Background](#Background)
+## [Applications & Use Cases](#Applications-&-Use-Cases)
+### [Example use case 1: Tuneable 3000k-5500k grow light for all growth stages](#Example-use-case-1:-Tuneable-3000k-5500k-grow-light-for-all-growth-stages)
+### [Example use case 2: 8-Channel aquarium light](#Example-use-case-2:-8-Channel-aquarium-light)
+## [Concept](#Concept)
+## [Pre-requisites](#Pre-requisites)
+#### [Infrastructure](#Infrastructure)
+#### [Skills needed](#Skills-needed)
+#### [Tools Required](#Tools-Required)
+##### [Optional stuff:](#Optional-stuff:)
+## [Parts needed](#Parts-needed)
+## [Schematics](#Schematics)
+## [Assembly Instructions](#Assembly-Instructions)
+## [Software Configuration](#Software-Configuration)
+## [Usage](#Usage)
+
 ## Intro
 This guide provides information to build a <a href="https://www.home-assistant.io/">Home Assistant</a> compatible light dimmer that will work with most <a href="https://led.meanwell.com/productSeries.aspx">Meanwell LED drivers (aka LED power supplies or ballasts)</a> using just a few electronic parts.  This should work with other manufacturer LED drivers which use PWM dimming, so long as the driver provides source current on the dim circuit.  I think this can also be modified to work with 0-10v DC additive dimming by connecting a 10v power source to the signal board, but I haven't tried it.  Feel free to reach out to me if you have any questions about that.
 
