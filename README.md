@@ -92,7 +92,7 @@ _You will solder these terminal pin headers onto the PWM board. This is where th
 
 - <img src="/images/12-position-power-screw-terminal-blocks.jpg" height="150px" align="right"><a href="https://www.amazon.ca/s?k=12+position+terminal+block">12 position screw terminal blocks</a>  
 _I used these becuase they are cheap, and not too difficult to connect the driver wires to. They aren't super easy to use if you're constantly disconnecting and moving around power supplies, but for this type of application you shouldn't need to do that._  
-
+<BR CLEAR=”left” />  
 
 - _project box_  
 
