@@ -130,7 +130,7 @@ In our case we are using breadboards and wire.
 3. After the device has been added to ESPHome, navigate to ESPHome from the left Home Assistant navigation menu.
 4. Find the newly added device and click "Adopt" and give it a name.
 5. After the device is added to ESPHome with it's new name, navigate in Home Assistant to Settings > Devices and click "Configure" **on the newly added name** of the ESP device.  
-6. Go back to the ESPHome dashboard from the left Home Assistant nav menu, and click edit under the new ESP device name and paste the code from the yaml file the github repository a few spaces below the captivate_portal line.  Ensure the indentation is correct!  
+6. Go back to the ESPHome dashboard from the left Home Assistant nav menu, and click edit under the new ESP device name and paste the code from the yaml file the github repository a few spaces below the captivate_portal line.  Ensure the indentation is correct!
 7. Click save, then install over Wireless to flash the ESP with the new configuration.  Ensure that you've specified the correct pins for data_pin (DI, not DO!), clock_pin (CLK) and lat_pin (LAT). If you wired using the same pins as our example, use the following:  
 
         data_pin: GPIO16  
