@@ -122,8 +122,7 @@ In our case we are using breadboards and wire.
 4. Connect 24 wires from the terminal blocks to the output pins on the Adafuit PWM board, and 12 wires from a terminal block to the ground rail on the breadboard.
 5. Connect the DIM + wire from each MeanWell driver to the terminal posts connected to the output pins on the Adafuit board.
 6. Connect the DIM - wire from each MeanWell driver to the terminal posts connected to the ground rail on the breadboard.
-7 Connect the USB power cable ESP.  
-_You should get a green light on the Adafruit board._
+7 Connect the USB power cable ESP. You should get a green light on the Adafruit board.
 
 ## Software Configuration
 1. Open the ESPHome dashboard from Home Assistant and add the new ESP to ESPHome (use the "Prepare Device for Adoption" option).
