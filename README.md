@@ -107,7 +107,7 @@ _In this project we used a piece of wood_
 
 ## Assembly Instructions
 _In our project we will connect all 24 output pins to the terminals.  You can use less if you want._  
-
+Note: It is recommended to refer to the <a href="#Schematics">schematic diagrams</a> and <a href="#readme">final project photo</a> while building the circuit and to <a href="https://www.google.com/search?q=hobby+electronics+safety">follow proper safety precautions</a> while handling electrical components.  
 #### If you are unsure about any of these steps, or run into any problems please log an issue so that I can provide guidance.
 
 1. Gather the necessary components:
@@ -124,8 +124,6 @@ In our case we are using breadboards and wire.
 7. Connect the DIM - wire from each MeanWell driver to the terminal posts connected to the ground rail on the breadboard.
 8 Connect the USB power cable ESP.
 _You should get a green light on the Adafruit board._
-
-Note: It is recommended to refer to the <a href="#Schematics">schematic diagrams</a> and <a href="#readme">final project photo</a> while building the circuit and to <a href="https://www.google.com/search?q=hobby+electronics+safety">follow proper safety precautions</a> while handling electrical components.
 
 # To be added:
 ## Software Configuration
