@@ -1,3 +1,5 @@
+## this goes below the captivate_portal section of your ESP device yaml 
+
 tlc5947:
   # if you used different pins than the example project, ensure these are set correctly.
   data_pin: GPIO16 
