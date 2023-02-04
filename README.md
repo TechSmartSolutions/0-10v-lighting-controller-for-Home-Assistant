@@ -132,6 +132,7 @@ _You should get a green light on the Adafruit board._
 4. Find the newly added device and click "Adopt" and give it a name.
 6. After the device is added to ESPHome with it's new name, navigate in Home Assistant to Settings > Devices and click "Configure" **on the newly added name** of the ESP device.
 7. Go back to the ESPHome dashboard from the left Home Assistant nav menu, and click edit and add the yaml code (found in the github repository files at the top) to the ESP configuration.  Ensure that you've specified the correct pins for  
+  
 data_pin: GPIO16  
 clock_pin: GPIO14  
 lat_pin: GPIO12  
