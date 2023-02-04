@@ -1,4 +1,4 @@
-# 12 or 24+ Channel Dimming Controller for Meanwell LED Power Supplies (works with many other manufacturers aswell)
+# 12 or 24+ Channel Dimming Controller for Meanwell LED Power Supplies (and other LED Drivers with driver-source current PWM dimming)
 
 <img src="/images/Home-Assistant-MeanWell-LED-Driver-Dimming-Controller-completed.png">  
 
