@@ -33,7 +33,7 @@ Over the years I've searched for lighting controllers, only to find expensive pr
 
 <p align="right"><a href="#readme">...back to top</a></p>
 
-## Applications
+## Applications & Use Cases
 The most likely use for this controller are indoor gardens or aquarium (reef) tanks that use LED power supplies, although it can be used for decor lighting applications.  The advancement of LED lighting has led to many of these types of systems being put into use.  From do-it-yourself hobbyist lighting to the relative market explosion of off-the-shelf options, this controller is a nice upgrade to many of these systems already in use.
 
 A further use case would be a LED fixture that has multiple channels or colors that can be individually controlled.  Controlling different colors of LEDs is much more common in aquarium applications, although there is good benefit from being able to control different colored LED channels with grow lighting. (Examples include Warm White, Cool White, 660nm Red, Far Red, Blue, UV).  Some specific examples:
