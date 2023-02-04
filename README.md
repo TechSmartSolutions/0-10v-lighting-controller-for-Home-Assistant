@@ -31,7 +31,7 @@ Most LED grow and aquarium lights offer some form of dimming, either with dimmin
 
 Over the years I've searched for lighting controllers, only to find expensive products that are limited in their functionality. The options that are available for use with Home Assistant or other SmartHome systems usually lack the ability to control a large number channels or drivers, so the cost can quickly rise depending on how complex the lighting system is.  This controller being able to control up to 24 or more _channels_ means you can have a large number of LED drivers being controlled by a single, cheap solution.  
 
-<p align="right">_[...back to top](#readme)_</p>
+<p align="right">[...back to top](#readme)</p>
 
 
 ## Applications
