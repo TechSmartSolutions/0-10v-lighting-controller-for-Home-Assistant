@@ -25,7 +25,7 @@ This project uses an Adafruit PWM LED Driver board to control the dim signals we
 <img src="/images/Home-Assistant-MeanWell-LED-Driver-Dimming-Controller-completed.png">
 
 ## Pre-requisites
-- [Home Assistant](https://www.home-assistant.io/) server with [ESPHome](https://esphome.io/) installed
+- <a href="https://www.google.com/search?q=what+are+the+different+ways+to+install+home+assistant%3F">Home Assistant</a> running on a NAS, Raspberry Pi, Computer/Server etc with the <a href="https://www.google.com/search?q=how+to+install+esphome+on+Home+Assistant">ESPHome Add-on Installed</a>
 - LED power supply(s) (aka drivers or ballasts) that support **0-10v PWM** dimming such as MeanWell's line of high powered LED drivers.  If you arent sure if your LED driver supports **0-10v PWM** dimming, the best place(s) to check are the driver's datasheet, or if that isn't available, contact the manufacturer of your LED driver directly by phone or email and ask them "does my grow light / LED driver support 0-10v PWM dimming?".  Manufacturers are often quite helpful if you give them a chance.   **Ensure you are clear that you are looking for or asking about 0-10v PWM dimming, not 0-10v analog dimming.**  
 - Ability to solder pin headers onto a printed circuit board.  
 - Basic ability to work with wire strippers, pliers and glur guns.  
