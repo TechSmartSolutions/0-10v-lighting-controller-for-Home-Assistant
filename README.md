@@ -31,7 +31,8 @@ Most LED grow and aquarium lights offer some form of dimming, either with dimmin
 
 Over the years I've searched for lighting controllers, only to find expensive products that are limited in their functionality. The options that are available for use with Home Assistant or other SmartHome systems usually lack the ability to control a large number channels or drivers, so the cost can quickly rise depending on how complex the lighting system is.  This controller being able to control up to 24 or more _channels_ means you can have a large number of LED drivers being controlled by a single, cheap solution.  
 
-_[...back to top](#readme)_
+<p align="right">_[...back to top](#readme)_</p>
+
 
 ## Applications
 The most likely use for this controller are indoor gardens or aquarium (reef) tanks that use LED power supplies, although it can be used for decor lighting applications.  The advancement of LED lighting has led to many of these types of systems being put into use.  From do-it-yourself hobbyist lighting to the relative market explosion of off-the-shelf options, this controller is a nice upgrade to many of these systems already in use.
