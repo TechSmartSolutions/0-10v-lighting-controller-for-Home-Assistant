@@ -35,13 +35,13 @@ Over the years I've searched for lighting controllers, only to find expensive pr
 ## Applications & Use Cases
 The most likely use for this controller are indoor gardens or aquarium (reef) tanks that use LED power supplies, although it can be used for decor lighting applications.  The advancement of LED lighting has led to many of these types of systems being put into use.  From do-it-yourself hobbyist lighting to the relative market explosion of off-the-shelf options, this controller is a nice upgrade to many of these systems already in use.
 
-A further use case would be a LED fixture that has multiple channels or colors that can be individually controlled.  Controlling different colors of LEDs is much more common in aquarium applications, although there is good benefit from being able to control different colored LED channels with grow lighting. (Examples include Warm White, Cool White, 660nm Red, Far Red, Blue, UV).  Some specific examples:
+A further use case would be a LED fixture that has multiple channels or colors that can be individually controlled.  Controlling different colors of LEDs is much more common in aquarium applications, although there is good benefit from being able to control different colored LED channels with grow lighting. (Examples include Warm White, Cool White, 660nm Red, Far Red, Blue, UV).  Some specific examples:  
 
 ### Example use case 1: Tuneable 3000k-5500k grow light for all growth stages: 
 Cost effective tuneable grow light based off white leds only. Using only two channels this configuration allows you can adjust the overall temperature of the grow light from 3000k warm (late stage growth) to 5500k cool (early stage growth) simply by changing the output of each channel.
 
 - Channel 1: Warm White 3000K
-- Channel 2: Cool White 5500K
+- Channel 2: Cool White 5500K  
 
 ### Example use case 2: 8-Channel aquarium light
 Control over multiple channels to optimize the aesthetics of a reef tank, or adjust the spectrum mix for optimal aquatic life.
@@ -62,7 +62,9 @@ LED drivers (aka power supplies) with dimming wires are designed to be connected
 
 A MeanWell power supply that supports external dimming will have two wires (or two terminal points) where a positive (DIM +) and negative (DIM -) wire can be connected to a dimming controller.  In the case of MeanWell PWM dimming (which is the focus of this project), the LED driver creates a small current which runs through the wires. When the wires are disconected from eachother, no current flows and the light output will be 100% brightness.  When the wires are connected, the current flows through and signals the driver to dim the light output to 0% brightness.  PWM works off the principle of opening and closing this circuit very fast (over 1000 times a second), creating the effect of either more or less current to be allowed to pass through the power supply's DIM circuit.  Although you dont need to know how this works in detail to build this project, you can <a href="https://www.google.com/search?q=how+does+pwm+work">read more about how PWM works here.</a>
 
-This project uses an Adafruit PWM LED Driver board to control the dim signals we sent to a MeanWell LED driver.  The original use for the Adafruit board is to drive LEDs directly, but the LEDs we are utilizing require much higher powered drivers (the MeanWell LED Drivers), hence we can use the Adafruit board to send the DIM signals to the higher powered driver.  It is a little confusing that we are using a low-powered LED Driver board to send DIM signals to a higher powered one, it was only coincidence that the Adafruit board is also an LED driver, you can ignore that.
+This project uses an Adafruit PWM LED Driver board to control the dim signals we sent to a MeanWell LED driver.  The original use for the Adafruit board is to drive LEDs directly, but the LEDs we are utilizing require much higher powered drivers (the MeanWell LED Drivers), hence we can use the Adafruit board to send the DIM signals to the higher powered driver.  It is a little confusing that we are using a low-powered LED Driver board to send DIM signals to a higher powered one, it was only coincidence that the Adafruit board is also an LED driver, you can ignore that.  
+
+<p align="right"><a href="#readme">...back to top</a></p>
 
 ## Pre-requisites
 
@@ -83,7 +85,9 @@ _Although having top-of-the-line tools makes the job easier, I rely on economica
 
 ##### Optional stuff:
 - <a href="https://www.amazon.ca/s?k=breadboard">Breadboards</a> - _I used two small breadboards for this project.  They came in a 3-pack, and you can take off the +/- power rails and then snap the main pieces together.  They came with a sticky foam on the back with a peel off sticker.  Using this I didn't need to mount or glue anything into the project box, and it lets me be able to change parts up in the future if I ever wanted to rebuild it._
-- [Hot glue gun](https://www.amazon.ca/s?k=Hot+glue+gun) - _I've seen videos of people hot glueing circuit boards directly into project boxes.  I'm not a huge fan of that for most of the stuff I build, but for small projects that you don't think you'll rebuild later that you want to do quick and easy, this can shave off cost and time._
+- [Hot glue gun](https://www.amazon.ca/s?k=Hot+glue+gun) - _I've seen videos of people hot glueing circuit boards directly into project boxes.  I'm not a huge fan of that for most of the stuff I build, but for small projects that you don't think you'll rebuild later that you want to do quick and easy, this can shave off cost and time._  
+
+<p align="right"><a href="#readme">...back to top</a></p>
 
 ## Parts needed
 - <a href="https://led.meanwell.com/productSeries.aspx">One or more MeanWell (or other brand) LED Drivers</a> compatible with PWM dimming connected to a lighting circuit that you want to be able to control. There should be DIM + and - wires or terminals.
@@ -140,7 +144,9 @@ In our case we are using breadboards and wire.
 4. Connect 24 wires from the terminal blocks to the output pins on the Adafuit PWM board, and 12 wires from a terminal block to the ground rail on the breadboard.
 5. Connect the DIM + wire from each MeanWell driver to the terminal posts connected to the output pins on the Adafuit board.
 7. Connect the DIM - wire from each MeanWell driver to the terminal posts connected to the ground rail on the breadboard.
-8. Connect the USB power cable ESP. You should get a green light on the Adafruit board.
+8. Connect the USB power cable ESP. You should get a green light on the Adafruit board.  
+
+<p align="right"><a href="#readme">...back to top</a></p>
 
 ## Software Configuration
 1. Open the ESPHome dashboard from Home Assistant and add the new ESP to ESPHome (use the "Prepare Device for Adoption" option).
@@ -154,9 +160,11 @@ In our case we are using breadboards and wire.
         data_pin: GPIO16  
         clock_pin: GPIO14  
         lat_pin: GPIO12  
-8. Test the dimmer entities from your HA dashboard.  For mine I had to change the min_power variable on the outputs in the ESP yaml. For some reason the drivers would not light up the LEDs at the low end of the slider. If you have the same issue, adjust the min_power value until you get a minimum brightness at the low end of the brightness slider.
+8. Test the dimmer entities from your HA dashboard.  For mine I had to change the min_power variable on the outputs in the ESP yaml. For some reason the drivers would not light up the LEDs at the low end of the slider. If you have the same issue, adjust the min_power value until you get a minimum brightness at the low end of the brightness slider.  
+
+<p align="right"><a href="#readme">...back to top</a></p>
 
 ## Usage  
-Once the code has flashed and the device has restarted, you should have the following new entities that can be used to manipulate the brightness of your LED driver(s) output.
+Once the code has flashed and the device has restarted, you should have the following new entities that can be used to manipulate the brightness of your LED driver(s) output.  
 
-
+<p align="right"><a href="#readme">...back to top</a></p>
