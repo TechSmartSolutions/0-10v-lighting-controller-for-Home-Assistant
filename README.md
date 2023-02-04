@@ -108,7 +108,7 @@ _In this project we used a piece of wood_
 ## Assembly Instructions
 _In our project we will connect all 24 output pins to the terminals.  You can use less if you want._  
 
-### If you are unsure about any of these steps, or run into any problems please log an issue so that I can provide guidance.
+#### If you are unsure about any of these steps, or run into any problems please log an issue so that I can provide guidance.
 
 1. Gather the necessary components:
   - MeanWell LED Driver(s) connected to LEDs
