@@ -20,6 +20,7 @@ This project uses an Adafruit PWM LED Driver board to control the dim signals we
 
 <img src="/images/Home-Assistant-MeanWell-LED-Driver-Dimming-Controller-Schematic.png">  
 <img src="/images/Home-Assistant-MeanWell-LED-Driver-Dimming-Controller-Schematic-Adafruit-PWM-Driver-Closeup.png">
+<img src="/images/Home-Assistant-MeanWell-LED-Driver-Dimming-Controller-completed.png">
 
 ## Pre-requisites
 - [Home Assistant](https://www.home-assistant.io/) server with [ESPHome](https://esphome.io/) installed
