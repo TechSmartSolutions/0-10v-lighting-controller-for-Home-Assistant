@@ -12,7 +12,7 @@ Most LED grow and aquarium lights offer some form of dimming, either with dimmin
 Over the years I've searched for lighting controllers, only to find expensive products that are limited in their functionality. The options that are available for use with Home Assistant or other SmartHome systems usually lack the ability to control a large number channels or drivers, so the cost can quickly rise depending on how complex the lighting system is.  This controller being able to control up to 24 or more _channels_ means you can have a large number of LED drivers being controlled by a single, cheap solution.
 
 ## How it works
-LED drivers (aka power supplies) with dimming wires are designed to be connected to a dimming controller. In the case of Meanwell LED drivers with 3-in-1 dimming, this could be either a <a href="https://www.google.com/search?q=0-10v+Additive+DC+voltage+dimmer">0-10v Additive DC voltage dimmer</a>, <a href="https://www.google.com/search?q=10v+PWM+dimmer">10v PWM dimmer</a> or just a basic <a href="https://www.google.com/search?q=100+ohm+potentiometer"100ohm mechanical potentiometer.</a>
+LED drivers (aka power supplies) with dimming wires are designed to be connected to a dimming controller. In the case of Meanwell LED drivers with 3-in-1 dimming, this could be either a <a href="https://www.google.com/search?q=0-10v+Additive+DC+voltage+dimmer">0-10v Additive DC voltage dimmer</a>, <a href="https://www.google.com/search?q=10v+PWM+dimmer">10v PWM dimmer</a> or just a basic <a href="https://www.google.com/search?q=100+ohm+potentiometer">100ohm mechanical potentiometer.</a>
 
 ## Pre-requisites
 - [Home Assistant](https://www.home-assistant.io/) server with [ESPHome](https://esphome.io/) installed
