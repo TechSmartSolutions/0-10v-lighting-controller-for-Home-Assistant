@@ -95,7 +95,7 @@ _I used these becuase they are cheap, and not too difficult to connect the drive
 <BR CLEAR=”left” />  
 
 - <img src="/images/water-resistant-project-box-with-clear-lid.jpg" height="150px" align="right"><a href="https://www.amazon.ca/s?k=project+box">Project Box</a>  
-_There are a lot of options available in size and function.  I usually go for the cheapest one possible that includes a clear lid. Somehow I feel better knowing that I can see into my project boxes incase something goes wrong I'll be able to notice it.  Make sure if you need to get a water sealed one. They are all pretty cheap.  
+_There are a lot of options available in size and function.  I usually go for the cheapest one possible that includes a clear lid. Somehow I feel better knowing that I can see into my project boxes incase something goes wrong I'll be able to notice it.  Make sure if you need to get a water sealed one. They are all pretty cheap._  
 <BR CLEAR=”left” />  
 
 
