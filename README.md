@@ -136,6 +136,9 @@ In our case we are using breadboards and wire.
         data_pin: GPIO16  
         clock_pin: GPIO14  
         lat_pin: GPIO12  
-        
+8. Test the dimmer entities from your HA dashboard.  For mine I had to change the min_power variable on the outputs in the ESP yaml. For some reason the drivers would not light up the LEDs at the low end of the slider. If you have the same issue, adjust the min_power value until you get a minimum brightness at the low end of the brightness slider.
+
 ## Usage  
 Once the code has flashed and the device has restarted, you should have the following new entities that can be used to manipulate the brightness of your LED driver(s) output.
+
+
