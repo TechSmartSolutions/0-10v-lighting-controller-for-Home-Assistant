@@ -31,8 +31,7 @@ Most LED grow and aquarium lights offer some form of dimming, either with dimmin
 
 Over the years I've searched for lighting controllers, only to find expensive products that are limited in their functionality. The options that are available for use with Home Assistant or other SmartHome systems usually lack the ability to control a large number channels or drivers, so the cost can quickly rise depending on how complex the lighting system is.  This controller being able to control up to 24 or more _channels_ means you can have a large number of LED drivers being controlled by a single, cheap solution.  
 
-<p align="right"><a href="#readme">_...back to top_</a></p>
-
+<p align="right"><a href="#readme">...back to top</a></p>
 
 ## Applications
 The most likely use for this controller are indoor gardens or aquarium (reef) tanks that use LED power supplies, although it can be used for decor lighting applications.  The advancement of LED lighting has led to many of these types of systems being put into use.  From do-it-yourself hobbyist lighting to the relative market explosion of off-the-shelf options, this controller is a nice upgrade to many of these systems already in use.
@@ -55,7 +54,9 @@ Control over multiple channels to optimize the aesthetics of a reef tank, or adj
 - Channel 5: Green
 - Channel 6: UV
 - Channel 7: Violet
-- Channel 8: Warm White
+- Channel 8: Warm White  
+
+<p align="right"><a href="#readme">...back to top</a></p>
 
 ## Concept
 LED drivers (aka power supplies) with dimming wires are designed to be connected to a dimming controller. In the case of Meanwell LED drivers with 3-in-1 dimming, this could be either a <a href="https://www.google.com/search?q=0-10v+Additive+DC+voltage+dimmer">0-10v Additive DC voltage dimmer</a>, <a href="https://www.google.com/search?q=10v+PWM+dimmer">10v PWM dimmer</a> or just a basic <a href="https://www.google.com/search?q=100+ohm+potentiometer">100ohm mechanical potentiometer.</a>  This project makes use of PWM dimming.
@@ -66,25 +67,29 @@ This project uses an Adafruit PWM LED Driver board to control the dim signals we
 
 <img src="/images/Home-Assistant-MeanWell-LED-Driver-Dimming-Controller-Schematic.png">  
 <img src="/images/Home-Assistant-MeanWell-LED-Driver-Dimming-Controller-Schematic-Adafruit-PWM-Driver-Closeup.png">
-<img src="/images/Home-Assistant-MeanWell-LED-Driver-Dimming-Controller-completed.png">
+<img src="/images/Home-Assistant-MeanWell-LED-Driver-Dimming-Controller-completed.png">  
 
-## Pre-requisite infrastructure
+<p align="right"><a href="#readme">...back to top</a></p>
+
+## Pre-requisites
+
+#### Infrastructure
 - <a href="https://www.google.com/search?q=what+are+the+different+ways+to+install+home+assistant%3F">Home Assistant</a> running on a NAS, Raspberry Pi, Computer/Server etc with the <a href="https://www.google.com/search?q=how+to+install+esphome+on+Home+Assistant">ESPHome Add-on Installed</a>
 - One or more lighting systems using <a href="https://led.meanwell.com/productSeries.aspx">MeanWell LED Drivers</a> (or LED drivers from another manufacturer compatible with PWM dimming) that you want to be able to control.  _Not all MeanWell drivers support PWM dimming. The best place to check if your driver supports PWM dimming is the datasheet.  If you have a driver made by a company other than MeanWell, and you can't find any information in your driver's datasheet regarding PWM dimming, contact your driver's manufacturer to clarify_.
 
-## Pre-requisite skills
+#### Skills needed
 - Ability to <a href="https://www.google.com/search?q=how+to+solder+pin+headers+into+a+breakout+board" target="_blank">solder pin headers onto a breakout board</a>
 - Basic ability to work with wire strippers, pliers and glur guns.  
 - Basic experience working with and connecting ESP32/ESP8266 devices to breakout boards.  
 
-## Tools Required
+#### Tools Required
 Although having top-of-the-line tools makes the job easier, I mostly rely on economical options for my toolkit. While working with budget tools may not always be optimal, they are adequate for small and occasional projects and have served me well.  
 - [Soldering iron](https://www.amazon.ca/s?k=Soldering+iron) ([brass wool](https://www.amazon.ca/s?k=brass+wool+soldering) recommended instead of using a wet solder sponge).  
 - [Wire stripper](https://www.amazon.ca/s?k=wire+stripper)  
 - [Multimeter](https://www.amazon.ca/s?k=Multimeter&rh=n%3A3006902011%2Cp_36%3A12035760011&dc&ds=v1%3AVJ07OZbfZbPTVCeOY0%2FOTVw2%2FDdTF6NoXoZ9MvBP20c&qid=1675112740&rnid=12035759011&ref=sr_nr_p_36_1) (for testing connections)  
 - [Hot glue gun](https://www.amazon.ca/s?k=Hot+glue+gun) (for securing components in case)  
 
-## Parts for the build
+#### Parts needed
 - [ESP32](https://www.google.com/search?q=ESP32+development+boards) or [ESP8266](https://www.google.com/search?q=ESP8266+development+boards) development board with [SPI pins](https://www.google.com/search?q=spi+pins)    
 This is the brain of our controller setup. It has built-in Wi-Fi and can easily connect to your Home Assistant server using the ESPHome plugin. And the best part? You can use a cheap option like the [Wemos D1 Mini ESP8266](https://www.google.com/search?q=wemos+mini+d1) we will be using in this project.  
     <img src="/images/esp8266%20wemos%20d1%20mini.jpg" height="150">  
@@ -99,7 +104,9 @@ You will solder these terminal pin headers onto the PWM board. This is where the
     <img src="/images/Break-Away%200.1-inch%202x20-pin%20Strip%20Dual%20Male%20Header.jpg" height="150">  
 
 - _terminal blocks_
-- _project box_
+- _project box_  
+
+<p align="right"><a href="#readme">...back to top</a></p>
 
 # To be added:
 ## Assembly Instructions
