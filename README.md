@@ -125,7 +125,7 @@ In our case we are using breadboards and wire.
 8 Connect the USB power cable ESP.
 _You should get a green light on the Adafruit board._
 
-Note: It is recommended to refer to the <a href="#Schematics">schematic diagrams</a> while building the circuit and to <a href="https://www.google.com/search?q=hobby+electronics+safety">follow proper safety precautions</a> while handling electrical components.
+Note: It is recommended to refer to the <a href="#Schematics">schematic diagrams</a> and <a href="#readme">final project photo</a> while building the circuit and to <a href="https://www.google.com/search?q=hobby+electronics+safety">follow proper safety precautions</a> while handling electrical components.
 
 # To be added:
 ## Software Configuration
