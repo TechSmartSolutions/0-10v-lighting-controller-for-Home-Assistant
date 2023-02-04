@@ -78,9 +78,9 @@ This project uses an Adafruit PWM LED Driver board to control the dim signals we
 - Wi-fi network for the ESP device to connect to.
 
 #### Skills needed
-- Ability to <a href="https://www.google.com/search?q=how+to+solder+pin+headers+into+a+breakout+board" target="_blank">solder pin headers onto a breakout board</a>
-- Basic ability to work with wire strippers, pliers and glur guns.  
-- Basic experience working with and connecting ESP32/ESP8266 devices to breakout boards.  
+- <a href="https://www.google.com/search?q=how+to+solder+pin+headers+into+a+breakout+board" target="_blank">Soldering pin headers onto a breakout board</a>
+- <a href="https://www.google.com/search?q=working+with+electronic+hobby+tools">Working with hobby electronic tools</a>.  
+- <a href="https://www.google.com/search?q=how+to+wire+microcontrollers+to+breakout+boards">Wiring ESP32/ESP8266 MCUs to breakout boards</a>.  
 
 #### Tools Required
 Although having top-of-the-line tools makes the job easier, I mostly rely on economical options for my toolkit. While working with budget tools may not always be optimal, they are adequate for small and occasional projects and have served me well.  
