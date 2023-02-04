@@ -29,8 +29,10 @@ This guide provides information to build a <a href="https://www.home-assistant.i
 ## Background
 Most LED grow and aquarium lights offer some form of dimming, either with dimming knobs, controllers, or the option to connect a dimming knob or controller (usually promoted by the manufacturer/reseller of the light).  Just like many other products, having your own easy-to-build and cost-effective option that works with Home Assistant offers a huge improvement in functionality, as you can for example create lighting profiles for different stages of growth or times of day, and build automatic rules to adjust your lights depending on things such as room/water temperatures, reducing light output if a person is detected in the room and more.  With Home Assistant the limit to how you automate your control is mostly limited to your imagination.
 
-Over the years I've searched for lighting controllers, only to find expensive products that are limited in their functionality. The options that are available for use with Home Assistant or other SmartHome systems usually lack the ability to control a large number channels or drivers, so the cost can quickly rise depending on how complex the lighting system is.  This controller being able to control up to 24 or more _channels_ means you can have a large number of LED drivers being controlled by a single, cheap solution.
-[link](#din-panel)
+Over the years I've searched for lighting controllers, only to find expensive products that are limited in their functionality. The options that are available for use with Home Assistant or other SmartHome systems usually lack the ability to control a large number channels or drivers, so the cost can quickly rise depending on how complex the lighting system is.  This controller being able to control up to 24 or more _channels_ means you can have a large number of LED drivers being controlled by a single, cheap solution.  
+
+[link](#readme)
+
 ## Applications
 The most likely use for this controller are indoor gardens or aquarium (reef) tanks that use LED power supplies, although it can be used for decor lighting applications.  The advancement of LED lighting has led to many of these types of systems being put into use.  From do-it-yourself hobbyist lighting to the relative market explosion of off-the-shelf options, this controller is a nice upgrade to many of these systems already in use.
 
