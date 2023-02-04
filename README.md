@@ -138,4 +138,4 @@ In our case we are using breadboards and wire.
         lat_pin: GPIO12  
         
 ## Usage  
-8. Once the code has flashed and the device has restarted, you should have the following new entities that can be used to manipulate the brightness of your LED driver(s) output.
+Once the code has flashed and the device has restarted, you should have the following new entities that can be used to manipulate the brightness of your LED driver(s) output.
