@@ -6,6 +6,8 @@ tlc5947:
   clock_pin: GPIO14
   lat_pin: GPIO12
 
+## the min_power is set in this sketch to 0, but for mine I had to adjust that variable for each channel. Some of the channels for some reason wouldn't light the leds unless the slider was set above 0, so I did a test-and-check process to figure out what to set the min_output for each output channel.
+
 output:
   - platform: tlc5947
     id: pwm00
