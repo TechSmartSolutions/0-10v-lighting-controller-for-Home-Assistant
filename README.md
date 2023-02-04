@@ -44,7 +44,7 @@ A MeanWell power supply that supports external dimming will have two wires (or t
 
 This project uses an Adafruit PWM LED Driver board to control the dim signals we sent to a MeanWell LED driver.  The original use for the Adafruit board is to drive LEDs directly, but the LEDs we are utilizing require much higher powered drivers (the MeanWell LED Drivers), hence we can use the Adafruit board to send the DIM signals to the higher powered driver.  It is a little confusing that we are using a low-powered LED Driver board to send DIM signals to a higher powered one, it was only coincidence that the Adafruit board is also an LED driver, you can ignore that.
 
-## Project Schematic and Photo
+## Project Schematics and Photo
 
 <img src="/images/Home-Assistant-MeanWell-LED-Driver-Dimming-Controller-Schematic.png">  
 <img src="/images/Home-Assistant-MeanWell-LED-Driver-Dimming-Controller-Schematic-Adafruit-PWM-Driver-Closeup.png">
