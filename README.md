@@ -75,17 +75,16 @@ _Although having top-of-the-line tools makes the job easier, I rely on economica
 - [Hot glue gun](https://www.amazon.ca/s?k=Hot+glue+gun) - _I've seen videos of people hot glueing circuit boards directly into project boxes.  I'm not a huge fan of that for most of the stuff I build, but for small projects that you don't think you'll rebuild later that you want to do quick and easy, this can shave off cost and time._
 
 #### Parts needed
-- <img src="/images/Meanwell-HLG-480H-LED-Driver.png" align="right" height="150px">One or <a href="https://led.meanwell.com/productSeries.aspx">MeanWell LED Drivers</a> (or LED drivers from another manufacturer compatible with PWM dimming) that you want to be able to control.  _Some of the smaller MeanWell LED drivers do not support PWM dimming. The best place to confirm that is the datasheet for your driver.  You can find it by searching "MODEL_NUMBER pdf" (example "HLG-320H-C1400 pdf"). If you have a driver made by a manufacturer and you can't find any information on the datasheet regarding PWM dimming, contact the manufacturer directly to clarify_.  
+- <img src="/images/Meanwell-HLG-480H-LED-Driver.png" align="right" height="150px"><a href="https://led.meanwell.com/productSeries.aspx">One or more MeanWell LED Drivers</a> (or LED drivers from another manufacturer compatible with PWM dimming) that you want to be able to control.  _Some of the smaller MeanWell LED drivers do not support PWM dimming. The best place to confirm that is the datasheet for your driver.  You can find it by searching "MODEL_NUMBER pdf" (example "HLG-320H-C1400 pdf"). If you have a driver made by a manufacturer and you can't find any information on the datasheet regarding PWM dimming, contact the manufacturer directly to clarify_.  
 <BR CLEAR=”left” />  
 
 - <img src="/images/esp8266%20wemos%20d1%20mini.jpg" height="150px" align="right"><a href="https://www.google.com/search?q=ESP32+development+boards">ESP32</a> or <a href="https://www.google.com/search?q=ESP8266+development+boards">ESP8266</a> development board with <a href="https://www.google.com/search?q=spi+pins">SPI pins</a>   
 _This is the brain of our controller setup. It has built-in Wi-Fi and can easily connect to your Home Assistant server using the ESPHome plugin. And the best part? You can use a cheap option like the <a href="https://www.google.com/search?q=wemos+mini+d1">Wemos D1 Mini ESP8266</a> we will be using in this project._  
-<BR CLEAR=”left” />
+<BR CLEAR=”left” />  
 
-- [Adafruit TLC5947 **24-Channel** 12-bit PWM LED Driver](https://www.adafruit.com/product/1429)  
-or [Adafruit TLC59711 **12-Channel** 16-bit PWM LED Driver](https://www.adafruit.com/product/3995)   
-These boards are capable of generating some serious PWM signals, all the way up to 30V! The PWM voltage it generates is determined by the input voltage, which is why we're using a 10V power supply.  
-    <img src="/images/Adafruit%2024%20channel%20PWM%20LED%20driver.jpg" height="150"> <img src="/images/Adafruit%2012%20channel%20PWM%20LED%20driver.jpg" height="150">  
+- <img src="/images/Adafruit%2024%20channel%20PWM%20LED%20driver.jpg" height="150" align="right"> <img src="/images/Adafruit%2012%20channel%20PWM%20LED%20driver.jpg" height="150" align="right"><a href="https://www.adafruit.com/product/1429">Adafruit TLC5947 **24-Channel** 12-bit PWM LED Driver</a> or <a href="https://www.adafruit.com/product/3995">Adafruit TLC59711 **12-Channel** 16-bit PWM LED Driver</a>.  
+_These boards work rapidly "sinking" the voltage on the control pins.  In our case, this board will alternate the power feed from the MeanWell LED Driver DIM wires from 10v (open) to 0v (sunk) over a thousand times per second, creating a voltage value that corresponds with the brightness level (0v full brightness - 10v completely off)._  
+<BR CLEAR=”left” />  
 
 - 2x [Break-Away 0.1" 2x20-pin Strip Dual Male Headers](https://www.google.com/search?q=Break-Away+0.1%22+2x20-pin+Strip+Dual+Male+Header) or 8 3x2 pin headers  
 You will solder these terminal pin headers onto the PWM board. This is where the positive (+) and negative (-) DIM wire leads from your LED Driver will connect.  
