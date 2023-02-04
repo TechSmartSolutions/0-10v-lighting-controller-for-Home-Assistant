@@ -73,7 +73,7 @@ _Although having top-of-the-line tools makes the job easier, I rely on economica
 - <a href="https://www.amazon.ca/s?k=breadboard">Breadboards</a> - _I used two small breadboards for this project.  They came in a 3-pack, and you can take off the +/- power rails and then snap the main pieces together.  They came with a sticky foam on the back with a peel off sticker.  Using this I didn't need to mount or glue anything into the project box, and it lets me be able to change parts up in the future if I ever wanted to rebuild it._
 - [Hot glue gun](https://www.amazon.ca/s?k=Hot+glue+gun) - _I've seen videos of people hot glueing circuit boards directly into project boxes.  I'm not a huge fan of that for most of the stuff I build, but for small projects that you don't think you'll rebuild later that you want to do quick and easy, this can shave off cost and time._
 
-#### Parts needed
+## Parts needed
 - <img src="/images/Meanwell-HLG-480H-LED-Driver.png" align="right" height="150px"><a href="https://led.meanwell.com/productSeries.aspx">One or more MeanWell LED Drivers</a> (or LED drivers from another manufacturer compatible with PWM dimming) that you want to be able to control.  _Some of the smaller MeanWell LED drivers do not support PWM dimming. The best place to confirm that is the datasheet for your driver.  You can find it by searching "MODEL_NUMBER pdf" (example "HLG-320H-C1400 pdf"). If you have a driver made by a manufacturer and you can't find any information on the datasheet regarding PWM dimming, contact the manufacturer directly to clarify_.  
 <BR CLEAR=”left” />  
 
