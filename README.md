@@ -16,7 +16,9 @@ The most likely use for this controller are indoor gardens or aquarium (reef) ta
 
 A further use case would be a LED fixture that has multiple channels or colors that can be individually controlled.  Controlling different colors of LEDs is much more common in aquarium applications, although there is good benefit from being able to control different colored LED channels with grow lighting. (Examples include Warm White, Cool White, 660nm Red, Far Red, Blue, UV).  Some specific examples:
 
-### Tuneable 3000k-5500k grow light for all growth stages: 
+### Example applications:
+
+#### Tuneable 3000k-5500k grow light for all growth stages: 
 Cost effective method of making a tuneable grow light based off white leds only. Using only two channels of white LEDs with different kelvin temperatures, you can adjust the overall temperature of the grow light from  by changing the output ratio of each channel for different stages of growth.
 - Channel 1: Warm White 3000K
 - Channel 2: Cool White 5500K
