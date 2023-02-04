@@ -1,6 +1,5 @@
 # 12 or 24+ Channel Dimming Controller for Meanwell LED Power Supplies (works with many other manufacturers aswell)
 
-## Disclaimer
 **By using the information you agree to the following disclaimer:** The author of this information assumes no liability for the accuracy of the info, or  damage or injury caused by using these instructions or any product created using methods or instructions herein. Building and using this controller requires technical knowledge and experience with electrical circuits and components. If you are unsure about any aspect of this project it is strongly recommended that you seek assistance from a knowledgeable or licensed individual or consult relevant resources before proceeding.  Always follow <a href="https://www.google.com/search?q=hobby+electronics+safety">electronics safety guidelines</a>.
 
 ## Table of Contents
