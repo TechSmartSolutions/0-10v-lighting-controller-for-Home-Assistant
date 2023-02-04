@@ -47,11 +47,12 @@ This project uses an Adafruit PWM LED Driver board to control the dim signals we
 <img src="/images/Home-Assistant-MeanWell-LED-Driver-Dimming-Controller-Schematic-Adafruit-PWM-Driver-Closeup.png">
 <img src="/images/Home-Assistant-MeanWell-LED-Driver-Dimming-Controller-completed.png">
 
-## Pre-requisites
+## Pre-requisite infrastructure
 - <a href="https://www.google.com/search?q=what+are+the+different+ways+to+install+home+assistant%3F">Home Assistant</a> running on a NAS, Raspberry Pi, Computer/Server etc with the <a href="https://www.google.com/search?q=how+to+install+esphome+on+Home+Assistant">ESPHome Add-on Installed</a>
-- One or more <a href="https://led.meanwell.com/productSeries.aspx">MeanWell LED Driver</a> (or a LED driver from another manufacturer compatible with PWM dimming) that you want to be able to control.  _Not all MeanWell drivers support PWM dimming. The best place to check if your driver supports PWM dimming is the datasheet.  If you have a driver made by a company other than MeanWell, and you can't find any information in your driver's datasheet regarding PWM dimming, contact your driver's manufacturer to clarify_.
+- One or more lighting systems using <a href="https://led.meanwell.com/productSeries.aspx">MeanWell LED Drivers</a> (or LED drivers from another manufacturer compatible with PWM dimming) that you want to be able to control.  _Not all MeanWell drivers support PWM dimming. The best place to check if your driver supports PWM dimming is the datasheet.  If you have a driver made by a company other than MeanWell, and you can't find any information in your driver's datasheet regarding PWM dimming, contact your driver's manufacturer to clarify_.
 
-- Ability to solder pin headers onto a printed circuit board.  
+## Pre-requisite skills
+- Ability to <a href="https://www.google.com/search?q=how+to+solder+pin+headers+into+a+breakout+board" target="_blank">solder pin headers onto a breakout board</a>
 - Basic ability to work with wire strippers, pliers and glur guns.  
 - Basic experience working with and connecting ESP32/ESP8266 devices to breakout boards.  
 
