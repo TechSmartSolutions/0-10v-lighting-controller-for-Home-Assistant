@@ -16,21 +16,25 @@ The most likely use for this controller are indoor gardens or aquarium (reef) ta
 
 A further use case would be a LED fixture that has multiple channels or colors that can be individually controlled.  Controlling different colors of LEDs is much more common in aquarium applications, although there is good benefit from being able to control different colored LED channels with grow lighting. (Examples include Warm White, Cool White, 660nm Red, Far Red, Blue, UV).  Some specific examples:
 
-### Example applications:
+### Examples:
 
 #### Tuneable 3000k-5500k grow light for all growth stages: 
-Cost effective method of making a tuneable grow light based off white leds only. Using only two channels of white LEDs with different kelvin temperatures, you can adjust the overall temperature of the grow light from  by changing the output ratio of each channel for different stages of growth.
+Cost effective tuneable grow light based off white leds only. Using only two channels this configuration allows you can adjust the overall temperature of the grow light from 3000k warm (late stage growth) to 5500k cool (early stage growth) simply by changing the output of each channel.
+
 - Channel 1: Warm White 3000K
 - Channel 2: Cool White 5500K
 
-Example tuning for early stage plant growth: Channel 1 80% / Channel 2 20%
-Example tuning for late stage plant growth: Channel 1 20% / Channel 2 80%
+#### 8-Channel aquarium light
+Control over multiple channels to optimize the aesthetics of a reef tank, or adjust the spectrum mix for optimal aquatic life.
 
-
-Example of multi-channel off the shelf grow light
-- Channel 1: Warm white 3000k
-- Channel 2: Red
+- Channel 1: Cool White
+- Channel 2: Royal Blue
 - Channel 3: Blue
+- Channel 4: Red
+- Channel 5: Green
+- Channel 6: UV
+- Channel 7: Violet
+- Channel 8: Warm White
 
 ## Concept
 LED drivers (aka power supplies) with dimming wires are designed to be connected to a dimming controller. In the case of Meanwell LED drivers with 3-in-1 dimming, this could be either a <a href="https://www.google.com/search?q=0-10v+Additive+DC+voltage+dimmer">0-10v Additive DC voltage dimmer</a>, <a href="https://www.google.com/search?q=10v+PWM+dimmer">10v PWM dimmer</a> or just a basic <a href="https://www.google.com/search?q=100+ohm+potentiometer">100ohm mechanical potentiometer.</a>  This project makes use of PWM dimming.
