@@ -72,7 +72,7 @@ This project utilizes an Adafruit PWM LED driver board to control the dim signal
 
 #### Infrastructure
 - <a href="https://www.google.com/search?q=what+are+the+different+ways+to+install+home+assistant%3F">Home Assistant</a> running on a NAS, Raspberry Pi, Computer/Server etc with the <a href="https://www.google.com/search?q=how+to+install+esphome+on+Home+Assistant">ESPHome Add-on Installed</a>
-- Wi-fi network for the ESP device to connect to.
+- Wi-fi network connected to the same network as your Home Assistant server (for the ESP device to connect to).
 
 #### Skills needed
 - <a href="https://www.google.com/search?q=working+with+electronic+hobby+tools">Working with hobby electronic tools</a>.  
