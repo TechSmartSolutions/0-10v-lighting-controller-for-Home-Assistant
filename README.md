@@ -30,7 +30,7 @@ The control of LED grow and aquarium lights is mostly limited to dimming knobs, 
 
 If you're looking for a lighting controller that is both cheap and functional, you'll likely be disappointed with the options available. Open-source or DIY controllers for use with Home Assistant are often limited in the number of channels or drivers they can control, resulting in rising costs for those with multiple drivers. <a href="https://www.youtube.com/watch?v=cEy5go2eZtY">While there is a video available on YouTube that shows how to control a MeanWell driver using an ESP32 and various components like optocouplers and resistors</a>, this approach may not be ideal if you have multiple drivers to control.
 
-Thankfully, there is an easier way. By working with the support teams at <a href="https://forums.adafruit.com/">Adafruit</a> and <a href="https://esphome.io">ESPHome</a>, a simpler, cheaper, and more versatile solution was developed. This solution avoids the need for optocouplers, resistors, and multiple pins off an ESP32 (the optocoupler method doesn't work with ESP82666s) and instead simplifies the process to a few components while also reducing costs.
+Thankfully, there is an easier way. By working with the support teams at <a href="https://forums.adafruit.com/">Adafruit</a> and <a href="https://esphome.io">ESPHome</a>, a simpler, cheaper, and more versatile solution was developed. This solution avoids the need for optocouplers, resistors, and multiple pins off an ESP32 (the optocoupler method doesn't work with ESP8266s) and instead simplifies the process to a few components while also reducing costs.
 
 <p align="right"><a href="#readme">...back to top</a></p>
 
