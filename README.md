@@ -2,6 +2,8 @@
 
 <img src="/images/Home-Assistant-MeanWell-LED-Driver-Dimming-Controller-completed.png">  
 
+## PROJECT CURRENTLY UNDER REVIEW:
+
 ```diff
 - This is under review, the circuit/schematic 
 - as I believe is not the right way to do this.
@@ -17,6 +19,8 @@
 I am going to try this circuit to see if it improves the dimming function, and as an added benefit this project will no longer be a "Meanwell PWM dimmer" instead it will work with LED drivers that support 0-10V analog dimming.  To totally verify this I will attempt to buy a driver that supports only 0-10v analog dimming and test it.
 
 <img src="/images/revised-0-10v-dimmer-schematic.png">  
+
+**the following information is outdated until the above review is complete**
 
 **By using the information you agree to the following disclaimer:** The author of this information assumes no liability for the accuracy of the info, or  damage or injury caused by using these instructions or any product created using methods or instructions herein. Building and using this controller requires technical knowledge and experience with electrical circuits and components. If you are unsure about any aspect of this project it is strongly recommended that you seek assistance from a knowledgeable or licensed individual or consult relevant resources before proceeding.  Always follow <a href="https://www.google.com/search?q=hobby+electronics+safety">electronics safety guidelines</a>.
 
