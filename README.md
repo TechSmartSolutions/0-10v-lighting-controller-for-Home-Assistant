@@ -16,7 +16,7 @@
 - been removed for a corrected plan.
 ```
 
-I am going to try this circuit to see if it improves the dimming function, and as an added benefit this project will no longer be a "Meanwell PWM dimmer" instead it will work with LED drivers that support 0-10V analog dimming.  To totally verify this I will attempt to buy a driver that supports only 0-10v analog dimming and test it.
+Here is the updated circuit diagram I am going to test to see if it improves the dimming function. As an added benefit I think it will work with LED drivers that support 0-10V analog dimming.  To totally verify this I will attempt to buy a driver that supports only 0-10v analog dimming and test it.
 
 <img src="/images/revised-0-10v-dimmer-schematic.png">  
 
