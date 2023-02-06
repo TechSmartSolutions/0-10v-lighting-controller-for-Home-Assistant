@@ -20,7 +20,7 @@ I am going to try this circuit to see if it improves the dimming function, and a
 
 <img src="/images/revised-0-10v-dimmer-schematic.png">  
 
-**the following information is outdated until the above review is complete**
+# the following information is outdated until the above review is complete:
 
 **By using the information you agree to the following disclaimer:** The author of this information assumes no liability for the accuracy of the info, or  damage or injury caused by using these instructions or any product created using methods or instructions herein. Building and using this controller requires technical knowledge and experience with electrical circuits and components. If you are unsure about any aspect of this project it is strongly recommended that you seek assistance from a knowledgeable or licensed individual or consult relevant resources before proceeding.  Always follow <a href="https://www.google.com/search?q=hobby+electronics+safety">electronics safety guidelines</a>.
 
