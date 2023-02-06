@@ -2,6 +2,18 @@
 
 <img src="/images/Home-Assistant-MeanWell-LED-Driver-Dimming-Controller-completed.png">  
 
+```diff
+- This is under review, the circuit/schematic 
+- as I believe is not the right way to do this.
+- I will be revising this with an updated design
+- and posting the changes in the coming days.
+- This method does work on a MEAN WELL driver,
+- but like the optocoupler/resistor method, it's
+- not actually how MEAN WELL drivers are intended
+- to work.  Please check back once this notice has
+- been removed for a corrected plan.
+```
+
 **By using the information you agree to the following disclaimer:** The author of this information assumes no liability for the accuracy of the info, or  damage or injury caused by using these instructions or any product created using methods or instructions herein. Building and using this controller requires technical knowledge and experience with electrical circuits and components. If you are unsure about any aspect of this project it is strongly recommended that you seek assistance from a knowledgeable or licensed individual or consult relevant resources before proceeding.  Always follow <a href="https://www.google.com/search?q=hobby+electronics+safety">electronics safety guidelines</a>.
 
 ### Table of Contents
