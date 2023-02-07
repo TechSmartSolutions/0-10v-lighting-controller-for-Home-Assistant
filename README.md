@@ -21,7 +21,9 @@
 - smtarter than myself of what appears to be the correct way
 - to do it, and will be posting the updated version here. 
 - unfortunately, this it involves wiring a resistor for each 
-- channel, but in the end its a small price to pay (literally).
+- channel, adding a 10v power supply and using a dc buck converter
+- but in the end its a small price to pay for having something
+- that works properly and can handle so many channels.
 ```
 
 # The information below is outdated I have a chance to update the guide:
