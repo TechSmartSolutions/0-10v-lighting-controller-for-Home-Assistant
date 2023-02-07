@@ -24,6 +24,14 @@
 - channel, adding a 10v power supply and using a dc buck converter
 - but in the end its a small price to pay for having something
 - that works properly and can handle so many channels.
+- 
+- Update: we are getting there! the dimmer works more reliably
+- and MeanWell confirmed this is the right way to do it. also
+- it appears this will work with 0-10v analog dimming, but id
+- lile to get my hands on one of those drivers to test.
+-
+- booya! stay tuned i still have to finish wiring mine up
+- and update this documentation. 
 ```
 
 # The information below is outdated I have a chance to update the guide:
