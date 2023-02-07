@@ -5,22 +5,26 @@
 ## PROJECT CURRENTLY UNDER REVIEW:
 
 ```diff
-- This is under review, the circuit/schematic 
-- as I believe is not the right way to do this.
-- I will be revising this with an updated design
-- and posting the changes in the coming days.
-- This method does work on a MEAN WELL driver,
-- but like the optocoupler/resistor method, it's
-- not actually how MEAN WELL drivers are intended
-- to work.  Please check back once this notice has
-- been removed for a corrected plan.
+- I have completed testing and found what I believe
+- to be the correct way to wire this circuit, with the
+- help from some very patient guys over at the ESPhome 
+- discord server (thank you).  As this guide is currently
+- written, it works similar to using an optocoupler and 
+- resistor on a PWM pin, however, as confirmed by meanwell
+- that is not the right way to dim their 3-in-1 drivers, 
+- and I have serious doubts it would work for a driver with
+- purely analog 0-10v dimming.  Also, by using the method in
+- this guide as it's currently written, you get weird behavior
+- with things like drivers not lighting up LEDs, and the 
+- channels acting weird when adjusting brightness.
+- I've confirmed with Adafruit, Meanwell and some folks
+- smtarter than myself of what appears to be the correct way
+- to do it, and will be posting the updated version here. 
+- unfortunately, this it involves wiring a resistor for each 
+- channel, but in the end its a small price to pay (literally).
 ```
-### updated schematic that needs to be tested:
-Here is the updated circuit diagram I am going to test to see if it improves the dimming function. As an added benefit I think it will work with LED drivers that support 0-10V analog dimming.  To totally verify this I will attempt to buy a driver that supports only 0-10v analog dimming and test it.
 
-<img src="/images/revised-0-10v-dimmer-schematic.png">  
-
-# The information below is outdated until the above review is complete:
+# The information below is outdated I have a chance to update the guide:
 
 **By using the information you agree to the following disclaimer:** The author of this information assumes no liability for the accuracy of the info, or  damage or injury caused by using these instructions or any product created using methods or instructions herein. Building and using this controller requires technical knowledge and experience with electrical circuits and components. If you are unsure about any aspect of this project it is strongly recommended that you seek assistance from a knowledgeable or licensed individual or consult relevant resources before proceeding.  Always follow <a href="https://www.google.com/search?q=hobby+electronics+safety">electronics safety guidelines</a>.
 
