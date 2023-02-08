@@ -1,4 +1,4 @@
-# 12 or 24+ Channel Dimming Controller for Meanwell LED Power Supplies (and other LED Drivers with driver-source current PWM dimming)
+# 12 Channel Dimming LED Driver dimming controller
 
 <img src="/images/home-assistant-LED-driver-dimmer-adafuit-PWM-driver-with-TLC59711-completed-project.png">  
 
