@@ -1,4 +1,4 @@
-# 12 Channel Dimming LED Driver dimming controller
+# Home Assistant 12 Channel Dimming Controller for (high powered) LED Power Supplies 
 
 <img src="/images/home-assistant-LED-driver-dimmer-adafuit-PWM-driver-with-TLC59711-completed-project.png">  
 
