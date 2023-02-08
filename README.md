@@ -158,7 +158,7 @@ _In this project we used a piece of wood_
 
 ## Schematics
 
-<img src="/images/Home-Assistant-MeanWell-LED-Driver-Dimming-Controller-Schematic.png">  
+<img src="/images/led-dimmer-circuit-diagram-TLC59711.png">  
 <img src="/images/Home-Assistant-MeanWell-LED-Driver-Dimming-Controller-Schematic-Adafruit-PWM-Driver-Closeup.png">
 
 <p align="right"><a href="#readme">...back to top</a></p>
