@@ -163,7 +163,7 @@ _The resistors work with the Adafruit board to ensure you are properly providing
 <BR CLEAR=”left” />  
 
 -<a href="https://www.amazon.ca/s?k=12+position+terminal+block">12 position screw terminal blocks</a>  
-_I used these becuase they are cheap, and not too difficult to connect the LED driver DIM(+ and -) wires to. For the 12 channel version, you need 3 of them, for the 24 channel version you need four._  
+_I used these becuase they are cheap, and not too difficult to connect the LED driver DIM(+ and -) wires to. This project is building a 12 channel controller, so you need two of them (one for DIM+ connections and one for DIM- connections)._  
 <img src="/images/12-position-power-screw-terminal-blocks.jpg" height="150px">  
 <BR CLEAR=”left” />  
 
