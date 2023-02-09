@@ -154,7 +154,7 @@ _These boards work rapidly "sinking" the voltage on the control pins.  In our ca
 _You will solder these terminal pin headers onto the *output pins* on the Adafruit PWM board. This is where the positive (+) DIM wire leads from your LED Driver will connect.  Ensure you get the pin headers that have a long pin on both sides, as you need pins on the top of the board to connect to your LED driver (+) DIM wires as well as connection to the breadboard for the resistors connected to the 10v power supply to connect to.  See the <a href="#schematic">project schematic</a> for more details._  
 <BR CLEAR=”left” />  
 
-- <img src="/images/break-away-single-row-pin-headers.jpg" height="150" align="right">12-24x <a href="https://www.amazon.ca/s?k=1k+resistors">1k - 10k ohm resistors</a>.
+- <img src="/images/1k-ohm-resistors.jpg" height="150" align="right">12-24x <a href="https://www.amazon.ca/s?k=1k+resistors">1k - 10k ohm resistors</a>.
 _The resistors work with the Adafruit board to ensure you are properly providing an additive voltage to the LED driver's DIM circuit._  
 <BR CLEAR=”left” />  
 
