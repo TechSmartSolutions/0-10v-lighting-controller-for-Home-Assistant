@@ -177,6 +177,12 @@ _This was used to make the assembly easier, removing the need for soldering or c
 <img src="/images/small-breadboard.jpg" height="150px">  
 <BR CLEAR=”left” />  
 
+-<a href="https://www.amazon.ca/s?k=20awg+jumper+wire">20awg Jumper Wire</a>  
+_You could go with stranded wire for the connection between terminal blocks and the dupont connectors that will plug into the header pins and breadboard as it's easier to work with, but you will need solid core for some of the connections, so I went with solidcore for the whole thing._  
+<img src="/images/small-breadboard.jpg" height="150px">  
+<BR CLEAR=”left” />  
+
+
 - Mounting plate for project box and terminals.  
 _In this project we used a piece of wood_  
 
