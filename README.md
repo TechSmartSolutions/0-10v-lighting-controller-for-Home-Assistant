@@ -166,6 +166,10 @@ _I used these becuase they are cheap, and not too difficult to connect the LED d
 _There are a lot of options available in size and function.  I usually go for the cheapest one possible that includes a clear lid. Somehow I feel better knowing that I can see into my project boxes incase something goes wrong I'll be able to notice it.  Make sure if you need to get a water sealed one. They are all pretty cheap._  
 <BR CLEAR=”left” />  
 
+- <img src="/images/water-resistant-project-box-with-clear-lid.jpg" height="150px" align="right"><a href="https://www.amazon.ca/s?k=breadboard">Small Breadboard</a>  
+_There are a lot of options available in size and function.  I usually go for the cheapest one possible that includes a clear lid. Somehow I feel better knowing that I can see into my project boxes incase something goes wrong I'll be able to notice it.  Make sure if you need to get a water sealed one. They are all pretty cheap._  
+<BR CLEAR=”left” />  
+
 - Mounting plate for project box and terminals.  
 _In this project we used a piece of wood_  
 
@@ -182,11 +186,11 @@ _In our project we will connect 12 output pins to the terminals._
 Note: It is recommended to refer to the <a href="#Schematic">project schematic diagram</a> and <a href="#readme">final project photo</a> while building the circuit and to <a href="https://www.google.com/search?q=hobby+electronics+safety">follow proper safety precautions</a> while handling electrical components.  
 #### If you are unsure about any of these steps, or run into any problems please log an issue on the GitHub repo so that I can provide guidance.
 
-1. Gather the necessary components:
-    - LED Driver(s) connected to LEDs (aka light fixture).
+1. Gather the necessary components to build the enclosure:
+    - Project Box
     - ESP8266/ESP32 microcontroller
     - Adafruit 12-channel or 24-channel PWM board
-    - Project Box
+    - Breadboard
     - Connector hardware 
 In our case we are using breadboards and wire.
 2. Mount the  terminal blocks (with risers) and project box and to the mounting plate.
