@@ -77,6 +77,13 @@ This project utilizes an Adafruit PWM LED driver board to control the dim signal
 
 <p align="right"><a href="#readme">...back to top</a></p>
 
+## Warnings and considerations
+- This controller **should not** be connected directly to the circuit where the LEDs are on. It is designed to be connected to the DIM circuit of your LED driver.  If your driver does not have DIM wires or terminals, this controller should not be used!
+- Always follow <a href="https://www.google.com/search?q=hobby+electronics+safety">electronics safety guidelines</a> when working with circuits.
+- If you are unsure about anything in this guide, or do not have the confidence to work with electronic circuits it is highly recommended to either have someone else do it for you, or seek guidance prior to doing anything. You proceed at your own risk!
+
+<p align="right"><a href="#readme">...back to top</a></p>
+
 ## Applications & Use Cases
 This controller is primarily intended for use in indoor gardens or aquariums with LED power supplies, but it can also be used for home decor or any other lighting application using <a href="#compatible-led-drivers">compatible LED drivers</a>. 
 
