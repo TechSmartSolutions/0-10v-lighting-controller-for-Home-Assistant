@@ -51,7 +51,7 @@
   - [Tools Required](#tools-required)
   - [Optional stuff](#optional-stuff)
 - [Parts needed](#parts-needed)
-- [Schematics](#schematics)
+- [Schematic](#schematic)
 - [Assembly Instructions](#assembly-instructions)
 - [Software Configuration](#software-configuration)
 - [Usage](#usage)
@@ -150,8 +150,8 @@ _This is the brain of our controller setup. It has built-in Wi-Fi and can easily
 _These boards work rapidly "sinking" the voltage on the control pins.  In our case, this board will alternate the power feed from the MeanWell LED Driver DIM wires from 10v (open) to 0v (sunk) over a thousand times per second, creating a voltage value that corresponds with the brightness level (0v full brightness - 10v completely off)._  
 <BR CLEAR=”left” />  
 
-- <img src="/images/break-away-single-row-pin-headers.jpg" height="150" align="right">2x <a href="[https://www.google.com/search?q=Break-Away+0.1%22+2x20-pin+Strip+Dual+Male+Header](https://www.amazon.ca/s?k=break+away+single+row+pin+headers)">Break-Away Single Row Male Headers</a>.
-_You will solder these terminal pin headers onto the *output pins* on the Adafruit PWM board. This is where the positive (+) DIM wire leads from your LED Driver will connect._  
+- <img src="/images/break-away-single-row-pin-headers.jpg" height="150" align="right">2x <a href="https://www.google.com/search?q=Break-Away+0.1%22+2x20-pin+Strip+Dual+Male+Header">Break-Away Single Row Male Headers</a>.
+_You will solder these terminal pin headers onto the *output pins* on the Adafruit PWM board. This is where the positive (+) DIM wire leads from your LED Driver will connect.  Ensure you get the pin headers that have a long pin on both sides, as you need pins on the top of the board to connect to your LED driver (+) DIM wires as well as connection to the breadboard for the resistors connected to the 10v power supply to connect to.  See the <a href="#schematic"> for more details._  
 <BR CLEAR=”left” />  
 
 - <img src="/images/12-position-power-screw-terminal-blocks.jpg" height="150px" align="right"><a href="https://www.amazon.ca/s?k=12+position+terminal+block">12 position screw terminal blocks</a>  
@@ -167,7 +167,7 @@ _In this project we used a piece of wood_
 
 <p align="right"><a href="#readme">...back to top</a></p>
 
-## Schematics
+## Schematic
 
 <img src="/images/home-assistant-LED-driver-dimmer-adafuit-PWM-driver-TLC59711-TLC5947.png">  
 
