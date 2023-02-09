@@ -142,8 +142,8 @@ _Some of the smaller MeanWell LED drivers do not supporting dimming. The best pl
 <img src="/images/meanwell-driver-with-led-boards-and-dim-wire.png">  
 <BR CLEAR=”left” />  
 
--<a href="https://www.google.com/search?q=ESP32+development+boards">ESP32</a> or <a href="https://www.google.com/search?q=ESP8266+development+boards">ESP8266</a> development board with <a href="https://www.google.com/search?q=spi+pins">SPI pins</a>   
-_This is the brain of our controller setup. It has built-in Wi-Fi and can easily connect to your Home Assistant server using the ESPHome plugin. And the best part? You can use a cheap option like the <a href="https://www.google.com/search?q=wemos+mini+d1">Wemos D1 Mini ESP8266</a> we will be using in this project._  
+-<a href="https://www.google.com/search?q=ESP32+development+boards">ESP32</a> or <a href="https://www.google.com/search?q=ESP8266+development+boards">ESP8266</a> development board.   
+_This is the brain of our controller setup. It has built-in Wi-Fi and can easily connect to your Home Assistant server using the ESPHome plugin. And the best part? You can use a cheap option like the <a href="https://www.google.com/search?q=wemos+mini+d1">Wemos D1 Mini ESP8266</a> we will be using in this project.  Most likely the ESP you buy will come with stacking pin headers but they wont be soldered on, and you can use the pin headers you purchased for this project instead. If female stacking headers are already soldered to your ESP, not to worry, you can simply use male dupont terminal for these connections instead, which should be included in your dupont crimp kit. _  
 <img src="/images/esp8266%20wemos%20d1%20mini.jpg" height="150px">  
 <BR CLEAR=”left” />  
 
@@ -200,12 +200,11 @@ Note: It is recommended to refer to the <a href="#Schematic">project schematic d
 #### If you are unsure about any of these steps, or run into any problems please log an issue on the GitHub repo so that I can provide guidance.
 
 1. Gather all tools and components.
-2. Using your wire cutters (or side cutters), cut the single row terminal pins into 3 pin segments. Make sure they are good cuts dont use broken/damaged terminals.
-**the next steps are soldering. You only really get one shot at this, so make sure you follow these next steps properly**
+2. Using your wire cutters (or side cutters), cut the single row terminal pins into 4x 3-pin segments for the output holes of the adafruit board, and however many you need for your ESP. Make sure they are good cuts dont use broken/damaged terminals.
+***the next steps are soldering. You only really get one shot at this, so make sure you follow these next steps properly**
 3. Solder the 5-pin terminals **facing up** that came with the Adafruit board to the side terminals (labelled GND, VCC, V+, CI, DI and GND, VCC, V+, CO, DO).  You will need to connect jumper wires to these, so make sure the short end of these pins are on the bottom of the board! 
-5. Solder your 3 position terminals **to the output pins (inside row) of holes on the Adafruit board**.  Make sure that you have the longer end of the pins facing down!
-6. Insert the Afafruit board into the breadboard as shown in the <a href="#schematic">project schematic</a>.
-7. 
+5. Solder your 3 position pins **to the output pins (inside row) of holes on the Adafruit board**, and the headers you cut for your ESP into your ESP.  Make sure that you have the longer end of the pins facing down!
+6. Insert the Afafruit board and ESP into the breadboard as shown in the <a href="#schematic">project schematic</a> to test the fit.
 8. 
 9. Mount the  terminal blocks (with risers) and project box and to the mounting plate.
 10. <a href="https://learn.adafruit.com/tlc5947-tlc59711-pwm-led-driver-breakout/connecting-to-the-arduino">Connect the ESP8266 microcontroller to the Adafruit PWM board.</a>
