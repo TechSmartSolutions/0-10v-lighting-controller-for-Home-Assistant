@@ -4,35 +4,7 @@
 
 ## PROJECT CURRENTLY UNDER REVIEW:
 
-```diff
-- I have completed testing and found what I believe
-- to be the correct way to wire this circuit, with the
-- help from some very patient guys over at the ESPhome 
-- discord server (thank you).  As this guide is currently
-- written, it works similar to using an optocoupler and 
-- resistor on a PWM pin, however, as confirmed by meanwell
-- that is not the right way to dim their 3-in-1 drivers, 
-- and I have serious doubts it would work for a driver with
-- purely analog 0-10v dimming.  Also, by using the method in
-- this guide as it's currently written, you get weird behavior
-- with things like drivers not lighting up LEDs, and the 
-- channels acting weird when adjusting brightness.
-- I've confirmed with Adafruit, Meanwell and some folks
-- smtarter than myself of what appears to be the correct way
-- to do it, and will be posting the updated version here. 
-- unfortunately, this it involves wiring a resistor for each 
-- channel, adding a 10v power supply and using a dc buck converter
-- but in the end its a small price to pay for having something
-- that works properly and can handle so many channels.
-- 
-- Update: we are getting there! the dimmer works more reliably
-- and MeanWell confirmed this is the right way to do it. also
-- it appears this will work with 0-10v analog dimming, but id
-- lile to get my hands on one of those drivers to test.
--
-- booya! stay tuned i still have to finish wiring mine up
-- and update this documentation. 
-```
+# !!!!! This project is not usable YET! I just realized the TLC59711 may not be supported by ESPhome, ... soo..   please dont use these instructions until I can either verify that it works or, (sigh) re-write all of this for the TLC5947 !!!!
 
 # The information below is outdated I have a chance to update the guide:
 
@@ -210,14 +182,16 @@ _You should now have the project box with holes made along with the 12-position 
 ### 2. Solder the terminals onto the ESP and Adafruit boards, assemble components onto the breadboard and loosely
 _Don't rush the next steps are they involve soldering. You only really get one shot at this, so make sure you follow these next steps properly.  
 If you are unsure about this section, do everything except solder and fit it into the breadboard to make sure you got it right.  Once you're sure its good you can go back and solder the pins before proceeding to test._  
-  
+_It is not recommended you use your multimeter as you make connections on the contiuniuty setting to make sure your connections are good._
+
+
  - 2.1. Using your wire cutters (or side cutters), cut the single row terminal pins into 4x 3-pin segments for the output holes of the adafruit board, and however many you need for your ESP. Make sure they are good cuts dont use any that are broken/damaged.  
  - 2.2. **Solder** the 5-pin terminals that came with the Adafruit board **facing up** to the side terminals (labelled GND, VCC, V+, CI, DI and GND, VCC, V+, CO, DO).  You will need to connect jumper wires to these, so make sure the long end of these pins are on the top of the board! 
  - 2.3. **Solder** your 3 position pins **to the output pins (inside row) of holes on the Adafruit board**, and the headers you cut for your ESP onto your ESP.  For these make sure that the longer end of the pins facing down!
  - 2.4 **Solder** two wires to the DC barrel connector.  Although not completely necessary, it is recommended to use heatshrink to cover the terminals on the barrel connector once you're soldered them.  Once soldering complete, securely fit the barrel connector into the project box using the hole you made.
  - 2.5. Insert the Afafruit board and ESP into the breadboard as shown in the <a href="#schematic">project schematic</a> to test the fit.  If you are using an ESP larger than the Wemos D1 Mini, there might be some double checking needed here.
  - 2.6. Insert the resistors as shown in the <a href="#schematic">project schematic</a>.
- - 2.7. Place the LN2596 in the project box wire up the rest of the components according to <a href="#schematic">project schematic</a>.  Since you have spools of jumper wire, you can always make the wires to the LM2596 longer than needed and shorten them once you've permanently mounted everything in the box.
+ - 2.7. Place the LN2596 in the project box wire up the rest of the components according to <a href="#schematic">project schematic</a>.  Since you have spools of jumper wire, you can always make the wires to the LM2596 longer than needed and shorten them once you've permanently mounted everything in the box.  **Once you are finished wiring everything up, REMOVE THE JUMPER GOING TO THE 5V LINE OF THE ESP, otherwise you may fry it during setting the LM2596 (explained later).
 
 _You should now have a breadboard with everything complete except the wires that connect from the terminal to the Adafruit board and breadboard._
 
@@ -231,30 +205,87 @@ _It is recommended to do these wires one at a time, starting with the furthest a
     - For the GND wires, attach a male dupont terminal to the end of the jumper wire.
     - For the DIM+ wires, attach a female dupont terminal to the end of the jumper wire.
  - 3.5 once you have all the ends on the wires (or you can do this as you go if you want), attach the terminal housings from the dupont kit.  You may need to use a pair of needlenose pliers to push the wires in as the fit might be tight (but be gentle and **make sure you're putting the side in that clicks into the housing or they will fall out when you plug them in**).  Attach the wires to a 3 position dupont terminal housings.  You should end up with 4 of them for the DIM+ terminals and 2 for the GND terminals.
-    
-8. Heat up the glue gun and attach four M2.5 standoffs to the LM2596 board with screws.  Once your gluegun is completely heated up, dab 
-9. Mount the  terminal blocks (with risers) and project box and to the mounting plate.
-10. <a href="https://learn.adafruit.com/tlc5947-tlc59711-pwm-led-driver-breakout/connecting-to-the-arduino">Connect the ESP8266 microcontroller to the Adafruit PWM board.</a>
-11. Connect 24 wires from the terminal blocks to the output pins on the Adafuit PWM board, and 12 wires from a terminal block to the ground rail on the breadboard.
-12. Connect the DIM + wire from each MeanWell driver to the terminal posts connected to the output pins on the Adafuit board.
-13. Connect the DIM - wire from each MeanWell driver to the terminal posts connected to the ground rail on the breadboard.
-14. Connect the USB power cable ESP. You should get a green light on the Adafruit board.  
 
-<p align="right"><a href="#readme">...back to top</a></p>
+_You should now have the terminals wired with connectors on the end that will plug into the GND pins on the breadboard and the adafruit board, as well as all of the components connected on the breadboard.  
 
-## Software Configuration
-1. Open the ESPHome dashboard from Home Assistant and add the new ESP to ESPHome (use the "Prepare Device for Adoption" option).
-2. After ESPHome has flashed the ESP, ensure you set the Wi-Fi network settings (in the ESPHome USB add-device page).
-3. After the device has been added to ESPHome, navigate to ESPHome from the left Home Assistant navigation menu.
-4. Find the newly added device and click "Adopt" and give it a name.
-5. After the device is added to ESPHome with it's new name, navigate in Home Assistant to Settings > Devices and click "Configure" **on the newly added name** of the ESP device.  
-6. Go back to the ESPHome dashboard from the left Home Assistant nav menu, and click edit under the new ESP device name and paste the code from <a href="/esp_24_channel_adafruit_pwm_driver.yaml">the yaml file</a> the github repository a few spaces below the captivate_portal line.  Ensure the indentation is correct!
-7. Click save, then install over Wireless to flash the ESP with the new configuration.  Ensure that you've specified the correct pins for data_pin (DI, not DO!), clock_pin (CLK) and lat_pin (LAT). If you wired using the same pins as our example, use the following:  
+### 4. Test the connections
+_It is not recommended to connect anything to power until you test all of your connections using the contiuniuty setting of your multimeter._
+
+ - 4.1. Connect your multimeter to one of the GND terminals on the 6 position blocks, and use the other end to touch the GND pin on each board as well and a GND hole on each side of the breadboard. (Use a stripped jumper wire to test out the breadboard holes).  With the meter connected to the gnd on the terminal, also touch the other probe to the V+ and VCC pins to ensure that you dont have any cross-connections.
+
+### 5. Set the LM2596 to 5v and connect your multimeter for testing
+**IMPORTANT: As previously stated during wireup steps, ensure the ESP is disconnected before doing this, as too high a voltage will destroy the ESP!**
+
+ - 5.1. Connect the 10v power suppply to the barrel connector and plug it in.  You should see a green light on the Adafruit board, and the LCD screen on the LM2596 should light up with a number.
+ - 5.2. Using a small screwdriver, adjust the tiny brass screw potentiometer on the LM2596 until the LCD reads 5.0 (5v).
+ - 5.3. Once this is done, unplug the power supply from the barrel connector.
+ - 5.4. Re-connect the jumper from the LM2596 output side to the 5v pin on your ESP.
+
+_You are now ready to power up the ESP and upload the sketch and test the circuit.
+
+### 6. Connect the ESP to ESPhome and upload the sketch
+
+ - 6.1. Plug in the barrel connector to power everything back up.  The ESP will be powered now with the 5v signal.
+ - 6.2. Provision the ESP to ESPhome via the addon page in Home Assistant. Make sure to configure the Wi-Fi.
+ - 6.3. Once connected, upload the sketch from this repository.
+ - 6.4. After the sketch has uploaded, check the logs to ensure that it looks good.
+ - 6.5. Verify that you have 12 new light entities in Home Assistant, and that you can turn them on and off and adjust the brightness with the slider (by clicking on the bulb icon for each entity).
+ 
+ ## Software Configuration
+   - 6.2.1. Open the ESPHome dashboard from Home Assistant and add the new ESP to ESPHome (use the "Prepare Device for Adoption" option).
+   - 6.2.2. After ESPHome has flashed the ESP, ensure you set the Wi-Fi network settings (in the ESPHome USB add-device page).
+   - 6.2.3. After the device has been added to ESPHome, navigate to ESPHome from the left Home Assistant navigation menu.
+   - 6.2.4. Find the newly added device and click "Adopt" and give it a name.
+   - 6.2.5. After the device is added to ESPHome with it's new name, navigate in Home Assistant to Settings > Devices and click "Configure" **on the newly added name** of the ESP device.  
+   - 6.2.6. Go back to the ESPHome dashboard from the left Home Assistant nav menu, and click edit under the new ESP device name and paste the code from <a href="/esp_24_channel_adafruit_pwm_driver.yaml">the yaml file</a> the github repository a few spaces below the captivate_portal line.  Ensure the indentation is correct!
+   - 6.2.7. Click save, then install over Wireless to flash the ESP with the new configuration.  Ensure that you've specified the correct pins for data_pin (DI, not DO!), clock_pin (CLK) and lat_pin (LAT). If you wired using the same pins as our example, use the following:  
 
         data_pin: GPIO16  
         clock_pin: GPIO14  
-        lat_pin: GPIO12  
+        lat_pin: GPIO12 
+        DI -> Digital 11
+CI -> Digital 13
+        
 8. Test the dimmer entities from your HA dashboard.  For mine I had to change the min_power variable on the outputs in the ESP yaml. For some reason the drivers would not light up the LEDs at the low end of the slider. If you have the same issue, adjust the min_power value until you get a minimum brightness at the low end of the brightness slider.  
+
+<p align="right"><a href="#readme">...back to top</a></p>
+
+ 
+ 
+_your ESP should be ready to test with your multimeter now_
+
+### 7. Test each dimming connection on the terminals with the multimeter
+_The purpose of this step is to verify that you are getting 10v when the light entity in Home Assistant is on, and 0v when the entity is turned off, and somewhere inbetween as you adjust the dimming.  You will check this for each terminal_
+
+ - 7.1. Set the Multimeter to "20" on the DC voltage setting (the V with the solid line on top and the dotted line underneath).  Connect the GND pin from your multimeter to the GND terminal block, and the Positive (+) end of the multimeter to the first dimming channel on the other terminal block. Power on the multimeter.
+ - 7.2. Go into Home Assistant and turn on the entity for that channel, the multimeter should go from 0v to 10v.  Adjust the dimmer slider and you should see the voltage change from a value between 0 - 10 as you go.  When the light is off, the voltage should be 10v, when the light is on full brightness, it should be 0v.
+ - 7.3. Repeat these steps for all 12 channels. Make sure you change out the GND terminals also for extra testing to make sure that each GND terminal is working correctly.
+
+_If everything is good, you should now be set to attach the breadboard and hot glue the LM2596 standoffs into the project box_
+
+### 8. Attach the LM2596 and breadboard to the project box and confirm all connections are right
+_You made it! All that's left is to make sure everything is secure_
+
+ - 8.1. Heat up the glue gun.
+ - 8.2. Disconnect the barrel connector to cut power to the project box.
+ - 8.3. Peel the sticker off the back of the breadboard and stick it to the project box.
+ - 8.4. Attach four M2.5 standoffs to the LM2596 board with provided standoff screws.  Once your gluegun is completely heated up quickly dab a spot on each standoff and stick it into the project box where you want it.
+ - 8.5. Confirm the connections for all the wires are good.
+
+_At this point it's not a bad idea to go back and re-do your multimeter test steps. Remember: slow and steady wins the race, once you have this thing built, you won't have to do it again, so take your time and do it right and test it again! Once you've tested it out and it looks good, time to hook up drivers :)_
+
+### 9. Attach the drivers DIM wires to the terminals and test it out.
+
+ - 9.1. Connect your first driver to the terminals.  DIM- goes to the GND terminal and DIM+ goes to one of the output terminals.
+ - 9.2. Reconect the power suppply to the barrel connector and make sure the ESP shows up in ESPhome.
+ - 9.3. Moment of truth! Test out the output that you have connected and turn the light on and off, adjust the brightness slider - you should be able to adjust the brightness of your LED driver now.
+ - 9.4. If you want to be absolutely sure everything is working, power off the LED driver and unplug the barrel connector and change the driver's DIM wires to the next output, power both on again and test the next output. I did this for all outputs before mounting the controller to make sure it was good as I didn't want to go back and deal with taking it down for troubleshooting.
+
+### 10. Mount the finished controller and enjoy your spoils
+
+ - 10.1. Mount the backplate wherever you intend the controller to go.
+ - 10.2. Connect your drivers (DIM- wires to the GND terminal and DIM+ to the output terminals).  I have one fixture that uses two drivers, so I connected both of them to one channel, since this design is adding a 10v signal, you can do that!
+ - 10.3. Go into home assistant and test the drivers to make sure they are all working correctly. Good work!
 
 <p align="right"><a href="#readme">...back to top</a></p>
 
