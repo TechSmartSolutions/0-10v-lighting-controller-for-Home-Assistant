@@ -159,7 +159,7 @@ _You will solder these terminal pin headers onto the *output pins* on the Adafru
 
 -12-24x <a href="https://www.amazon.ca/s?k=1k+resistors">1k - 10k ohm resistors</a>.
 _The resistors work with the Adafruit board to ensure you are properly providing an additive voltage to the LED driver's DIM circuit._  
-<img src="/images/1k-ohm-resistors.jpg" height="150" align="right">  
+<img src="/images/1k-ohm-resistors.jpg" height="150">  
 <BR CLEAR=”left” />  
 
 -<a href="https://www.amazon.ca/s?k=12+position+terminal+block">12 position screw terminal blocks</a>  
