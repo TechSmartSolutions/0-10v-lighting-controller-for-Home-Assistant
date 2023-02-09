@@ -154,6 +154,10 @@ _These boards work rapidly "sinking" the voltage on the control pins.  In our ca
 _You will solder these terminal pin headers onto the *output pins* on the Adafruit PWM board. This is where the positive (+) DIM wire leads from your LED Driver will connect.  Ensure you get the pin headers that have a long pin on both sides, as you need pins on the top of the board to connect to your LED driver (+) DIM wires as well as connection to the breadboard for the resistors connected to the 10v power supply to connect to.  See the <a href="#schematic">project schematic</a> for more details._  
 <BR CLEAR=”left” />  
 
+- <img src="/images/break-away-single-row-pin-headers.jpg" height="150" align="right">12-24x <a href="https://www.amazon.ca/s?k=1k+resistors">1k - 10k ohm resistors</a>.
+_The resistors work with the Adafruit board to ensure you are properly providing an additive voltage to the LED driver's DIM circuit._  
+<BR CLEAR=”left” />  
+
 - <img src="/images/12-position-power-screw-terminal-blocks.jpg" height="150px" align="right"><a href="https://www.amazon.ca/s?k=12+position+terminal+block">12 position screw terminal blocks</a>  
 _I used these becuase they are cheap, and not too difficult to connect the LED driver DIM(+ and -) wires to. For the 12 channel version, you need 3 of them, for the 24 channel version you need four._  
 <BR CLEAR=”left” />  
@@ -174,16 +178,16 @@ _In this project we used a piece of wood_
 <p align="right"><a href="#readme">...back to top</a></p>
 
 ## Assembly Instructions
-_In our project we will connect all 24 output pins to the terminals.  You can use less if you want._  
-Note: It is recommended to refer to the <a href="#Schematics">schematic diagrams</a> and <a href="#readme">final project photo</a> while building the circuit and to <a href="https://www.google.com/search?q=hobby+electronics+safety">follow proper safety precautions</a> while handling electrical components.  
-#### If you are unsure about any of these steps, or run into any problems please log an issue so that I can provide guidance.
+_In our project we will connect 12 output pins to the terminals._  
+Note: It is recommended to refer to the <a href="#Schematic">project schematic diagram</a> and <a href="#readme">final project photo</a> while building the circuit and to <a href="https://www.google.com/search?q=hobby+electronics+safety">follow proper safety precautions</a> while handling electrical components.  
+#### If you are unsure about any of these steps, or run into any problems please log an issue on the GitHub repo so that I can provide guidance.
 
 1. Gather the necessary components:
-    - MeanWell LED Driver(s) connected to LEDs
-    - ESP8266 microcontroller
-    - Adafruit PWM board
+    - LED Driver(s) connected to LEDs (aka light fixture).
+    - ESP8266/ESP32 microcontroller
+    - Adafruit 12-channel or 24-channel PWM board
     - Project Box
-    - Connector hardware  
+    - Connector hardware 
 In our case we are using breadboards and wire.
 2. Mount the  terminal blocks (with risers) and project box and to the mounting plate.
 3. <a href="https://learn.adafruit.com/tlc5947-tlc59711-pwm-led-driver-breakout/connecting-to-the-arduino">Connect the ESP8266 microcontroller to the Adafruit PWM board.</a>
