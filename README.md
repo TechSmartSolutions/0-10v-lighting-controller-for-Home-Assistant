@@ -173,7 +173,7 @@ _There are a lot of options available in size and function.  I usually go for th
 <BR CLEAR=”left” />  
 
 -<a href="https://www.amazon.ca/s?k=breadboard">Small Breadboard</a>  
-_This was used to make the assembly easier, removing the need for soldering or crimping resistors._  
+_This was used to make the assembly easier, removing the need for soldering or crimping resistors. **If you are using an ESP that is larger than a Wemos D1 Mini, you will need a bigger breadboard.**_  
 <img src="/images/small-breadboard.jpg" height="150px">  
 <BR CLEAR=”left” />  
 
@@ -199,13 +199,39 @@ _In our project we will connect 12 output pins to the terminals._
 Note: It is recommended to refer to the <a href="#Schematic">project schematic diagram</a> and <a href="#readme">final project photo</a> while building the circuit and to <a href="https://www.google.com/search?q=hobby+electronics+safety">follow proper safety precautions</a> while handling electrical components.  
 #### If you are unsure about any of these steps, or run into any problems please log an issue on the GitHub repo so that I can provide guidance.
 
-1. Gather all tools and components.
-2. Using your wire cutters (or side cutters), cut the single row terminal pins into 4x 3-pin segments for the output holes of the adafruit board, and however many you need for your ESP. Make sure they are good cuts dont use broken/damaged terminals.  
-***the next steps are soldering. You only really get one shot at this, so make sure you follow these next steps properly**  
-3. ***** Solder the 5-pin terminals that came with the Adafruit board **facing up** to the side terminals (labelled GND, VCC, V+, CI, DI and GND, VCC, V+, CO, DO).  You will need to connect jumper wires to these, so make sure the long end of these pins are on the top of the board! 
-5. ***** Solder your 3 position pins **to the output pins (inside row) of holes on the Adafruit board**, and the headers you cut for your ESP into your ESP.  Make sure that you have the longer end of the pins facing down!
-6. Insert the Afafruit board and ESP into the breadboard as shown in the <a href="#schematic">project schematic</a> to test the fit.
-8. 
+### 1. Prepare the project box and mount it with the terminals to your backplate.  
+ - 1.1. Gather all tools and components.
+ - 1.2. Arrange (but don't secure) the breadboard and LM2596 in the project box to ensure fit and see where you will mount it. Ensure you leave enough room for the DC barrel connector.
+ - 1.3. Mount the project box and 12 position terminals to your backplate.  If you mount the terminals similar to how I did in my project photo, it is a good idea to use spacers under the terminals so that you can run wires underneath them, which makes the final product easier to work with.
+ - 1.4. Make two holes in the project box, one on the side closest to the terminals with enough space for 24 of the jumper wires to fit through (2 wires for each channel), and a round hole for the DC barrel connector where the 10v power supply will plug into the box.  Insert the barrel connector to test fit, and adjust the hole as needed.
+
+_You should now have the project box with holes made along with the 12-position terminals now mounted_
+
+### 2. Solder the terminals onto the ESP and Adafruit boards, assemble components onto the breadboard and loosely
+_Don't rush the next steps are they involve soldering. You only really get one shot at this, so make sure you follow these next steps properly.  
+If you are unsure about this section, do everything except solder and fit it into the breadboard to make sure you got it right.  Once you're sure its good you can go back and solder the pins before proceeding to test._  
+  
+ - 2.1. Using your wire cutters (or side cutters), cut the single row terminal pins into 4x 3-pin segments for the output holes of the adafruit board, and however many you need for your ESP. Make sure they are good cuts dont use any that are broken/damaged.  
+ - 2.2. **Solder** the 5-pin terminals that came with the Adafruit board **facing up** to the side terminals (labelled GND, VCC, V+, CI, DI and GND, VCC, V+, CO, DO).  You will need to connect jumper wires to these, so make sure the long end of these pins are on the top of the board! 
+ - 2.3. **Solder** your 3 position pins **to the output pins (inside row) of holes on the Adafruit board**, and the headers you cut for your ESP onto your ESP.  For these make sure that the longer end of the pins facing down!
+ - 2.4 **Solder** two wires to the DC barrel connector.  Although not completely necessary, it is recommended to use heatshrink to cover the terminals on the barrel connector once you're soldered them.  Once soldering complete, securely fit the barrel connector into the project box using the hole you made.
+ - 2.5. Insert the Afafruit board and ESP into the breadboard as shown in the <a href="#schematic">project schematic</a> to test the fit.  If you are using an ESP larger than the Wemos D1 Mini, there might be some double checking needed here.
+ - 2.6. Insert the resistors as shown in the <a href="#schematic">project schematic</a>.
+ - 2.7. Place the LN2596 in the project box wire up the rest of the components according to <a href="#schematic">project schematic</a>.  Since you have spools of jumper wire, you can always make the wires to the LM2596 longer than needed and shorten them once you've permanently mounted everything in the box.
+
+_You should now have a breadboard with everything complete except the wires that connect from the terminal to the Adafruit board and breadboard._
+
+### 3. Make and connect the jumper wires that will go from the terminals to the project box
+_It is recommended to do these wires one at a time, starting with the furthest away wires._  
+
+- 3.1. Feed the jumper wire from the project box to the terminal to visually inspect if you have the right legnth, a little extra is good here, but not too much.  
+- 3.2. Strip enough off the end of the jumper wire to go into the terminal block, but not too much, and screw it down to the first terminal. 
+- 3.3. Feed the wire to the project box with a little extra slack (incase you have to re-cut the wires), and snip the end.  If you're wondering how long they need to be, the wires from the GND terminal need to go to the GND (-) rail on the breadboard, and the control wires (DIM+) need to goto the adafruit board. The good thing about this step is you will have lots of terminals and wire to redo any of them if you need to redo them.
+- 3.4. Strip off a few milimeters off the end of the wire, and:
+    - For the GND wires, attach a male dupont terminal to the end using the dupont crimper.
+
+
+8. Heat up the glue gun and attach four M2.5 standoffs to the LM2596 board with screws.  Once your gluegun is completely heated up, dab 
 9. Mount the  terminal blocks (with risers) and project box and to the mounting plate.
 10. <a href="https://learn.adafruit.com/tlc5947-tlc59711-pwm-led-driver-breakout/connecting-to-the-arduino">Connect the ESP8266 microcontroller to the Adafruit PWM board.</a>
 11. Connect 24 wires from the terminal blocks to the output pins on the Adafuit PWM board, and 12 wires from a terminal block to the ground rail on the breadboard.
