@@ -224,13 +224,14 @@ _You should now have a breadboard with everything complete except the wires that
 ### 3. Make and connect the jumper wires that will go from the terminals to the project box
 _It is recommended to do these wires one at a time, starting with the furthest away wires._  
 
-- 3.1. Feed the jumper wire from the project box to the terminal to visually inspect if you have the right legnth, a little extra is good here, but not too much.  
-- 3.2. Strip enough off the end of the jumper wire to go into the terminal block, but not too much, and screw it down to the first terminal. 
-- 3.3. Feed the wire to the project box with a little extra slack (incase you have to re-cut the wires), and snip the end.  If you're wondering how long they need to be, the wires from the GND terminal need to go to the GND (-) rail on the breadboard, and the control wires (DIM+) need to goto the adafruit board. The good thing about this step is you will have lots of terminals and wire to redo any of them if you need to redo them.
-- 3.4. Strip off a few milimeters off the end of the wire, and:
-    - For the GND wires, attach a male dupont terminal to the end using the dupont crimper.
-
-
+ - 3.1. Feed the jumper wire from the project box to the terminal to visually inspect if you have the right legnth, a little extra is good here, but not too much.  
+ - 3.2. Strip enough off the end of the jumper wire to go into the terminal block, but not too much, and screw it down to the first terminal. 
+ - 3.3. Feed the wire to the project box with a little extra slack (incase you have to re-cut the wires), and snip the end.  If you're wondering how long they need to be, the wires from the GND terminal need to go to the GND (-) rail on the breadboard, and the control wires (DIM+) need to goto the adafruit board. The good thing about this step is you will have lots of terminals and wire to redo any of them if you need to redo them.
+ - 3.4. Strip off a few milimeters off the end of the wire that is going to the project box, and using the dupont crimper:
+    - For the GND wires, attach a male dupont terminal to the end of the jumper wire.
+    - For the DIM+ wires, attach a female dupont terminal to the end of the jumper wire.
+ - 3.5 once you have all the ends on the wires (or you can do this as you go if you want), attach the terminal housings from the dupont kit.  You may need to use a pair of needlenose pliers to push the wires in as the fit might be tight (but be gentle and **make sure you're putting the side in that clicks into the housing or they will fall out when you plug them in**).  Attach the wires to a 3 position dupont terminal housings.  You should end up with 4 of them for the DIM+ terminals and 2 for the GND terminals.
+    
 8. Heat up the glue gun and attach four M2.5 standoffs to the LM2596 board with screws.  Once your gluegun is completely heated up, dab 
 9. Mount the  terminal blocks (with risers) and project box and to the mounting plate.
 10. <a href="https://learn.adafruit.com/tlc5947-tlc59711-pwm-led-driver-breakout/connecting-to-the-arduino">Connect the ESP8266 microcontroller to the Adafruit PWM board.</a>
