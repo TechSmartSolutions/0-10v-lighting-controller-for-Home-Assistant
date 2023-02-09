@@ -151,7 +151,7 @@ _These boards work rapidly "sinking" the voltage on the control pins.  In our ca
 <BR CLEAR=”left” />  
 
 - <img src="/images/break-away-single-row-pin-headers.jpg" height="150" align="right">2x <a href="[https://www.google.com/search?q=Break-Away+0.1%22+2x20-pin+Strip+Dual+Male+Header](https://www.amazon.ca/s?k=break+away+single+row+pin+headers)">Break-Away Single Row Male Headers</a>.
-_You will solder these terminal pin headers onto the PWM board. This is where the positive (+) and negative (-) DIM wire leads from your LED Driver will connect._  
+_You will solder these terminal pin headers onto the *output pins* on the Adafruit PWM board. This is where the positive (+) DIM wire leads from your LED Driver will connect._  
 <BR CLEAR=”left” />  
 
 - <img src="/images/12-position-power-screw-terminal-blocks.jpg" height="150px" align="right"><a href="https://www.amazon.ca/s?k=12+position+terminal+block">12 position screw terminal blocks</a>  
