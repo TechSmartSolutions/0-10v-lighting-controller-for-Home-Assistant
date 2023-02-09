@@ -199,19 +199,20 @@ _In our project we will connect 12 output pins to the terminals._
 Note: It is recommended to refer to the <a href="#Schematic">project schematic diagram</a> and <a href="#readme">final project photo</a> while building the circuit and to <a href="https://www.google.com/search?q=hobby+electronics+safety">follow proper safety precautions</a> while handling electrical components.  
 #### If you are unsure about any of these steps, or run into any problems please log an issue on the GitHub repo so that I can provide guidance.
 
-1. Gather the necessary components to build the enclosure:
-    - Project Box
-    - ESP8266/ESP32 microcontroller
-    - Adafruit 12-channel or 24-channel PWM board
-    - Breadboard
-    - Connector hardware 
-In our case we are using breadboards and wire.
-2. Mount the  terminal blocks (with risers) and project box and to the mounting plate.
-3. <a href="https://learn.adafruit.com/tlc5947-tlc59711-pwm-led-driver-breakout/connecting-to-the-arduino">Connect the ESP8266 microcontroller to the Adafruit PWM board.</a>
-4. Connect 24 wires from the terminal blocks to the output pins on the Adafuit PWM board, and 12 wires from a terminal block to the ground rail on the breadboard.
-5. Connect the DIM + wire from each MeanWell driver to the terminal posts connected to the output pins on the Adafuit board.
-7. Connect the DIM - wire from each MeanWell driver to the terminal posts connected to the ground rail on the breadboard.
-8. Connect the USB power cable ESP. You should get a green light on the Adafruit board.  
+1. Gather all tools and components.
+2. Using your wire cutters (or side cutters), cut the single row terminal pins into 3 pin segments. Make sure they are good cuts dont use broken/damaged terminals.
+**the next steps are soldering. You only really get one shot at this, so make sure you follow these next steps properly**
+3. Solder the 5-pin terminals **facing up** that came with the Adafruit board to the side terminals (labelled GND, VCC, V+, CI, DI and GND, VCC, V+, CO, DO).  You will need to connect jumper wires to these, so make sure the short end of these pins are on the bottom of the board! 
+5. Solder your 3 position terminals **to the output pins (inside row) of holes on the Adafruit board**.  Make sure that you have the longer end of the pins facing down!
+6. Insert the Afafruit board into the breadboard as shown in the <a href="#schematic">project schematic</a>.
+7. 
+8. 
+9. Mount the  terminal blocks (with risers) and project box and to the mounting plate.
+10. <a href="https://learn.adafruit.com/tlc5947-tlc59711-pwm-led-driver-breakout/connecting-to-the-arduino">Connect the ESP8266 microcontroller to the Adafruit PWM board.</a>
+11. Connect 24 wires from the terminal blocks to the output pins on the Adafuit PWM board, and 12 wires from a terminal block to the ground rail on the breadboard.
+12. Connect the DIM + wire from each MeanWell driver to the terminal posts connected to the output pins on the Adafuit board.
+13. Connect the DIM - wire from each MeanWell driver to the terminal posts connected to the ground rail on the breadboard.
+14. Connect the USB power cable ESP. You should get a green light on the Adafruit board.  
 
 <p align="right"><a href="#readme">...back to top</a></p>
 
