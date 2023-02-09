@@ -178,8 +178,8 @@ _This was used to make the assembly easier, removing the need for soldering or c
 <BR CLEAR=”left” />  
 
 -<a href="https://www.amazon.ca/s?k=20awg+jumper+wire">20awg Jumper Wire</a>  
-_You could go with stranded wire for the connection between terminal blocks and the dupont connectors that will plug into the header pins and breadboard as it's easier to work with, but you will need solid core for some of the connections, so I went with solidcore for the whole thing._  
-<img src="/images/small-breadboard.jpg" height="150px">  
+_You could go with stranded wire for the connection between terminal blocks and the dupont connectors that will plug into the header pins and breadboard as it's easier to work with, but you will need solid core for some of the connections, so I went with solidcore for the whole thing.  If you wanted to make it really nice, you can use stranded wire for all connections using dupont connectors, and solid core for the bare-wire jumpers on the breadboard._  
+<img src="/images/20awg-jumper-wire.jpg" height="150px">  
 <BR CLEAR=”left” />  
 
 
