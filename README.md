@@ -142,32 +142,39 @@ _Some of the smaller MeanWell LED drivers do not supporting dimming. The best pl
 <img src="/images/meanwell-driver-with-led-boards-and-dim-wire.png">  
 <BR CLEAR=”left” />  
 
-- <img src="/images/esp8266%20wemos%20d1%20mini.jpg" height="150px" align="right"><a href="https://www.google.com/search?q=ESP32+development+boards">ESP32</a> or <a href="https://www.google.com/search?q=ESP8266+development+boards">ESP8266</a> development board with <a href="https://www.google.com/search?q=spi+pins">SPI pins</a>   
+-<a href="https://www.google.com/search?q=ESP32+development+boards">ESP32</a> or <a href="https://www.google.com/search?q=ESP8266+development+boards">ESP8266</a> development board with <a href="https://www.google.com/search?q=spi+pins">SPI pins</a>   
 _This is the brain of our controller setup. It has built-in Wi-Fi and can easily connect to your Home Assistant server using the ESPHome plugin. And the best part? You can use a cheap option like the <a href="https://www.google.com/search?q=wemos+mini+d1">Wemos D1 Mini ESP8266</a> we will be using in this project._  
+<img src="/images/esp8266%20wemos%20d1%20mini.jpg" height="150px">  
 <BR CLEAR=”left” />  
 
-- <img src="/images/Adafruit%2024%20channel%20PWM%20LED%20driver.jpg" height="150" align="right"> <img src="/images/Adafruit%2012%20channel%20PWM%20LED%20driver.jpg" height="150" align="right"><a href="https://www.adafruit.com/product/1429">Adafruit TLC5947 **24-Channel** 12-bit PWM LED Driver</a> or <a href="https://www.adafruit.com/product/1455">Adafruit TLC59711 **12-Channel** 16-bit PWM LED Driver</a>.  
+-<a href="https://www.adafruit.com/product/1429">Adafruit TLC5947 **24-Channel** 12-bit PWM LED Driver</a> or <a href="https://www.adafruit.com/product/1455">Adafruit TLC59711 **12-Channel** 16-bit PWM LED Driver</a>.  
 _These boards work rapidly "sinking" the voltage on the control pins.  In our case, this board will alternate the power feed from the MeanWell LED Driver DIM wires from 10v (open) to 0v (sunk) over a thousand times per second, creating a voltage value that corresponds with the brightness level (0v full brightness - 10v completely off)._  
+ <img src="/images/Adafruit%2024%20channel%20PWM%20LED%20driver.jpg" height="150"> <img src="/images/Adafruit%2012%20channel%20PWM%20LED%20driver.jpg" height="150">  
 <BR CLEAR=”left” />  
 
-- <img src="/images/break-away-single-row-pin-headers.jpg" height="150" align="right">2x <a href="https://www.google.com/search?q=Break-Away+0.1%22+2x20-pin+Strip+Dual+Male+Header">Break-Away Single Row Male Headers</a>.
+-2x <a href="https://www.google.com/search?q=Break-Away+0.1%22+2x20-pin+Strip+Dual+Male+Header">Break-Away Single Row Male Headers</a>.
 _You will solder these terminal pin headers onto the *output pins* on the Adafruit PWM board. This is where the positive (+) DIM wire leads from your LED Driver will connect.  Ensure you get the pin headers that have a long pin on both sides, as you need pins on the top of the board to connect to your LED driver (+) DIM wires as well as connection to the breadboard for the resistors connected to the 10v power supply to connect to.  See the <a href="#schematic">project schematic</a> for more details._  
+<img src="/images/break-away-single-row-pin-headers.jpg" height="150">  
 <BR CLEAR=”left” />  
 
-- <img src="/images/1k-ohm-resistors.jpg" height="150" align="right">12-24x <a href="https://www.amazon.ca/s?k=1k+resistors">1k - 10k ohm resistors</a>.
+-12-24x <a href="https://www.amazon.ca/s?k=1k+resistors">1k - 10k ohm resistors</a>.
 _The resistors work with the Adafruit board to ensure you are properly providing an additive voltage to the LED driver's DIM circuit._  
+<img src="/images/1k-ohm-resistors.jpg" height="150" align="right">  
 <BR CLEAR=”left” />  
 
-- <img src="/images/12-position-power-screw-terminal-blocks.jpg" height="150px" align="right"><a href="https://www.amazon.ca/s?k=12+position+terminal+block">12 position screw terminal blocks</a>  
+-<a href="https://www.amazon.ca/s?k=12+position+terminal+block">12 position screw terminal blocks</a>  
 _I used these becuase they are cheap, and not too difficult to connect the LED driver DIM(+ and -) wires to. For the 12 channel version, you need 3 of them, for the 24 channel version you need four._  
+<img src="/images/12-position-power-screw-terminal-blocks.jpg" height="150px">  
 <BR CLEAR=”left” />  
 
-- <img src="/images/water-resistant-project-box-with-clear-lid.jpg" height="150px" align="right"><a href="https://www.amazon.ca/s?k=project+box">Project Box</a>  
+-<a href="https://www.amazon.ca/s?k=project+box">Project Box</a>  
 _There are a lot of options available in size and function.  I usually go for the cheapest one possible that includes a clear lid. Somehow I feel better knowing that I can see into my project boxes incase something goes wrong I'll be able to notice it.  Make sure if you need to get a water sealed one. They are all pretty cheap._  
+<img src="/images/water-resistant-project-box-with-clear-lid.jpg" height="150px">  
 <BR CLEAR=”left” />  
 
-- <img src="/images/water-resistant-project-box-with-clear-lid.jpg" height="150px" align="right"><a href="https://www.amazon.ca/s?k=breadboard">Small Breadboard</a>  
-_There are a lot of options available in size and function.  I usually go for the cheapest one possible that includes a clear lid. Somehow I feel better knowing that I can see into my project boxes incase something goes wrong I'll be able to notice it.  Make sure if you need to get a water sealed one. They are all pretty cheap._  
+-<a href="https://www.amazon.ca/s?k=breadboard">Small Breadboard</a>  
+_This was used to make the assembly easier, removing the need for soldering or crimping resistors._  
+<img src="/images/small-breadboard.jpg" height="150px">  
 <BR CLEAR=”left” />  
 
 - Mounting plate for project box and terminals.  
