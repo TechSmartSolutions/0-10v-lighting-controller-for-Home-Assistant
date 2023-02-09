@@ -150,7 +150,7 @@ _This is the brain of our controller setup. It has built-in Wi-Fi and can easily
 _These boards work rapidly "sinking" the voltage on the control pins.  In our case, this board will alternate the power feed from the MeanWell LED Driver DIM wires from 10v (open) to 0v (sunk) over a thousand times per second, creating a voltage value that corresponds with the brightness level (0v full brightness - 10v completely off)._  
 <BR CLEAR=”left” />  
 
-- <img src="/images/Break-Away%200.1-inch%202x20-pin%20Strip%20Dual%20Male%20Header.jpg" height="150" align="right">2x <a href="[https://www.google.com/search?q=Break-Away+0.1%22+2x20-pin+Strip+Dual+Male+Header](https://www.amazon.ca/s?k=break+away+single+row+pin+headers)">Break-Away Single Row Male Headers</a>.
+- <img src="/images/break-away-single-row-pin-headers.jpg" height="150" align="right">2x <a href="[https://www.google.com/search?q=Break-Away+0.1%22+2x20-pin+Strip+Dual+Male+Header](https://www.amazon.ca/s?k=break+away+single+row+pin+headers)">Break-Away Single Row Male Headers</a>.
 _You will solder these terminal pin headers onto the PWM board. This is where the positive (+) and negative (-) DIM wire leads from your LED Driver will connect._  
 <BR CLEAR=”left” />  
 
