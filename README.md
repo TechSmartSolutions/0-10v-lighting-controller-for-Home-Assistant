@@ -200,10 +200,10 @@ Note: It is recommended to refer to the <a href="#Schematic">project schematic d
 #### If you are unsure about any of these steps, or run into any problems please log an issue on the GitHub repo so that I can provide guidance.
 
 1. Gather all tools and components.
-2. Using your wire cutters (or side cutters), cut the single row terminal pins into 4x 3-pin segments for the output holes of the adafruit board, and however many you need for your ESP. Make sure they are good cuts dont use broken/damaged terminals.
-***the next steps are soldering. You only really get one shot at this, so make sure you follow these next steps properly**
-3. Solder the 5-pin terminals **facing up** that came with the Adafruit board to the side terminals (labelled GND, VCC, V+, CI, DI and GND, VCC, V+, CO, DO).  You will need to connect jumper wires to these, so make sure the short end of these pins are on the bottom of the board! 
-5. Solder your 3 position pins **to the output pins (inside row) of holes on the Adafruit board**, and the headers you cut for your ESP into your ESP.  Make sure that you have the longer end of the pins facing down!
+2. Using your wire cutters (or side cutters), cut the single row terminal pins into 4x 3-pin segments for the output holes of the adafruit board, and however many you need for your ESP. Make sure they are good cuts dont use broken/damaged terminals.  
+***the next steps are soldering. You only really get one shot at this, so make sure you follow these next steps properly**  
+3. ***** Solder the 5-pin terminals that came with the Adafruit board **facing up** to the side terminals (labelled GND, VCC, V+, CI, DI and GND, VCC, V+, CO, DO).  You will need to connect jumper wires to these, so make sure the long end of these pins are on the top of the board! 
+5. ***** Solder your 3 position pins **to the output pins (inside row) of holes on the Adafruit board**, and the headers you cut for your ESP into your ESP.  Make sure that you have the longer end of the pins facing down!
 6. Insert the Afafruit board and ESP into the breadboard as shown in the <a href="#schematic">project schematic</a> to test the fit.
 8. 
 9. Mount the  terminal blocks (with risers) and project box and to the mounting plate.
