@@ -1,10 +1,10 @@
-# Home Assistant 12 Channel Dimming Controller for (high powered) LED Power Supplies 
-
-<img src="/images/home-assistant-LED-driver-dimmer-adafuit-PWM-driver-with-TLC59711-completed-project.png">  
-
-## PROJECT CURRENTLY UNDER REVIEW:
+# TLC5947 Home Assistant LED Driver dimmer for High Powered LED Drivers
 
 # !!!!! This project is not usable YET! I just realized the TLC59711 may not be supported by ESPhome, ... soo..   please dont use these instructions until I can either verify that it works or, (sigh) re-write all of this for the TLC5947 !!!!
+
+## If you really cannot wait, here is the schematic for the version that has been testing and working with MEANWELL 3-in-1 LED drivers and Home Assistant  
+
+<img src="/images/home-assistant-LED-driver-dimmer-adafuit-PWM-driver-with-TLC59711-completed-project.png">  
 
 # The information below is outdated I have a chance to update the guide:
 
