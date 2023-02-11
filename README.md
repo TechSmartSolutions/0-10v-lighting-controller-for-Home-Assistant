@@ -1,4 +1,4 @@
-# PWM Dimming controller for High Powered LED Drivers
+# Digital 0-10v PWM Dimming controller for High Powered LED Drivers
 
 **If you are looking for Analog 0-10v control**, check out <a href="https://github.com/TechSmartSolutions/12-or-24-Channel-Home-Assistant-LED-Driver-dimmer-for-High-Powered-LED-Drivers/discussions/2">the 0-10v Analog Dimming discussion thread</a> for more info.
 
