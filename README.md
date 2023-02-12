@@ -1,5 +1,5 @@
 ## 0-10v Analog Dimming controller
-This should work with MEANWELL drivers as well as other LED drivers and even HPS fixtures, air conditioners, dehumidifiers and anything else that supports 0-10v analog control.
+This should work with MEANWELL drivers as well as other LED drivers and even HPS fixtures, air conditioners, dehumidifiers and anything else that supports 0-10v analog control.  The example below shows using a ESP32 to generate PWM signals, and then using the converter boards to convert the PWM into Analog voltage.   ESP32's are a little expensive, if you already have an ESP8266, you can use that with a PCA9568 board to generate the PWM signals instead of a ESP32.
 <img src="/images/Converting-5v-PWM-signals-from-ESP32-to-a-0-10v-Analog.png">
 
 ## 0-10v PWM Dimming controller
