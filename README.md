@@ -1,4 +1,6 @@
 ### 0-10v analog
+**Works with:** 
+       - MEANWELL LED Drivers supplies with 2-in-1 or 3-in-1 dimming  
 0-10V analog is a type of analog electrical signaling commonly used in industrial control systems and building automation. This type of signal is a low voltage, low current signal that varies linearly between 0 and 10 volts, representing a given range of values.
 
 It is typically used to control lighting, heating, ventilation and air conditioning (HVAC) systems, as well as a wide range of other industrial and commercial applications. For example, in lighting systems, the 0-10V signal is used to control the brightness of a light, with 10V representing full brightness and 0V representing full off. In HVAC systems, the 0-10V signal can be used to control the temperature or airflow of a system.
@@ -6,7 +8,9 @@ It is typically used to control lighting, heating, ventilation and air condition
 The 0-10V analog signal is popular because it is a simple, low-cost, and reliable method for transmitting information and control signals between devices. It can be transmitted over long distances without significant signal degradation, making it ideal for applications that require remote control and monitoring.
 
 ### 0-10v PWM
-**Works with:** MEANWELL LED Drivers supplies with 2-in-1 or 3-in-1 dimming
+**Works with:** MEANWELL LED Drivers supplies with 2-in-1 or 3-in-1 dimming  
+  
+  
 0-10V PWM (Pulse Width Modulation) is a variation of the 0-10V analog signal that encodes the signal as a series of pulses rather than a continuous voltage signal. In this format, the width of the pulses represents the signal value, with wider pulses indicating higher values and narrower pulses indicating lower values.
 
 The advantage of 0-10V PWM is that it provides higher resolution compared to a simple 0-10V analog signal. This makes it suitable for applications that require fine control over the signal, such as adjusting the brightness of a light or controlling the speed of a fan.
