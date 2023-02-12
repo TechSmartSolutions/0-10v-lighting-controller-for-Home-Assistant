@@ -3,6 +3,6 @@ This should work with MEANWELL drivers as well as other LED drivers and even HPS
 <img src="/images/Converting-5v-PWM-signals-from-ESP32-to-a-0-10v-Analog.png">
 
 ## 0-10v PWM Dimming controller
-Originally created this 24 channel 0-10v PWM dimming controller for MEANWELL 3-in-1 LED Drivers, however these drivers also support 0-10v analog dimming so in hindsight it might have been better to go the 0-10v analog route.
+Originally created this 24 channel 0-10v PWM dimming controller for MEANWELL 3-in-1 LED Drivers, however since MEANWELL drivers also support 0-10v analog dimming, if you dont need 24 channels of dimming you might be better off going the 0-10v analog route.  
 <img src="/images/24-Channel-TLC5947-based-LED-Driver-dimmer-for-Home-Assistant.png">
      
