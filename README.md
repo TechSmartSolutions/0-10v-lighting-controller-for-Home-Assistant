@@ -1,3 +1,10 @@
+### pwm vs analog signals
+Pulse-width modulation (PWM) signals are a type of digital signal that turn on and off over 1000x per second (or 1000hz frequency) to create the illusion (simulate) a different voltages depending on the ratio of the on to off time.
+
+Unlike PWM signals, (which rapidly switch between on and off states), analog signals are continuous and provide a smooth, unchanging voltage level.
+
+Both PWM and analog show up on a multimeter the same, but in an oscilloscope the waveforms look different.
+
 ## 0-10v Analog Dimming controller
 This should work with MEANWELL drivers as well as other LED drivers and even HPS fixtures, air conditioners, dehumidifiers and anything else that supports 0-10v analog control.  The example below shows using a ESP32 to generate PWM signals, and then using the converter boards to convert the PWM into Analog voltage.   ESP32's are a little expensive, if you already have an ESP8266, you can use that with a PCA9568 board to generate the PWM signals instead of a ESP32.
 <img src="/images/Converting-5v-PWM-signals-from-ESP32-to-a-0-10v-Analog.png">
