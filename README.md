@@ -5,13 +5,18 @@
 #### how do I know which 0-10V I need, analog or PWM?
 The choice between 0-10V analog and 0-10V PWM depends on what your system is compatible with. Dimmable MEANWELL LED drivers can dim with either PWM or analog (3-in-1 or 2-in-1 dimming).
 
-Check the specifications of your lighting system or contact your manufacturer to determine which dimming signal(s) are compatible with your setup.  0-10V analog is a simpler and more straightforward making it more commonly seen. 
+Check the specifications of your lighting system or contact your manufacturer to determine which dimming signal(s) are compatible with your setup.  
 
 ### 0-10v analog
-0-10V Analog is a constant signal at a voltage between 0-10V.
+0-10V analog is a simpler and more straightforward making it more commonly seen.  It's found in commercial lighting, ventliation systems, motor control etc.  An Analog signal is constant and at a voltage between 0-10V.
 
 ### 0-10v PWM
-0-10V PWM is different in that it sends a stream of upwards of 3000 pulses per second of 10V electricity.  The longer the pulses last per second the higher the voltage increases until it eventually becomes a constant 10V (analog) signal (100% brightness).  It's kind of like your television refresh rate, you can't see it's flashing because it's happening many times per second.  
+0-10V PWM sends a stream of upwards 3000 pulses of 10V per second.  The longer the pulses last the higher the voltage until it eventually becomes a constant 10V (analog) signal.  
+
+### 0-5v PWM
+This is typically the voltage we find on microcontrollers like the <a href="https://www.google.com/search?q=ESP32">ESP32</a> and expansion boards that work with the cheaper ESP8266 like the <a href="https://www.google.com/search?q=PCA9568">PCA9568 i2c to 16-channel pwm board</a>.  This is a common signal to start with.
+
+
 
 ## 0-10v Analog Dimming controller
 It appears that more devices support this type of dimming.  Some of these devices include MEANWELL LED drivers as well as other LED drivers and even HPS fixtures, air conditioners, dehumidifiers and anything else that supports 0-10v analog control.  
