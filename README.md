@@ -2,7 +2,7 @@
 0-10V is a simple low voltage, low current, low-cost, and reliable electrical signal used as a method for transmitting information and control signals between devices in control systems and building automation. 
 
 
-#### how do I know which one I need, analog or PWM 0-10V?
+#### how do I know which 0-10V I need, analog or PWM?
 The choice between 0-10V analog and 0-10V PWM depends on what your system is compatible with. Dimmable MEANWELL LED drivers can dim with either PWM or analog (3-in-1 or 2-in-1 dimming).
 
 Check the specifications of your lighting system or contact your manufacturer to determine which dimming signal(s) are compatible with your setup.  0-10V analog is a simpler and more straightforward making it more commonly seen. 
