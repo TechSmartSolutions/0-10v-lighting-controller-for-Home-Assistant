@@ -1,3 +1,6 @@
+# Intro to controlling 0-10v PWM and Analog devices from Home Assistant
+This repo was originally created with designs for a 0-10v PWM controller that works with MEANWELL 3-in-1 LED drivers.  It's not a bad option if you have a lot of drivers to control, however after some digging it looks like using a PWM generator (an ESP32 or an ESP8266 with a PCA9685 for example) along with PWM to Analog 0-10v voltage converter boards might make more sense, since they work with the MEANWELLS and other 0-10v devices that support 0-10v analog control like HPS lights, some dehumidifiers, some air conditioners etc.
+
 ## 0-10v Analog Dimming controller
 Check out <a href="https://github.com/TechSmartSolutions/12-or-24-Channel-Home-Assistant-LED-Driver-dimmer-for-High-Powered-LED-Drivers/discussions/2">the 0-10v Analog Dimming discussion thread</a> for more info.  
 
