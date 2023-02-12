@@ -1,5 +1,5 @@
 ### 0-10v analog
-**Works with:** 
+**Works with:**  
        - MEANWELL LED Drivers supplies with 2-in-1 or 3-in-1 dimming  
 0-10V analog is a type of analog electrical signaling commonly used in industrial control systems and building automation. This type of signal is a low voltage, low current signal that varies linearly between 0 and 10 volts, representing a given range of values.
 
