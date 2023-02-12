@@ -7,7 +7,6 @@ Check out <a href="https://github.com/TechSmartSolutions/12-or-24-Channel-Home-A
 <img src="/images/Converting-5v-PWM-signals-from-ESP32-to-a-0-10v-Analog.png">
 
 ## 0-10v PWM Dimming controller
-This was the controller I originally built, but it seems that the 0-10v Analog option is better if you can get the parts cheap.  
-Here is the schematic for the version that has been tested and working with MEANWELL 3-in-1 LED drivers and Home Assistant 
+Here is the schematic for the version that I built that has been tested and working with MEANWELL 3-in-1 LED drivers and Home Assistant 
 <img src="/images/24-Channel-TLC5947-based-LED-Driver-dimmer-for-Home-Assistant.png">
      
