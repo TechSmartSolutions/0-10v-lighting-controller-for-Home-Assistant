@@ -4,6 +4,7 @@ This repo was originally created with designs for a 0-10v PWM controller that wo
 ## 0-10v Analog Dimming controller
 Check out <a href="https://github.com/TechSmartSolutions/12-or-24-Channel-Home-Assistant-LED-Driver-dimmer-for-High-Powered-LED-Drivers/discussions/2">the 0-10v Analog Dimming discussion thread</a> for more info.  
 
+<img src="/images/Converting-5v-PWM-signals-from-ESP32-to-a-0-10v-Analog.png">
 
 ## 0-10v PWM Dimming controller
 This was the controller I originally built, but it seems that the 0-10v Analog option is better if you can get the parts cheap.  
