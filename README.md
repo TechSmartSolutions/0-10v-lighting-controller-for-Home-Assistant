@@ -1,29 +1,17 @@
+### what is 0-10V?
 0-10V is a simple low voltage, low current, low-cost, and reliable electrical signal used as a method for transmitting information and control signals between devices in control systems and building automation. 
 
-Generally speaking, MEANWELL LED drivers with dimming leads are either 3-in-1 or 2-in-1 compatible, which is their way of saying it takes either:  
-  1) 0-10V PWM  
-  2) 0-10V analog  
-  (and many also take a 100ohm mechanical potentiometer)  
 
-Check the specifications of your lighting system or contact your manufacturer to determine which dimming signal(s) are compatible with your setup.
+#### do I need analog or digital (PWM)?
+The choice between 0-10V analog and 0-10V PWM depends on what your system is compatible with. Dimmable MEANWELL LED drivers can dim with either PWM or analog (3-in-1 or 2-in-1 dimming).
 
-analog is more susceptible to signal loss over distance, and PWM more sensative to signal noise.
+Check the specifications of your lighting system or contact your manufacturer to determine which dimming signal(s) are compatible with your setup.  0-10V analog is a simpler and more straightforward making it more commonly seen. 
 
 ### 0-10v analog
-The 0-10V analog signal is popular because it can be transmitted over long distances without significant signal degradation, making it ideal for longer
-
-0-10V analog is typically used to control: **lighting**, **heating**, **ventilation and air conditioning (HVAC) systems**, as well as a **wide range of other industrial and commercial applications**. For example
-
- - **in lighting systems:** the 0-10V signal is used to control the brightness of a light, with 10V representing full brightness and 0V representing full off. **In
-
- - HVAC systems:** the 0-10V signal can be used to control the temperature or airflow of a system.
+0-10V Analog is a constant signal at a voltage between 0-10V.
 
 ### 0-10v PWM
-Unlike 0-10V Analog which sends a continuous signal of any voltage between 0V and 10V, 0-10V PWM controls a (digital) stream of upwards of 3000 pulses per second of  electricity at a full 10V.  The longer the pulses last per second the higher the voltage, until the pulses don't have time to turn off between eachother and the signal becomes a continuous 10V (analog) signal (100% brightness).
-
-0-10V PWM is that you get finer control or "higher resolution" compared to 0-10V analog.  This makes it good for things like controlling brightness of a light or controlling the speed of a fan.
-
-The choice between 0-10V analog and 0-10V PWM depends on the specific requirements of the application. 0-10V analog is a simpler and more straightforward signal that is easy to implement and transmit, making it more common in many applications. 0-10V PWM is used when higher resolution and more precise control are required.
+0-10V PWM is different in that it sends a stream of upwards of 3000 pulses per second of 10V electricity.  The longer the pulses last per second the higher the voltage increases until it eventually becomes a constant 10V (analog) signal (100% brightness).  It's kind of like your television refresh rate, you can't see it's flashing because it's happening many times per second.  
 
 ## 0-10v Analog Dimming controller
 It appears that more devices support this type of dimming.  Some of these devices include MEANWELL LED drivers as well as other LED drivers and even HPS fixtures, air conditioners, dehumidifiers and anything else that supports 0-10v analog control.  
