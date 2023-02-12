@@ -5,7 +5,7 @@ Most all drivers support 0-10v analog dimming (MEANWELL drivers included).  As s
 
 
 
-# 24-Channel Digital 0-10v PWM Home Assistant Dimming controller for High Powered LED Drivers
+# 24-Channel 0-10v PWM Dimming controller
 Here is the schematic for the version that has been tested and working with MEANWELL 3-in-1 LED drivers and Home Assistant 
 <img src="/images/24-Channel-TLC5947-based-LED-Driver-dimmer-for-Home-Assistant.png">
      
