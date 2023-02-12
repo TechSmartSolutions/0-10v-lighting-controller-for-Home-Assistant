@@ -1,6 +1,8 @@
 ### 0-10v analog
 **Works with:**  
-       - MEANWELL LED Drivers supplies with 2-in-1 or 3-in-1 dimming  
+ - MEANWELL LED Drivers supplies with 2-in-1 or 3-in-1 dimming  
+ - 
+       
 0-10V analog is a type of analog electrical signaling commonly used in industrial control systems and building automation. This type of signal is a low voltage, low current signal that varies linearly between 0 and 10 volts, representing a given range of values.
 
 It is typically used to control lighting, heating, ventilation and air conditioning (HVAC) systems, as well as a wide range of other industrial and commercial applications. For example, in lighting systems, the 0-10V signal is used to control the brightness of a light, with 10V representing full brightness and 0V representing full off. In HVAC systems, the 0-10V signal can be used to control the temperature or airflow of a system.
