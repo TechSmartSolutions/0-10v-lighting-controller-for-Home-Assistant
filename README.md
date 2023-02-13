@@ -3,15 +3,15 @@
 
 
 #### how do I if I need an analog or PWM 0-10V signal?
-The choice between 0-10V analog and 0-10V PWM depends on what your system is compatible with. Dimmable MEANWELL LED drivers can dim with either PWM or analog (3-in-1 or 2-in-1 dimming).
+The choice between 0-10V analog and 0-10V PWM depends on what your system is compatible with. Dimmable MEANWELL LED drivers can dim with either PWM or analog (3-in-1 or 2-in-1 dimming).  0-10V analog however is a simpler and more straightforward making it more commonly seen.
 
 Check the specifications of your lighting system or contact your manufacturer to determine which dimming signal(s) are compatible with your setup.  
 
 ### 0-10V analog
-0-10V analog is a simpler and more straightforward making it more commonly seen.  It's found in commercial lighting, ventliation systems, motor control etc.  An Analog signal is constant and at a voltage between 0-10V.
+An Analog signal is constant and at a voltage between 0-10V.  It's found in commercial lighting, ventliation systems, motor control etc.
 
 ### 0-10V PWM
-0-10V PWM sends a stream of upwards 3000 pulses of 10V per second.  The longer the pulses last the higher the voltage until it eventually becomes a constant 10V (analog) signal.  
+0-10V PWM on the other hand sends a stream of upwards 3000 pulses of 10V per second.  The longer the pulses last the higher the voltage until it eventually becomes a constant 10V (analog) signal.  
 
 ## 0-5V PWM
 This is voltage we usually find on the microcontrollers that connect to <a href="https://esphome.io">ESPhome</a> like the <a href="https://www.google.com/search?q=ESP32">ESP32</a> and expansion boards that work with the cheaper ESP8266 like the <a href="https://www.google.com/search?q=PCA9568">PCA9568 i2c to 16-channel pwm board</a>.
