@@ -2,12 +2,12 @@
 0-10V is a simple low voltage, low current, low-cost, and reliable electrical signal used as a method for transmitting information and control signals between devices in control systems and building automation. 
 
 ### What is MEANWELL 3-in-1 and 2-in-1?
-MEANWELL LED drivers compatible with external dimming come with their proprietary 3-in-1 and 2-in-1 dimming which means these power supplies can dimmed by either 0-10V analog or 0-10V PWM, and in the caee of 3-in-1 a 100ohm mechanical potentiometer.
+MEANWELL LED drivers compatible with external dimming come with their proprietary 3-in-1 and 2-in-1 dimming which means these power supplies can dimmed by either 0-10V analog or 0-10V PWM, and in the caee of 3-in-1 a 100ohm mechanical potentiometer. 
 
-#### how do I if I need an analog or PWM 0-10V signal?
-The choice between 0-10V analog and 0-10V PWM depends on what your system is compatible with. Dimmable MEANWELL LED drivers can dim with either PWM or analog (3-in-1 or 2-in-1 dimming).  0-10V analog however is a simpler and more straightforward making it more commonly seen.
+### How do I if I need 0-10V analog vs PWM?
+The choice between 0-10V analog and 0-10V PWM depends on what your fixture or device is compatible with.  0-10V analog is typically more common than PWM. 
 
-Check the specifications of your lighting system or contact your manufacturer to determine which dimming signal(s) are compatible with your setup.  
+Check the specifications of the fixture/device you want you control or contact your manufacturer to determine which dimming signal(s) are compatible with your setup.  
 
 ### 0-10V analog
 An Analog signal is constant and at a voltage between 0-10V.  It's found in commercial lighting, ventliation systems, motor control etc.
