@@ -1,5 +1,5 @@
 ### What is 0-10V?
-0-10V is a simple low voltage, low current, low-cost, and reliable electrical signal used as a method for transmitting information and control signals between devices in control systems and building automation. 
+0-10V is a simple low voltage, low current, low-cost, and reliable electrical signal used as a method for transmitting information and control signals between devices in control systems and building automation.  Typically it is either Analog and Digital (PWM).
 
 ### How do I if I need Analog or PWM for my 0-10V controller?
 The choice between 0-10V analog and 0-10V PWM depends on what your fixture or device is compatible with.  0-10V analog is typically more common than PWM. 
