@@ -10,7 +10,7 @@ Check the specifications of the fixture/device you want you control or contact y
 MEANWELL LED drivers compatible with external dimming come with their proprietary 3-in-1 and 2-in-1 dimming which means these power supplies can dimmed by either 0-10V analog or 0-10V PWM, and in the case of 3-in-1 a 100ohm mechanical potentiometer. 
 
 ### Analog vs Digital PWM
-An Analog signal is constant and at a voltage between 0-10V.  It's found in many applications such as commercial lighting, ventliation systems, motor control etc.  0-10V PWM on the other hand sends a stream of upwards 3000 pulses of 10V per second, which is averaged to generate a voltage.  The longer the pulses last the higher the voltage until it eventually becomes a constant 10V (analog) signal.  
+An Analog signal is constant and at a voltage between 0-10V.  It's found in many applications such as commercial lighting, ventliation systems, motor control etc.  0-10V PWM on the other hand sends a stream of upwards 3000 pulses of 10V per second, which is averaged to create a voltage between 0 and 10, while the longer the pulses last the higher the voltage until it eventually becomes a constant 10V (analog) signal.  
 
 ## 0-5V PWM
 This is voltage we usually find on the microcontrollers that connect to <a href="https://esphome.io">ESPhome</a> like the <a href="https://www.google.com/search?q=ESP32">ESP32</a> and expansion boards that work with the cheaper ESP8266 like the <a href="https://www.google.com/search?q=PCA9568">PCA9568 i2c to 16-channel pwm board</a>.
