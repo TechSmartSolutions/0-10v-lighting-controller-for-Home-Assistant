@@ -4,7 +4,7 @@
 ### What is MEANWELL 3-in-1 and 2-in-1?
 MEANWELL LED drivers compatible with external dimming come with their proprietary 3-in-1 and 2-in-1 dimming which means these power supplies can dimmed by either 0-10V analog or 0-10V PWM, and in the caee of 3-in-1 a 100ohm mechanical potentiometer. 
 
-### How do I if I need 0-10V analog vs PWM?
+### How do I if I need Analog or PWM for my 0-10V controller?
 The choice between 0-10V analog and 0-10V PWM depends on what your fixture or device is compatible with.  0-10V analog is typically more common than PWM. 
 
 Check the specifications of the fixture/device you want you control or contact your manufacturer to determine which dimming signal(s) are compatible with your setup.  
